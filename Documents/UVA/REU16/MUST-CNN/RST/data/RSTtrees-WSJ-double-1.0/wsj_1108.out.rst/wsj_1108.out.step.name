@@ -1,0 +1,31 @@
+nextSentence really
+nextSentence really
+create-a-node-here really 2.86 1 {\nItaly's unemployment rate rose to 12% of the labor force in July from 11.9% in April, }
+nextSentence really
+#create-a-node-here really 2.127 2 {and was up from 11.7% a year earlier, }
+#UNDID
+create-a-node-here really 2.126 2 {and was up from 11.7% a year earlier,}
+create-a-node-here really 2.198 3 { according to quarterly figures from the state statistical institute.}
+nextSentence really
+create-a-node-here really 4.11 4 { \n\nIstat said }
+create-a-node-here really 4.167 5 {a national survey during the first week of July showed the number of job seekers was 2,888,000 up from 2,822,000 in April, and from 2,853,000 a year ago.}
+nextSentence really
+#autolink_nodes 1 2 multinuclear Proportion  5001
+#UNDID
+autolink_nodes 1 2 multinuclear List  5001
+autolink_nodes 5001 3 satelite attribution  5002
+autolink_nodes 4 5 nucleus attribution  5003
+autolink_nodes 5002 5003 satelite elaboration-additional  5004
+create-a-node-here really 6.91 6 { \n\nThe unemployment rate was by far the highest in the southern, so-called Mezzogiorno region.}
+nextSentence really
+nextSentence really
+nextSentence really
+create-a-node-here really 7.103 7 {\nThe southern unemployment rate rose to 21.3% in July from 21.2% in April and from 20.6% a year earlier.}
+nextSentence really
+create-a-node-here really 9.11 8 { \n\nIstat said }
+create-a-node-here really 9.70 9 {369,000 more people were employed in July than in April.}
+nextSentence really
+autolink_nodes 6 7 satelite evidence  5005
+autolink_nodes 8 9 nucleus attribution  5006
+autolink_nodes 5004 5005 satelite elaboration-additional  5007
+autolink_nodes 5007 5006 satelite elaboration-additional  5008

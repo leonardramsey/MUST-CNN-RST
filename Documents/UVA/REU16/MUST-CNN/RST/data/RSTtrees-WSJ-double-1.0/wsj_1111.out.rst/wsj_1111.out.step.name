@@ -1,0 +1,155 @@
+nextSentence really
+create-a-node-here really 2.114 1 {\nNorfolk Southern Corp. directors authorized the railroad company to buy back as many as 45 million of its shares, }
+create-a-node-here really 2.176 2 {which would have a current value of more than $1.7 billion.}
+#nextSentence really
+#UNDID
+autolink_nodes 1 2 satelite-embedded elaboration-object-attribute-e  5001
+create-a-node-here really 4.14 3 { \n\nThe buy-back, }
+create-a-node-here really 4.88 4 {coupled with a nearly completed earlier purchase of 20 million shares, }
+create-a-node-here really 4.140 5 {would reduce shares outstanding by more than 26%.}
+nextSentence really
+autolink_nodes 3 4 satelite-embedded elaboration-additional-e  5002
+autolink_nodes 5 5002 multinuclear Same-Unit  5003
+autolink_nodes 5001 5003 multinuclear Cause-Result  5004
+showText really
+create-a-node-here really 6.0 6 {\nThe Norfolk, Va., company has 172.2 million shares outstanding. \n}
+#create-a-node-here really 7.84 7 {\nIn a statement, Arnold B. McKinnon, chairman and chief executive officer, noted that}
+#UNDID
+create-a-node-here really 7.80 7 {\nIn a statement, Arnold B. McKinnon, chairman and chief executive officer, noted }
+create-a-node-here really 7.160 8 {that the new repurchase program "should serve to enhance shareholder value." }
+create-a-node-here really 7.182 9 {A spokeswoman said }
+create-a-node-here really 7.262 10 {the company will finance the buy-back with cash on hand, borrowing and "cash }
+create-a-node-here really 8.0 11 {Norfolk expects to generate." \n}
+autolink_nodes 10 11 satelite-embedded elaboration-object-attribute-e  5005
+autolink_nodes 9 5005 nucleus attribution  5006
+autolink_nodes 8 7 satelite attribution  5007
+autolink_nodes 5 6 satelite background  5008
+disconnect_node 5003 disconnect
+autolink_nodes 5007 5003 multinuclear List  5009
+#autolink_nodes 5009 5001 multinuclear List below 5009
+#UNDID
+#autolink_nodes 5009 5001 multinuclear List below 5009
+#UNDID
+autolink_nodes 5001 5009 multinuclear Cause-Result  5010
+collapsed_nodes {5009}
+create-a-node-here really 9.14 12 {\nAnalysts said }
+create-a-node-here really 9.44 13 {they expected the action, }
+create-a-node-here really 10.0 14 {and investors applauded the move.\n}
+create-a-node-here really 10.111 15 {In composite trading on the New York Stock Exchange, Norfolk Southern shares closed at $37.875, up $1.125. }
+autolink_nodes 13 12 satelite attribution  5011
+autolink_nodes 14 5011 multinuclear List  5012
+#autolink_nodes 5012 15 multinuclear List below 5012
+#UNDID
+autolink_nodes 5012 15 multinuclear List below 5012
+collapsed_nodes {}
+collapsed_nodes {5009}
+autolink_nodes 5010 5006 satelite elaboration-additional  5013
+collapsed_nodes {5009 5006}
+autolink_nodes 5013 5012 satelite consequence-s  5014
+collapsed_nodes {5009 5006 5012}
+create-a-node-here really 12.104 16 {\n\nStill, analysts don't expect the buy-back to significantly affect per-share earnings in the short term. }
+create-a-node-here really 12.142 17 {"The impact won't be that great," }
+create-a-node-here really 13.0 18 {said Graeme Lidgerwood of First Boston Corp.\n}
+create-a-node-here really 13.96 19 {That is in part because of the effect of having to average the number of shares outstanding,}
+create-a-node-here really 14.0 20 { she said.\n}
+create-a-node-here really 14.39 21 {In addition, Mrs. Lidgerwood said, }
+create-a-node-here really 14.93 22 {Norfolk is likely to draw down its cash initially }
+create-a-node-here really 14.122 23 {to finance the purchases }
+create-a-node-here really 14.165 24 {and thus forfeit some interest income. }
+autolink_nodes 17 18 satelite attribution  5015
+autolink_nodes 19 20 satelite attribution  5016
+autolink_nodes 22 23 satelite purpose  5017
+autolink_nodes 5017 24 satelite consequence-s  5018
+autolink_nodes 5018 21 satelite attribution  5019
+autolink_nodes 5019 5016 multinuclear List  5020
+autolink_nodes 5015 5020 satelite explanation-argumentative  5021
+collapsed_nodes {5009 5006 5012 5020}
+create-a-node-here really 16.92 25 {\n\nLonger term, however, the buy-back is expected to increase earnings, especially after 1990, }
+create-a-node-here really 17.0 26 {Mrs. Lidgerwood said. \n}
+autolink_nodes 25 26 satelite attribution  5022
+collapsed_nodes {5009 5006 5012}
+autolink_nodes 5019 5022 multinuclear Contrast  5023
+collapsed_nodes {5009 5006 5012 5023}
+collapsed_nodes {5009 5006 5012}
+collapsed_nodes {5009 5006 5012}
+collapsed_nodes {5009 5006 5012}
+collapsed_nodes {5009 5006 5012}
+disconnect_node 5023 disconnect
+#disconnect_node 5022 disconnect
+#autolink_nodes 5016 5019 satelite elaboration-additional  5024
+#UNDID
+#UNDID
+disconnect_node 5022 disconnect
+autolink_nodes 5016 5019 satelite elaboration-additional  5024
+collapsed_nodes {5009 5006 5012 5019}
+autolink_nodes 16 5021 satelite evidence  5025
+autolink_nodes 5025 5022 multinuclear Contrast  5026
+collapsed_nodes {5009 5006 5012 5019 5021}
+create-a-node-here really 18.82 27 {\nMoreover, the extensive program in effect establishes a floor for the stock price,}
+create-a-node-here really 19.0 28 { said Joel Price, analyst for Donaldson, Lufkin & Jenrette.\n}
+create-a-node-here really 19.47 29 {The buy-back "is really a comfort to those }
+#create-a-node-here really 19.109 30 {who want to buy the stock that there is a {price} floor," }
+#create-a-node-here really 19.122 31 {he said. }
+#create-a-node-here really 19.172 32 {"At a certain price, if the management thinks }
+#create-a-node-here really 19.198 33 {{the stock} is cheap, }
+#create-a-node-here really 19.230 34 {they can go in and buy it." }
+#autolink_nodes 27 28 satelite attribution  5027
+#autolink_nodes 29 30 satelite-embedded elaboration-object-attribute-e  5028
+#autolink_nodes 5028 31 satelite attribution  5029
+#autolink_nodes 32 33 nucleus attribution  5030
+#autolink_nodes 34 5030 satelite condition  5031
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+create-a-node-here really 19.77 30 {who want to buy the stock }
+create-a-node-here really 19.113 31 {that there is a {price} floor," }
+create-a-node-here really 19.126 32 {he said. }
+create-a-node-here really 19.198 33 {"At a certain price, if the management thinks {the stock} is cheap, }
+create-a-node-here really 19.230 34 {they can go in and buy it." }
+autolink_nodes 27 28 satelite attribution  5027
+autolink_nodes 29 30 satelite-embedded elaboration-object-attribute-e  5028
+autolink_nodes 31 5028 multinuclear Same-Unit  5029
+autolink_nodes 5029 32 satelite attribution  5030
+autolink_nodes 34 33 satelite condition  5031
+autolink_nodes 5030 5031 satelite elaboration-additional  5032
+collapsed_nodes {5009 5006 5012 5019 5021 5030}
+autolink_nodes 5027 5032 satelite hypothetical  5033
+create-a-node-here really 21.71 35 {\n\nUnder the program, Norfolk plans to acquire shares in the open market. }
+create-a-node-here really 24.0 36 {\n\nUnder the earlier plan, Norfolk was authorized in 1987 to buy up to 20 million shares.\n}
+create-a-node-here really 24.47 37 {It has purchased about 19 million of them. }
+autolink_nodes 36 37 multinuclear Cause-Result  5034
+autolink_nodes 35 5034 satelite background  5035
+autolink_nodes 5014 5026 satelite antithesis  5036
+collapsed_nodes {5009 5006 5012 5019 5021 5030 5026}
+autolink_nodes 5036 5033 satelite elaboration-additional  5037
+collapsed_nodes {5009 5006 5012 5019 5021 5030 5026 5027}
+autolink_nodes 5037 5035 satelite elaboration-additional  5038
+collapsed_nodes {5009 5006 5012 5019 5021 5030 5026 5027 5035}
+collapsed_nodes {}
+collapsed_nodes {}
+disconnect_node 5033 disconnect
+autolink_nodes 5022 5033 multinuclear List  5039
+disconnect_node 5026 disconnect
+collapsed_nodes {5021}
+collapsed_nodes {5021 5033}
+collapsed_nodes {5021 5033 5012}
+collapsed_nodes {5021 5033 5012 5006}
+collapsed_nodes {5021 5033 5012 5006 5009}
+autolink_nodes 5014 5026 satelite elaboration-additional below 5040
+collapsed_nodes {5021 5033 5006 5009}
+collapsed_nodes {5021 5033 5009}
+disconnect_node 5012 disconnect
+disconnect_node 15 disconnect
+autolink_nodes 14 15 satelite evidence  5041
+autolink_nodes 5006 5012 multinuclear List  5042
+disconnect_node 5026 disconnect
+collapsed_nodes {5021 5033 5009 5042}
+autolink_nodes 5013 5026 satelite consequence-s below 5043
+collapsed_nodes {}

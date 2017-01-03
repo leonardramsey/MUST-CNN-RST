@@ -1,0 +1,53 @@
+nextSentence really
+create-a-node-here really 2.18 1 {\nTelxon Corp. said }
+create-a-node-here really 2.67 2 {its vice president for manufacturing resigned }
+create-a-node-here really 2.141 3 {and its Houston work force has been trimmed by 40 people, or about 15%.}
+nextSentence really
+autolink_nodes 2 3 multinuclear List  5001
+autolink_nodes 1 5001 nucleus attribution  5002
+create-a-node-here really 4.59 4 { \n\nThe maker of hand-held computers and computer systems said }
+#create-a-node-here really 4.153 5 {the personnel changes were needed to improve the efficiency of its manufacturing operation.}
+#nextSentence really
+#autolink_nodes 4 5 nucleus attribution  5003
+#create-a-node-here really 6.17 6 { \n\nThe company said }
+#create-a-node-here really 6.85 7 {it hasn't named a successor to Ronald Bufton, the vice president }
+#create-a-node-here really 6.101 8 {who resigned.}
+#nextSentence really
+#autolink_nodes 7 8 satelite-embedded elaboration-object-attribute-e  5004
+#autolink_nodes 6 5004 nucleus attribution  5005
+#create-a-node-here really 7.38 9 {\nIts Houston work force now totals 230.}
+#nextSentence really
+#autolink_nodes 5002 5003 satelite elaboration-additional  5006
+#autolink_nodes 5006 5005 satelite elaboration-additional  5007
+#autolink_nodes 5007 9 satelite cause  5008
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+create-a-node-here really 4.96 5 {the personnel changes were needed }
+create-a-node-here really 4.156 6 {to improve the efficiency of its manufacturing operation.}
+autolink_nodes 5 6 satelite purpose  5003
+autolink_nodes 4 5003 nucleus attribution  5004
+autolink_nodes 5002 5004 satelite elaboration-additional  5005
+create-a-node-here really 6.16 7 { \n\nThe company said}
+create-a-node-here really 6.84 8 { it hasn't named a successor to Ronald Bufton, the vice president}
+create-a-node-here really 6.101 9 { who resigned.}
+nextSentence really
+autolink_nodes 8 9 satelite-embedded elaboration-object-attribute-e  5006
+autolink_nodes 7 5006 nucleus attribution  5007
+disconnect_node 5004 modify
+autolink_nodes 5002 5004 satelite reason  5008
+autolink_nodes 5008 5007 satelite elaboration-additional  5009
+create-a-node-here really 7.38 10 {\nIts Houston work force now totals 230.}
+nextSentence really
+autolink_nodes 5009 10 satelite consequence-s  5010

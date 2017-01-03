@@ -1,0 +1,246 @@
+nextSentence really
+create-a-node-here really 2.42 1 {\nThe dollar weakened in indecisive trading }
+create-a-node-here really 2.100 2 {as foreign-exchange dealers awaited fresh economic news}
+#create-a-node-here really 2.119 3 { that they hope }
+#UNDID
+#create-a-node-here really 2.118 3 { that they hope}
+#create-a-node-here really 2.171 4 { will jolt the U.S. unit out of its narrow ranges.}
+#nextSentence really
+#UNDID
+#UNDID
+#UNDID
+create-a-node-here really 2.109 3 { that }
+create-a-node-here really 2.122 4 {they hope }
+create-a-node-here really 2.174 5 {will jolt the U.S. unit out of its narrow ranges.}
+nextSentence really
+autolink_nodes 5 4 satelite-embedded attribution-e  5001
+autolink_nodes 5001 3 multinuclear Same-Unit  5002
+autolink_nodes 5002 2 satelite-embedded elaboration-object-attribute-e  5003
+autolink_nodes 1 5003 satelite circumstance  5004
+create-a-node-here really 4.92 6 { \n\nThe Canadian dollar climbed to its highest level against the U.S. dollar since late August, }
+create-a-node-here really 4.168 7 {prompting the Bank of Canada to sell the Canadian currency on the market.}
+nextSentence really
+autolink_nodes 6 7 satelite consequence-s  5005
+create-a-node-here really 6.12 8 { \n\nTraders say }
+create-a-node-here really 6.19 9 {that}
+create-a-node-here really 6.92 10 { after a week of nervously tracking every development on Wall Street, }
+create-a-node-here really 6.141 11 {the foreign-exchange market has settled back }
+create-a-node-here really 6.197 12 {to catch its breath ahead of new U.S. economic data.}
+nextSentence really
+autolink_nodes 11 12 satelite-embedded purpose-e  5006
+autolink_nodes 5006 10 satelite temporal-after  5007
+autolink_nodes 5007 9 multinuclear Same-Unit  5008
+autolink_nodes 5008 8 satelite attribution  5009
+create-a-node-here really 7.20 13 {\nThey noted, however,}
+create-a-node-here really 7.137 14 { that a 26-point drop in the Dow Jones Industrial Average gave the dollar a sharp nudge downward late in the day.}
+nextSentence really
+autolink_nodes 14 13 satelite attribution  5010
+showText really
+create-a-node-here really 10.0 15 { \n\nIn late New York trading yesterday, the dollar was quoted at 1.8470 marks, down from 1.8578 marks late Friday, and at 141.90 yen, down from 142.43 yen late Friday.\n}
+create-a-node-here really 10.65 16 {Sterling was quoted at $1.6030, up from $1.5885 late Friday. }
+create-a-node-here really 12.116 17 {\n\nIn Tokyo Tuesday, the U.S. currency opened for trading at 141.80 yen, down from Monday's Tokyo close of 142.40 yen. }
+create-a-node-here really 14.137 18 {\n\nThe market's attention is especially focused on a preliminary report on the U.S. third-quarter gross national product, due out Thursday, }
+create-a-node-here really 14.158 19 {which could show }
+create-a-node-here really 14.226 20 {the economy is continuing to expand at a relatively brisk pace. }
+#autolink_nodes 20 19 satelite attribution  5011
+#autolink_nodes 18 5011 satelite-embedded elaboration-additional-e  5012
+#UNDID
+#UNDID
+autolink_nodes 18 19 satelite-embedded elaboration-additional-e  5011
+#autolink_nodes 19 20 satelite-embedded attribution-e  5012
+#UNDID
+autolink_nodes 19 20 nucleus-embedded attribution-e  5012
+create-a-node-here really 16.89 21 {\n\nThe consensus view on real GNP, the total value of the U.S. output of goods and services }
+create-a-node-here really 16.116 22 {adjusted for inflation,}
+create-a-node-here really 16.162 23 { calls for a 2.3% gain on an annual basis,}
+create-a-node-here really 16.241 24 { slowing somewhat from the second quarter's 2.5%, but still fairly strong. }
+create-a-node-here really 18.75 25 {\n\nFew market participants expect the U.S. unit to rally sharply on the news, }
+create-a-node-here really 19.0 26 {if it turns out as expected.\n}
+create-a-node-here really 19.17 27 {Many contend }
+create-a-node-here really 19.72 28 {that the report may overstate the economy's health }
+create-a-node-here really 19.88 29 {and predict }
+create-a-node-here really 19.168 30 {the third-quarter figures may be the last vigorous statistics for some time }
+create-a-node-here really 19.180 31 {to come.}
+create-a-node-here really 21.31 32 { \n\n"Everyone is waiting for GNP," }
+create-a-node-here really 21.105 33 {says Walter Simon, an assistant treasurer with Bank Julius Baer & Co. }
+create-a-node-here really 21.146 34 {"Yet even a relatively strong number }
+create-a-node-here really 21.169 35 {-- 2.8% to 2.9% -- }
+create-a-node-here really 21.203 36 {won't alter the market's view }
+create-a-node-here really 21.239 37 {that the economy is softening." }
+autolink_nodes 21 22 satelite-embedded elaboration-object-attribute-e  5013
+autolink_nodes 23 5013 multinuclear Same-Unit  5014
+autolink_nodes 23 24 satelite-embedded elaboration-additional-e  5015
+autolink_nodes 25 26 satelite condition  5016
+#autolink_nodes 30 29 satelite attribution  5017
+#autolink_nodes 29 28 multinuclear List  5018
+#UNDID
+#UNDID
+autolink_nodes 29 28 multinuclear List  5017
+autolink_nodes 29 30 nucleus attribution  5018
+autolink_nodes 5017 27 satelite attribution  5019
+autolink_nodes 30 31 satelite-embedded elaboration-object-attribute-e below 5020
+autolink_nodes 32 33 satelite attribution  5021
+autolink_nodes 34 35 satelite-embedded definition-e  5022
+autolink_nodes 36 5022 multinuclear Same-Unit  5023
+autolink_nodes 36 37 satelite-embedded elaboration-object-attribute-e  5024
+create-a-node-here really 23.90 38 {\n\nHubert Pedroli, managing director of foreign exchange at Credit Suisse in New York, adds, }
+create-a-node-here really 23.149 39 {"The market sees this as the last piece of good news." }
+create-a-node-here really 25.18 40 {\n\nMr. Pedroli notes }
+create-a-node-here really 25.90 41 {that the GNP deflator, a measure of inflation, is expected to slow, }
+create-a-node-here really 25.141 42 {which would give the Federal Reserve more room }
+autolink_nodes 39 38 satelite attribution  5025
+autolink_nodes 41 42 satelite-embedded elaboration-additional-e  5026
+autolink_nodes 5026 40 satelite attribution  5027
+create-a-node-here really 25.169 43 {to ease key U.S. rates. }
+autolink_nodes 42 43 satelite-embedded purpose-e  5028
+autolink_nodes 5010 5009 multinuclear Contrast  5029
+autolink_nodes 16 15 multinuclear List  5030
+autolink_nodes 5030 17 multinuclear List below 5030
+autolink_nodes 5010 5030 satelite evidence  5031
+collapsed_nodes {5030}
+autolink_nodes 5011 5014 satelite evaluation-s  5032
+autolink_nodes 5016 5019 satelite reason  5033
+autolink_nodes 5023 5021 satelite concession  5034
+#autolink_nodes 5004 5005 satelite example  5035
+#collapsed_nodes {5030 5005}
+#collapsed_nodes {5030 5005 5031}
+#UNDID
+disconnect_node 5031 disconnect
+autolink_nodes 5009 5031 satelite circumstance  5035
+collapsed_nodes {5030 5031}
+autolink_nodes 5035 5032 satelite elaboration-additional  5036
+collapsed_nodes {5030 5031 5014}
+collapsed_nodes {5030 5031 5014 5012}
+create-a-node-here really 27.46 44 {\n\nAnalysts predict a 3.5% rise in the deflator, }
+create-a-node-here really 27.93 45 {after climbing 4.6% in the second quarter. }
+autolink_nodes 44 45 satelite temporal-after  5037
+create-a-node-here really 29.10 46 {\n\nThey note }
+create-a-node-here really 29.18 47 {that}
+create-a-node-here really 29.123 48 { when an unexpectedly sharp widening in the U.S. trade gap in August was reported earlier this month,}
+create-a-node-here really 29.193 49 { hopes for a sustained narrowing of the trade deficit were dashed }
+create-a-node-here really 29.229 50 {and sentiment gripped the market}
+create-a-node-here really 30.0 51 { that the U.S. economy was losing its momentum.\n}
+create-a-node-here really 30.64 52 {A 190-point plunge in U.S. stock shares compounded the view,}
+create-a-node-here really 30.79 53 { they say. }
+create-a-node-here really 32.33 54 {\n\n"Everyone is extremely convinced }
+create-a-node-here really 32.62 55 {the economy is slowing," }
+create-a-node-here really 32.99 56 {says one senior New York dealer. }
+create-a-node-here really 32.141 57 {"If we're not headed for a recession, }
+create-a-node-here really 32.191 58 {we're certainly headed for a major slowdown." }
+#autolink_nodes 5025 5027 nucleus reason  5038
+#UNDID
+autolink_nodes 50 49 multinuclear List  5038
+autolink_nodes 5038 48 satelite circumstance  5039
+autolink_nodes 5039 47 multinuclear Same-Unit  5040
+autolink_nodes 5040 46 satelite attribution  5041
+autolink_nodes 50 51 satelite-embedded elaboration-object-attribute-e  5042
+autolink_nodes 52 53 satelite attribution  5043
+autolink_nodes 5042 5043 satelite evidence  5044
+autolink_nodes 5037 5041 satelite explanation-argumentative  5045
+collapsed_nodes {5030 5031 5014 5012 5041}
+autolink_nodes 55 54 satelite attribution  5046
+autolink_nodes 5046 56 satelite attribution  5047
+autolink_nodes 58 57 satelite condition  5048
+autolink_nodes 5047 5048 satelite restatement  5049
+collapsed_nodes {5030 5031 5014 5012 5041 5048}
+collapsed_nodes {5030 5031 5014 5012 5041 5048 5024}
+collapsed_nodes {5030 5031 5014 5012 5041 5048 5024 5022}
+autolink_nodes 5025 5027 nucleus reason  5050
+collapsed_nodes {5030 5031 5014 5012 5041 5048 5024 5022 5025}
+autolink_nodes 5050 5034 multinuclear List  5051
+collapsed_nodes {5030 5031 5014 5012 5041 5048 5024 5022 5025 5028}
+autolink_nodes 5051 5045 multinuclear List below 5051
+collapsed_nodes {5030 5031 5014 5012 5041 5048 5024 5022 5025 5028 5027}
+autolink_nodes 5051 5049 multinuclear List below 5051
+collapsed_nodes {5030 5031 5014 5012 5041 5048 5024 5022 5025 5028 5027 5034}
+#autolink_nodes 5019 5051 satelite example  5052
+#collapsed_nodes {5030 5031 5014 5012 5041 5048 5024 5022 5025 5028 5027 5034 5051}
+#UNDID
+collapsed_nodes {5030 5031 5014 5012 5041 5048 5024 5022 5025 5028 5027 5034 5045}
+collapsed_nodes {5030 5031 5014 5012 5041 5048 5024 5022 5025 5028 5027 5034 5045 5049}
+collapsed_nodes {5030 5031 5014 5012 5041 5048 5024 5022 5025 5028 5027 5034 5045 5049 5019}
+autolink_nodes 5033 5051 satelite example  5052
+autolink_nodes 5036 5052 satelite elaboration-additional  5053
+collapsed_nodes {5030 5031 5014 5012 5041 5048 5024 5022 5025 5028 5027 5034 5045 5049 5019 5033}
+collapsed_nodes {5030 5031 5014 5012 5041 5048 5024 5022 5025 5028 5027 5034 5045 5049 5019 5033 5032}
+create-a-node-here really 34.80 59 {\n\nWhile the market expects little reaction from news of U.S. durable goods orders,}
+create-a-node-here really 34.113 60 { scheduled for release today,}
+create-a-node-here really 34.136 61 { participants note }
+create-a-node-here really 34.214 62 {that the figures will probably serve to reinforce this bearish sentiment. }
+create-a-node-here really 36.78 63 {\n\nU.S. durable goods orders are expected to show a decline of 1.2% in September,}
+create-a-node-here really 36.107 64 { according to economists.}
+create-a-node-here really 37.52 65 {\nThe anticipated drop follows a 3.9% rise in August. }
+create-a-node-here really 39.41 66 {\n\nTraders, however, are quick to point out }
+create-a-node-here really 39.50 67 {that }
+create-a-node-here really 39.107 68 {while there is little enthusiasm for buying dollars, }
+create-a-node-here really 39.187 69 {the U.S. unit has found a "natural bottom" at about 1.85 marks and 140 yen. }
+create-a-node-here really 41.115 70 {\n\nIts resilience around these levels is pegged to persistent investor demand for the greenback, especially in Japan. }
+create-a-node-here really 44.0 71 {\n\nOn the Commodity Exchange in New York, gold for current delivery settled at $367 an ounce, down 30 cents.\n}
+create-a-node-here really 44.58 72 {Estimated volume was a very light one million ounces. }
+create-a-node-here really 46.76 73 {\n\nIn early trading in Hong Kong Tuesday, gold was quoted at $366.79 an ounce. }
+autolink_nodes 59 60 satelite-embedded elaboration-additional-e  5054
+autolink_nodes 62 61 satelite attribution  5055
+autolink_nodes 5055 5054 satelite concession  5056
+autolink_nodes 63 64 satelite attribution  5057
+autolink_nodes 5057 65 satelite circumstance  5058
+autolink_nodes 5056 5058 satelite elaboration-general-specific  5059
+autolink_nodes 69 68 satelite concession  5060
+autolink_nodes 5060 67 multinuclear Same-Unit  5061
+autolink_nodes 5061 66 satelite attribution  5062
+autolink_nodes 5062 70 satelite elaboration-additional  5063
+autolink_nodes 71 72 satelite elaboration-additional  5064
+autolink_nodes 73 5064 multinuclear Comparison  5065
+collapsed_nodes {5030 5031 5014 5012 5041 5048 5024 5022 5025 5028 5027 5034 5045 5049 5019 5033 5032 5057}
+collapsed_nodes {5030 5031 5014 5012 5041 5048 5024 5022 5025 5028 5027 5034 5045 5049 5019 5033 5032 5057 5054}
+autolink_nodes 5053 5059 satelite elaboration-additional  5066
+collapsed_nodes {5030 5031 5014 5012 5041 5048 5024 5022 5025 5028 5027 5034 5045 5049 5019 5033 5032 5057 5054 5059}
+collapsed_nodes {5030 5031 5014 5012 5041 5048 5024 5022 5025 5028 5027 5034 5045 5049 5019 5033 5032 5057 5054 5059 5007}
+autolink_nodes 5066 5063 satelite circumstance  5067
+collapsed_nodes {5030 5031 5014 5012 5041 5048 5024 5022 5025 5028 5027 5034 5045 5049 5019 5033 5032 5057 5054 5059 5007 5063}
+autolink_nodes 5004 5005 satelite example  5068
+collapsed_nodes {5030 5031 5014 5012 5041 5048 5024 5022 5025 5028 5027 5034 5045 5049 5019 5033 5032 5057 5054 5059 5007 5063 5005}
+collapsed_nodes {5030 5031 5014 5012 5041 5048 5024 5022 5025 5028 5027 5034 5045 5049 5019 5033 5032 5057 5054 5059 5007 5063 5005 5002}
+#autolink_nodes 5067 5068 nucleus summary-n  5069
+#collapsed_nodes {5030 5031 5014 5012 5041 5048 5024 5022 5025 5028 5027 5034 5045 5049 5019 5033 5032 5057 5054 5059 5007 5063 5005 5002 5067}
+#autolink_nodes 5069 5065 satelite topic-drift  5070
+#collapsed_nodes {5005 5002}
+#collapsed_nodes {5005 5002 5067}
+#collapsed_nodes {5002 5067}
+#disconnect_node 5005 disconnect
+#autolink_nodes 5003 5005 satelite evidence  5071
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+disconnect_node 5005 disconnect
+autolink_nodes 5004 5005 satelite evidence  5069
+collapsed_nodes {5030 5031 5014 5012 5041 5048 5024 5022 5025 5028 5027 5034 5045 5049 5019 5033 5032 5057 5054 5059 5063 5005 5002}
+collapsed_nodes {5014 5012 5041 5048 5024 5022 5025 5028 5027 5034 5045 5049 5019 5033 5032 5057 5054 5059 5063 5005 5002}
+collapsed_nodes {5014 5012 5041 5048 5024 5022 5025 5028 5027 5034 5045 5049 5019 5033 5032 5057 5054 5059 5063 5005 5002}
+collapsed_nodes {5014 5012 5041 5048 5024 5022 5025 5028 5027 5034 5045 5049 5019 5033 5032 5057 5054 5059 5063 5005 5002 5031}
+collapsed_nodes {5041 5048 5024 5022 5025 5028 5027 5034 5045 5049 5019 5033 5057 5054 5059 5063 5005 5002 5031}
+collapsed_nodes {5041 5048 5024 5022 5025 5028 5027 5034 5045 5049 5019 5033 5057 5054 5059 5063 5005 5002 5031}
+collapsed_nodes {5041 5048 5024 5022 5025 5028 5027 5034 5045 5049 5019 5033 5057 5054 5059 5063 5005 5002 5031 5032}
+collapsed_nodes {5041 5048 5024 5022 5025 5028 5027 5034 5045 5049 5019 5033 5057 5054 5059 5063 5005 5002 5031 5032}
+collapsed_nodes {5057 5054 5059 5063 5005 5002 5031 5032}
+collapsed_nodes {5057 5054 5059 5063 5005 5002 5031 5032 5045}
+collapsed_nodes {5057 5054 5059 5063 5005 5002 5031 5032 5045 5050}
+collapsed_nodes {5057 5054 5059 5063 5005 5002 5031 5032 5045 5050 5049}
+#disconnect_node 5051 disconnect
+#collapsed_nodes {5057 5054 5059 5063 5005 5002 5031 5032 5045 5050 5049 5034}
+#UNDID
+collapsed_nodes {5057 5054 5059 5063 5005 5002 5031 5032 5045 5050 5049 5019}
+collapsed_nodes {5057 5054 5059 5063 5005 5002 5031 5032 5045 5050 5049 5019 5034}
+collapsed_nodes {5063 5005 5002 5031 5032 5045 5050 5049 5019 5034}
+collapsed_nodes {5063 5005 5002 5031 5032 5045 5050 5049 5019 5034 5059}
+collapsed_nodes {5005 5002 5031 5032 5045 5050 5049 5019 5034 5059}
+collapsed_nodes {5005 5002 5031 5032 5045 5050 5049 5019 5034 5059}
+collapsed_nodes {5005 5002 5031 5032 5045 5050 5049 5019 5034 5059 5063}
+collapsed_nodes {5005 5002 5031 5032 5045 5050 5049 5019 5034 5059 5063 5052}
+autolink_nodes 5067 5069 nucleus summary-n  5070
+collapsed_nodes {5005 5002 5031 5032 5045 5050 5049 5019 5034 5059 5063 5052 5067}
+autolink_nodes 5070 5065 satelite topic-drift  5071
+collapsed_nodes {5005 5002 5031 5032 5045 5050 5049 5019 5034 5059 5063 5052 5067 5071}
+collapsed_nodes {}
+disconnect_node 5025 disconnect
+autolink_nodes 5027 5025 satelite enablement  5072

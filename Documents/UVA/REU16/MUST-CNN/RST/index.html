@@ -1,0 +1,356 @@
+<html>
+
+<head>
+     <title>RST Discourse Treebank</title>
+     <meta name="description" content="Documentation for RST Discourse Treebank">
+     <meta name="keywords" content="Linguistic Data Consortium LDC
+     Documentation RST Discourse Treebank">
+</head>
+
+<body bgcolor="#ffffff" link="#990000" alink="#990000" vlink="#990000" text="#000000" >
+
+      <h1 align="center"><font color="#990000">
+          Documentation for RST Discourse Treebank
+      </font></h1>
+
+      <br>
+
+      <h3>Introduction</h3> 
+
+      <p>This is the Rhetorical Structure Theory Discourse Treebank
+      Publication, produced by the Linguistic Data Consortium (LDC) catalog
+      number LDC2002T07 and isbn 21-58563-223-6.
+
+      <p>RST Discourse Treebank contains a selection of 385 Wall Street Journal
+      articles from the <a href =
+      "http://www.ldc.upenn.edu/Catalog/LDC95T7.html"
+      STYLE="text-decoration:none">Penn Treebank</a> which have been annotated
+      with discourse structure in the framework of Rhetorical Structure Theory
+      (RST). In addition, the corpus includes a number of humanly-generated
+      extracts and abstracts associated with the original documents.
+
+      <h3>Data Format</h3> 
+
+      <p>The original filenames and directory structure were retained at the
+         suggestion of the authors.	 
+      <p>
+
+      <table border=0 cellpadding=5>           
+           <tr>
+	        <td colspan="3"><a href = "data/RSTtrees-WSJ-main-1.0"
+		STYLE="text-decoration:none"> RSTtrees-WSJ-main-1.0 </a>: This
+		directory contains 385 Wall Street Journal articles, broken
+		into TRAINING (347 documents) and TEST (38 documents)
+		sub-directories.</td>
+	   </tr>
+
+   	   <tr valign="top">
+
+	        <td width="25%" valign="top"></td> 
+
+		<td width="25%" valign="top">Filenames are in one of two
+		forms:&lt;docno&gt;.ext</td>
+
+	        <td width="50%" valign="top">wsj_####.ext (380 documents)<br>
+		    file#.ext(5 documents)</td>
+	   </tr>
+	   
+	   <tr>
+
+	        <td width="25%" valign="top"></td> 
+		
+		<td width="25%" valign="top">The 5 files named file# were
+	        identified as the following filenames in <a href =
+	        "http://www.ldc.upenn.edu/Catalog/LDC95T7.html"
+	        STYLE="text-decoration:none"> Treebank-2</a></td>
+
+		<td width="50%" valign="top">
+		file1 - 07/wsj_0764<br>
+		file2 - 04/wsj_0430<br>
+		file3 - 07/wsj_0766<br>
+		file4 - 07/wsj_0778<br>
+		file5 - 21/wsj_2172<br>
+		</td>
+
+	    </tr>
+	    
+	    <tr>
+
+	        <td width="25%" valign="top"></td>
+
+	        <td width="75%" valign="top" colspan="2">(More information is
+		available in a <a
+		href="ftp://ftp.ldc.upenn.edu/pub/ldc/data_samples/pennTB_tipster_wsj_map.tar.gz"
+		STYLE="text-decoration:none">compressed file</a> via ftp, which
+		provides the relationship between the 2,499 PTB filenames and
+		the corresponding WSJ DOCNO strings in TIPSTER.)</td>
+
+	   </tr>
+
+	   <tr>
+
+	        <td width="25%" valign="top">
+
+	        <td width="25%" valign="top">&lt;docno&gt;.rst/: A directory with
+		three files:</td>
+
+		<td width="50%" valign="top">&lt;docno&gt;.lisp.name<br>
+	        &lt;docno&gt;.step.name<br> 
+		## -- a file with an integer as its name<br></td>
+
+	   </tr>
+ 
+	   <tr>
+
+	        <td width="25%" valign="top"></td>
+
+		<td width="75%" valign="top" colspan="2">The lisp file contains the
+		discourse structure created by a human judge for a text.</td>
+
+	   </tr>
+
+	   <tr>
+
+	        <td width="25%" valign="top"></td>
+
+		<td width="75%" valign="top" colspan="2">The step file contains a list of
+		all the actions that were taken by a human judge during the
+		creation of the discourse structure.</td>
+
+	   </tr>
+
+	   <tr>
+
+	        <td width="25%" valign="top"></td>
+
+		<td width="75%" valign="top" colspan="2">The ## file is a temporary file
+		with information about the last action taken by the human judge
+		who built the discourse tree.</td>
+
+	   </tr>
+
+	   <tr>
+
+	        <td width="25%" valign="top"></td>
+
+		<td width="75%" valign="top" colspan="2">All annotations were produced
+		using a discourse annotation tool that can be downloaded from
+		<a href = "http://www.isi.edu/~marcu/discourse"
+		STYLE="text-decoration:none">
+		http://www.isi.edu/~marcu/discourse</a>.</td>
+
+	   </tr>
+
+	   <tr>
+
+	        <td width="25%" valign="top"></td>
+
+		<td width="75%" valign="top" colspan="2">The files in the .rst directories
+		are provided only to enable interested users to visualize and
+		print in a convenient format the discourse annotations in the
+		corpus.</td>
+
+	   </tr>
+
+	   <tr>
+
+	        <td width="25%" valign="top"></td>
+
+		<td width="75%" valign="top" colspan="2">&lt;docno&gt;.dis: a file that
+		contains the manually annotated discourse structure of the file
+		&lt;docno&gt;. The .dis files were generated automatically from
+		the .step and .lisp files using a mapping program. More
+		information about this program is available at
+		<a href = "http://www.isi.edu/~marcu/discourse" style="text-decoration:none">
+		http://www.isi.edu/~marcu/discourse</a>.</td>
+
+	   </tr>
+
+	   <tr>
+
+	        <td width="25%" valign="top"></td>
+
+		<td width="75%" valign="top" colspan="2">IMPORTANT NOTE: The .lisp files
+		may contain errors introduced by the discourse annotation
+		tool. Please use the .lisp and .step files only for visualizing
+		the trees. Use the .dis files for training/testing purposes
+		(the mapping program that produced the .dis file was written so
+		as to eliminate the errors introduced by the annotation
+		tool).</td>
+
+	   </tr>
+
+	   <tr>
+
+	        <td width="25%" valign="top"></td>
+
+		<td width="75%" valign="top" colspan="2">&lt;docno&gt;.edus: a file
+		corresponding to each discourse tree, with the edus (elementary
+		discourse units) listed line by line.</td>
+
+	   </tr>
+
+
+	<tr><td colspan = "3"><a href = "data/RSTtrees-WSJ-double-1.0" STYLE="text-decoration:none">RSTtrees-WSJ-double-1.0 </a>:
+		This directory contains the same types of
+		files as the subdirectory RSTtrees-WSJ-main-1.0, for 53 documents
+		which were reviewed by a second analyst.
+	</td></tr>
+
+
+	<tr><td colspan = "3"><a href = "data/EXT-EDUS-150" STYLE="text-decoration:none">EXT-EDUS-150</a>:
+		Contains informative extracts produced from scratch
+		(without reference to an existing abstract) by two analysts for 150
+		documents (this larger set includes the 30 documents in the
+		subdirectory EXT-EDUS-30). For these extracts, analysts were
+		instructed to select a target number of EDUs for the extract, based on	
+		the square root of the number of EDUs in the document. Files contain
+		EDUs by line, with the selected EDUS marked by a * at the beginning of
+		the line. 
+	</tr>
+	<tr valign = "top">
+	<td width = "25%" valign = "top"></td>
+	<td width = "25%" valign = "top">
+		Filenames are of the form:</td>
+	<td width="50%" valign = "top">&lt;docno&gt;.bracketed.key.ext.name2.new 
+	<br>&lt;docno&gt;.bracketed.key.ext.name3.new</td></tr>
+
+	<tr>
+	<td colspan = "3">
+	<a href = "data/EXT-EDUS-30" STYLE="text-decoration:none">EXT-EDUS-30</a>:
+		Contains two sets of short and long extracts for 30
+		documents, derived from humanly produced abstracts. These "derived
+		extracts" were produced by two analysts as follows: First, the short
+		and long abstracts were bracketed into EDUs (see directory
+		SumExp-ABS-30 for the humanly produced abstract texts); then, each EDU
+		in the abstract was mapped to one or more corresponding EDUs in the
+		document to produce the extract.  Files contain EDUs by line, with the
+		selected EDUS marked by a * at the beginning of the line.</td>
+	</tr>
+	<tr valign = "top">
+	<td width = "25%" valign = "top"></td>
+	<td width = "25%" valign = "top">
+		For the longer, informative derived extract, the filenames are of the
+		form:</td>
+	<td width="50%" valign="top">
+		&lt;docno&gt;.abs.name1
+	<br>&lt;docno&gt;.abs.name2
+	</td></tr>
+	<tr>
+	<td width = "25%" valign = "top"></td>
+	<td width = "25%" valign = "top">
+		For the shorter, indicative derived extract, the filenames are of the
+		form:</td>
+	<td width = "50%" valign="top">
+	&lt;docno&gt;.shortabs.name1  
+	<br>&lt;docno&gt;.shortabs.name2
+	</td></tr>  
+	<tr>
+	<td width="25%" valign="top"></td>
+	<td width="75%" valign="top" colspan = "2">
+		In addition, this directory contains one set of long, informative
+		extracts for all 30 documents, produced from scratch by selecting the
+		important EDUs in the document. The general guidance for producing
+		these extracts was the same as for the humanly produced long
+		abstracts. (See directory SumExp-ABS-30 for description.) </td>
+	<tr>
+	<td width = "25%" valign = "top"></td>
+	<td width = "25%" valign = "top">
+		The filenames are of the form:</td>
+	<td width="50%" valign="top">
+		&lt;docno&gt;.ext.name4</td>
+	</tr>
+
+	<tr>
+	<td colspan = "3">
+		<a href = "data/SumExp-ABS-30" STYLE="text-decoration:none">SumExp-ABS-30</a>:
+		This directory contains two types of humanly-produced
+		abstracts built by a professional abstractor for 30 documents:</td>
+	</tr> 
+	<tr valign = "top">
+	<td width="25%" valign="top"></td>
+	<td width="75%" valign="top" colspan = "2">
+		1)A long, informative abstract, for which the abstractor was instructed to
+		capture the essential information conveyed in the document, in no more
+		than 25% of the original length; 
+	</td></tr>
+	<tr valign = "top">
+	<td width="25%" valign="top"></td>
+	<td width="75%" valign="top" colspan = "2">
+		2)a short, indicative abstract of
+		2-3 sentences, written so as to identify the main topic of the
+		article. Corresponding to each abstract is a file that has been
+		bracketed and numbered by edus. In addition, for each document, there
+		is a file containing a set of questions whose answers can be derived
+		from the informative abstract. 
+	<tr valign = "top">
+	<td width="25%" valign="top"></td>
+	<td width = "25%" valign = "top">
+		Filenames are of the form:</td>
+	<td width="50%" valign="top">
+	&lt;filename&gt;.abs: the longer, informative abstract
+	<br>&lt;filename&gt;.abs-bracketed: bracketed version of the above
+	<br>&lt;filename&gt;.short-abs: the shorter, indicative abstract
+	<br>&lt;filename&gt;.short-abs-bracketed: bracketed version of the above
+	<br>&lt;filename&gt;.que: the questions for the text
+	</td></tr>
+
+
+	<tr>
+	<td colspan = "3">
+	<a href = "data/SumExp-Texts150" STYLE="text-decoration:none">SumExp-Texts150</a>:
+		This directory contains a set of files used for
+		creating the human extracts:</td></tr>
+	<tr valign = "top">
+	<td width="25%" valign="top"></td>
+	<td width = "25%" valign = "top">
+	&lt;docno&gt;.formatted:</td>
+	<td width = "50%" valign = "top"> a formatted version of the original document,
+	for printing and reading purposes.</td></tr>
+	<tr valign = "top">
+	<td width="25%" valign="top"></td>
+	<td width = "25%" valign = "top">
+	&lt;docno&gt;.bracketed:</td>
+	<td width = "50%" valign = "top"> a version of the document which has been
+		bracketed and numbered according to the edus derived from the
+		discourse tree (with paragraph boundaries preserved). This version was
+		used to produce the human extracts.
+	</td></tr>
+	</table>
+
+     
+	<p>More documentation is available in <a href = "doc/README" STYLE="text-decoration:none">README</a> and
+	<a href = "doc/sigdial2001.pdf" STYLE="text-decoration:none">sigdial.pdf</a>.
+
+	<P>Please see <A HREF="doc/file.tbl" STYLE="text-decoration:none">file.tbl</A> for the directory structure of this
+	publication, as well as a complete list of files.
+
+    	<h3>Updates</h3>
+
+    	<p>Should any additional information, updates, or bug fixes become
+    	available, they will appear in the LDC catalog entry for this corpus: <a
+    	href="http://www.ldc.upenn.edu/Catalog/LDC2002T07.html"
+    	style="text-decoration:none">LDC2002T07</a>.
+
+    	<h3>Content Copyright</h3>   
+    	<p>Portions &copy; 1989 Wall Street Journal, 1989 Dow Jones & Company, Inc.
+
+    	<hr>
+
+    	<font size="-1">
+    	Contact: <a href="mailto:ldc@ldc.upenn.edu" style="text-decoration:none">
+
+    	<b>ldc@ldc.upenn.edu</b></a><br> &copy; 2002    
+    	<a href="http://www.upenn.edu" style="text-decoration:none">
+    	<b>Trustees of the University of Pennsylvania</b></a>. All Rights Reserved.
+    	</font>
+
+</body>
+
+</html>
+
+
+
+
+
+

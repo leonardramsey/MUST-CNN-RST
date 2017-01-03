@@ -1,0 +1,107 @@
+nextSentence really
+create-a-node-here really 2.54 1 {\nItaly's trade deficit narrowed to 2.007 trillion lire }
+nextSentence really
+create-a-node-here really 2.72 2 {($1.49 billion)}
+create-a-node-here really 2.129 3 { in September from 2.616 trillion lire a year earlier,}
+create-a-node-here really 2.173 4 { the state statistical office Istat said.}
+nextSentence really
+autolink_nodes 1 2 satelite-embedded elaboration-additional-e  5001
+autolink_nodes 3 5001 multinuclear Same-Unit  5002
+autolink_nodes 5002 4 satelite attribution  5003
+create-a-node-here really 4.43 5 { \n\nThe deficit was 466 billion lire in August.}
+nextSentence really
+nextSentence really
+nextSentence really
+create-a-node-here really 5.70 6 {\nFor the first nine months, the trade deficit was 14.933 trillion lire,}
+create-a-node-here really 5.136 7 { compared with 10.485 trillion lire in the year-earlier period.}
+nextSentence really
+#autolink_nodes 5003 5 satelite comparison  5004
+#UNDID
+#autolink_nodes 5003 5 satelite temporal-after  5004
+#UNDID
+autolink_nodes 5003 5 satelite comparison  5004
+autolink_nodes 6 7 satelite comparison  5005
+autolink_nodes 5004 5005 satelite comparison  5006
+create-a-node-here really 6.11 8 {\nIstat said }
+create-a-node-here really 6.44 9 {the statistics are provisional}
+create-a-node-here really 6.79 10 { and aren't seasonally adjusted.}
+#disconnect_node 5 modify
+#UNDID
+disconnect_node 5 modify
+autolink_nodes 5003 5 satelite temporal-after below 5007
+disconnect_node 5005 modify
+autolink_nodes 5007 5005 satelite temporal-after  5008
+autolink_nodes 9 10 multinuclear List  5009
+autolink_nodes 5009 8 satelite attribution  5010
+autolink_nodes 5008 5010 satelite elaboration-additional  5011
+#create-a-node-here really 8.23 11 { \n\nImports rose 11% to 18.}
+#nextSentence really
+#UNDID
+#UNDID
+nextSentence really
+nextSentence really
+create-a-node-here really 8.74 11 { \n\nImports rose 11% to 18.443 trillion lire in September from a year earlier,}
+create-a-node-here really 8.126 12 { while exports rose 17% to 16.436 trillion lire.}
+nextSentence really
+autolink_nodes 11 12 multinuclear Comparison  5012
+disconnect_node 5 modify
+autolink_nodes 5003 5 satelite comparison below 5013
+disconnect_node 5005 modify
+autolink_nodes 5013 5005 satelite comparison below 5014
+#create-a-node-here really 9.44 13 {\nIn the nine months, imports rose 20% to 155.}
+#nextSentence really
+#UNDID
+#UNDID
+showText really
+create-a-node-here really 9.62 13 {\nIn the nine months, imports rose 20% to 155.039 trillion lire,}
+create-a-node-here really 10.0 14 { while exports grew 18% to 140.106 trillion lire.\n}
+autolink_nodes 13 14 multinuclear Comparison  5015
+autolink_nodes 5012 5015 multinuclear Comparison above 5016
+create-a-node-here really 10.66 15 {Import values are calculated on a cost, insurance and freight }
+create-a-node-here really 10.78 16 {(c.i.f.)}
+create-a-node-here really 10.90 17 { basis, }
+create-a-node-here really 10.145 18 {while exports are accounted for on a free-on-board }
+create-a-node-here really 10.158 19 {(f.o.b.) }
+create-a-node-here really 10.169 20 {basis. }
+autolink_nodes 15 16 satelite-embedded restatement-e  5017
+autolink_nodes 17 5017 multinuclear Same-Unit  5018
+autolink_nodes 18 19 satelite-embedded restatement-e  5019
+autolink_nodes 20 5019 multinuclear Same-Unit  5020
+autolink_nodes 5020 5018 multinuclear Comparison above 5021
+collapsed_nodes {5010}
+autolink_nodes 5011 5016 satelite elaboration-set-member  5022
+autolink_nodes 5016 5021 satelite elaboration-additional  5023
+disconnect_node 7 modify
+autolink_nodes 6 7 satelite-embedded comparison-e  5024
+#disconnect_node 5024 modify
+#UNDID
+disconnect_node 5024 modify
+autolink_nodes 5013 5024 satelite elaboration-additional below 5025
+collapsed_nodes {}
+collapsed_nodes {5013}
+collapsed_nodes {5013 5025}
+#disconnect_node 5015 disconnect
+#autolink_nodes 5012 5015 satelite elaboration-additional above 5025
+#UNDID
+#UNDID
+disconnect_node 5021 disconnect
+disconnect_node 5016 disconnect
+#disconnect_node 5015 modify
+#UNDID
+disconnect_node 5015 disconnect
+autolink_nodes 5012 5015 satelite elaboration-additional  5026
+autolink_nodes 5026 5021 satelite elaboration-additional  5027
+autolink_nodes 5011 5027 satelite elaboration-set-member  5028
+disconnect_node 5020 modify
+autolink_nodes 5018 5020 multinuclear Contrast above 5029
+collapsed_nodes {5013 5025 5027}
+collapsed_nodes {5027}
+collapsed_nodes {}
+disconnect_node 2 modify
+#autolink_nodes 1 2 satelite-embedded result-e  5030
+#disconnect_node 2 modify
+#UNDID
+#UNDID
+autolink_nodes 1 2 satelite-embedded restatement-e  5030
+disconnect_node 7 modify
+autolink_nodes 6 7 satelite comparison  5031

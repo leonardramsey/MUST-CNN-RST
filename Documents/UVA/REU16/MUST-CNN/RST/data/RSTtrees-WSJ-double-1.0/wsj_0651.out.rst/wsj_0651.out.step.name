@@ -1,0 +1,98 @@
+nextSentence really
+create-a-node-here really 2.133 1 {\nNelson Holdings International Ltd. shareholders approved a 1-for-10 consolidation of the company's common stock at a special meeting.}
+nextSentence really
+create-a-node-here really 4.119 2 { \n\nAt the same time, shareholders approved the adoption of a rights plan and a super-majority voting approval requirement.}
+nextSentence really
+#autolink_nodes 1 2 multinuclear Temporal-Same-Time  5001
+#create-a-node-here really 6.0 3 {\nThey also approved the relocation of the company's registered office to Toronto from Vancouver and a name change to NHI Nelson Holdings International Ltd. \n}
+#UNDID
+#UNDID
+create-a-node-here really 5.155 3 {\nThey also approved the relocation of the company's registered office to Toronto from Vancouver and a name change to NHI Nelson Holdings International Ltd. }
+autolink_nodes 1 2 multinuclear List  5001
+autolink_nodes 5001 3 multinuclear List below 5001
+#create-a-node-here really 7.56 4 {\n\nFollowing the consolidation, the entertainment company, }
+#create-a-node-here really 7.126 5 {which has film and television operations in Beverly Hills, Calif., }
+#create-a-node-here really 7.176 6 {will have about 4.1 million shares outstanding.}
+#nextSentence really
+#create-a-node-here really 8.66 7 {\nThe number of authorized common shares will remain at 100 million.}
+#nextSentence really
+#autolink_nodes 4 5 satelite-embedded elaboration-object-attribute-e  5002
+#autolink_nodes 5002 6 multinuclear Same-Unit  5003
+#autolink_nodes 5001 5003 satelite elaboration-additional  5004
+#autolink_nodes 5003 7 multinuclear Same-Unit below 5004
+#UNDID
+#UNDID
+#autolink_nodes 5003 7 multinuclear List above 5004
+#create-a-node-here really 9.95 8 {\nUnder the rights plan, holders will have one right for each common share held, with each right }
+#create-a-node-here really 10.0 9 {entitling the purchase of one common share for 100 Canadian dollars.\n}
+#create-a-node-here really 10.38 10 {The rights plan would be triggered }
+#create-a-node-here really 10.117 11 {if a person or group acquires 20% or more of the common shares outstanding }
+#create-a-node-here really 10.165 12 {without making an offer to all shareholders.}
+#nextSentence really
+#create-a-node-here really 12.159 13 { \n\nUnder the super-majority amendment, certain mergers and other transactions would require approval of holders of 80% of the company's common shares outstanding.}
+#nextSentence really
+#autolink_nodes 8 9 satelite elaboration-object-attribute  5005
+#autolink_nodes 10 11 satelite condition  5006
+#autolink_nodes 11 12 satelite manner  5007
+#UNDID
+#autolink_nodes 11 12 satelite manner  5007
+#autolink_nodes 5005 5006 satelite elaboration-additional  5008
+#autolink_nodes 5008 13 satelite elaboration-additional  5009
+#autolink_nodes 5001 5004 satelite elaboration-additional  5010
+#autolink_nodes 5010 5009 satelite elaboration-additional  5011
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+create-a-node-here really 7.28 4 {\n\nFollowing the consolidation,}
+create-a-node-here really 7.59 5 { the entertainment company, }
+create-a-node-here really 7.128 6 {which has film and television operations in Beverly Hills, Calif.,}
+create-a-node-here really 7.179 7 { will have about 4.1 million shares outstanding.}
+nextSentence really
+create-a-node-here really 8.66 8 {\nThe number of authorized common shares will remain at 100 million.}
+nextSentence really
+create-a-node-here really 9.78 9 {\nUnder the rights plan, holders will have one right for each common share held,}
+create-a-node-here really 9.166 10 { with each right entitling the purchase of one common share for 100 Canadian dollars.}
+nextSentence really
+create-a-node-here really 10.35 11 {\nThe rights plan would be triggered }
+create-a-node-here really 10.114 12 {if a person or group acquires 20% or more of the common shares outstanding }
+create-a-node-here really 10.162 13 {without making an offer to all shareholders.}
+nextSentence really
+create-a-node-here really 12.159 14 { \n\nUnder the super-majority amendment, certain mergers and other transactions would require approval of holders of 80% of the company's common shares outstanding.}
+nextSentence really
+autolink_nodes 5 6 satelite-embedded elaboration-object-attribute-e  5002
+autolink_nodes 5002 7 multinuclear Same-Unit  5003
+autolink_nodes 4 5003 nucleus temporal-after  5004
+autolink_nodes 5004 8 multinuclear List  5005
+autolink_nodes 5001 5005 satelite elaboration-additional  5006
+autolink_nodes 9 10 satelite elaboration-additional  5007
+autolink_nodes 11 12 satelite condition  5008
+#autolink_nodes 12 13 multinuclear List  5009
+#UNDID
+autolink_nodes 12 13 satelite manner  5009
+autolink_nodes 5007 5008 satelite elaboration-additional  5010
+autolink_nodes 5010 14 multinuclear List  5011
+collapsed_nodes {5005}
+autolink_nodes 5006 5011 satelite elaboration-additional  5012
+collapsed_nodes {5005 5012}
+collapsed_nodes {}

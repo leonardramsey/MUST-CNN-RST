@@ -1,0 +1,268 @@
+nextSentence really
+create-a-node-here really 2.72 1 {\nSOUTH AFRICA FREED the ANC's Sisulu and seven other political prisoners.}
+nextSentence really
+create-a-node-here really 4.25 2 { \n\nThousands of supporters, }
+create-a-node-here really 4.94 3 {many brandishing flags of the outlawed African National Congress, }
+create-a-node-here really 4.210 4 {gave the anti-apartheid activists a tumultuous reception upon their return to black townships across the country.}
+nextSentence really
+autolink_nodes 2 3 satelite-embedded elaboration-additional-e  5001
+autolink_nodes 5001 4 multinuclear Same-Unit  5002
+autolink_nodes 1 5002 satelite consequence-s  5003
+create-a-node-here really 5.58 5 {\nMost of those freed had spent at least 25 years in prison.}
+nextSentence really
+autolink_nodes 5003 5 satelite elaboration-additional  5004
+create-a-node-here really 6.24 6 {\nThe 77-year-old Sisulu, }
+create-a-node-here really 6.138 7 {sentenced to life in 1964 along with black nationalist Nelson Mandela for plotting to overthrow the government,}
+autolink_nodes 6 7 satelite-embedded elaboration-additional-e  5005
+create-a-node-here really 6.147 8 { said }
+autolink_nodes 5005 8 multinuclear Same-Unit  5006
+create-a-node-here really 6.199 9 {equality for blacks in South Africa was in reach.}
+nextSentence really
+autolink_nodes 5006 9 nucleus attribution  5007
+autolink_nodes 5004 5007 satelite elaboration-additional  5008
+create-a-node-here really 7.14 10 {\nThe releases, }
+create-a-node-here really 7.61 11 {announced last week by President de Klerk, }
+autolink_nodes 10 11 satelite-embedded attribution-e  5009
+nextSentence really
+create-a-node-here really 7.122 12 {were viewed as Pretoria's tacit legalization of the ANC. }
+autolink_nodes 5009 12 multinuclear Same-Unit  5010
+autolink_nodes 5008 5010 satelite interpretation-s  5011
+create-a-node-here really 9.9 13 {\n\nMandela, }
+create-a-node-here really 9.62 14 {considered the most prominent leader of the ANC, }
+autolink_nodes 13 14 satelite-embedded evaluation-s-e  5012
+create-a-node-here really 9.84 15 {remains in prison.}
+nextSentence really
+autolink_nodes 5012 15 multinuclear Same-Unit  5013
+create-a-node-here really 10.62 16 {\nBut his release within the next few months is widely expected.}
+nextSentence really
+autolink_nodes 5013 16 nucleus antithesis  5014
+autolink_nodes 5011 5014 satelite elaboration-additional  5015
+create-a-node-here really 12.26 17 { \n\nThe Soviet Union reported }
+create-a-node-here really 12.62 18 {that thousands of tons of goods }
+create-a-node-here really 12.120 19 {needed to ease widespread shortages across the nation }
+autolink_nodes 18 19 satelite-embedded elaboration-object-attribute-e  5016
+create-a-node-here really 12.163 20 {were piled up at ports and rail depots,}
+autolink_nodes 5016 20 multinuclear Same-Unit  5017
+autolink_nodes 17 5017 nucleus attribution  5018
+create-a-node-here really 12.200 21 { and food shipments were rotting }
+autolink_nodes 5017 21 multinuclear List above 5019
+#create-a-node-here really 12.264 22 {because of a lack of people and equipment to move the cargo.}
+#nextSentence really
+#autolink_nodes 5019 22 satelite consequence-n above 5019
+#UNDID
+#UNDID
+#UNDID
+create-a-node-here really 12.246 22 {because of a lack of people and equipment }
+autolink_nodes 5019 22 satelite consequence-n above 5019
+create-a-node-here really 13.0 23 {to move the cargo.\n}
+autolink_nodes 22 23 satelite-embedded elaboration-object-attribute-e  5020
+create-a-node-here really 13.42 24 {Strikes and mismanagement were cited, }
+create-a-node-here really 13.93 25 {and Premier Ryzhkov warned of "tough measures."}
+nextSentence really
+autolink_nodes 24 25 multinuclear Problem-Solution  5021
+autolink_nodes 5018 5021 satelite explanation-argumentative  5022
+autolink_nodes 5015 5022 multinuclear Topic-Shift  5023
+collapsed_nodes {5015}
+collapsed_nodes {5015 5022}
+create-a-node-here really 15.15 26 { \n\nBush indicated }
+create-a-node-here really 15.67 27 {there might be "room for flexibility" in a bill }
+create-a-node-here really 15.124 28 {to allow federal funding of abortions for poor women }
+create-a-node-here really 15.164 29 {who are vicitims of rape and incest.}
+nextSentence really
+autolink_nodes 28 29 satelite-embedded elaboration-object-attribute-e  5024
+autolink_nodes 27 5024 satelite-embedded elaboration-object-attribute-e  5025
+autolink_nodes 26 5025 nucleus attribution  5026
+create-a-node-here really 16.45 30 {\nHe reiterated his opposition to such funding,}
+create-a-node-here really 16.85 31 { but expressed hope of a compromise.}
+nextSentence really
+autolink_nodes 30 31 nucleus concession  5027
+autolink_nodes 5026 5027 satelite elaboration-additional  5028
+create-a-node-here really 17.99 32 {\nThe president, at a news conference Friday, also renewed a call for the ouster of Panama's Noriega.}
+nextSentence really
+#autolink_nodes 5028 32 multinuclear Topic-Drift  5029
+#UNDID
+autolink_nodes 5028 32 satelite topic-shift  5029
+create-a-node-here really 19.21 33 { \n\nThe White House said }
+create-a-node-here really 19.62 34 {minors haven't any right to abortion }
+create-a-node-here really 20.0 35 {without the consent of their parents.\n}
+autolink_nodes 34 35 satelite contingency  5030
+autolink_nodes 33 5030 nucleus attribution  5031
+create-a-node-here really 20.73 36 {The administration's policy was stated in a friend-of-the-court brief}
+create-a-node-here really 20.130 37 { urging the Supreme Court to give states more leeway }
+create-a-node-here really 20.156 38 {to restrict abortions.}
+nextSentence really
+autolink_nodes 37 38 satelite-embedded elaboration-object-attribute-e  5032
+autolink_nodes 36 5032 satelite manner  5033
+autolink_nodes 5031 5033 satelite elaboration-additional  5034
+create-a-node-here really 21.83 39 {\nTen of the nation's governors, meanwhile, called on the justices to reject efforts }
+create-a-node-here really 21.106 40 {to limit abortions.}
+nextSentence really
+autolink_nodes 39 40 satelite-embedded elaboration-object-attribute-e  5035
+autolink_nodes 5034 5035 multinuclear Contrast  5036
+autolink_nodes 5029 5036 multinuclear Topic-Drift  5037
+autolink_nodes 5023 5037 multinuclear Topic-Shift below 5037
+collapsed_nodes {5015 5022 5037}
+create-a-node-here really 23.33 41 { \n\nThe Justice Department announced }
+create-a-node-here really 23.79 42 {that the FBI has been given the authority }
+create-a-node-here really 23.116 43 {to seize U.S. fugitives overseas }
+create-a-node-here really 23.166 44 {without the permission of foreign governments.}
+nextSentence really
+autolink_nodes 43 44 satelite condition  5038
+autolink_nodes 42 5038 satelite-embedded elaboration-object-attribute-e  5039
+autolink_nodes 41 5039 nucleus attribution  5040
+create-a-node-here really 24.43 45 {\nSecretary of State Baker emphasized Friday }
+create-a-node-here really 24.114 46 {that the new policy wouldn't be invoked by the Bush administration }
+create-a-node-here really 24.176 47 {without full consideration of foreign-policy implications.}
+nextSentence really
+autolink_nodes 46 47 satelite condition  5041
+autolink_nodes 45 5041 nucleus attribution  5042
+autolink_nodes 5040 5042 multinuclear Contrast  5043
+autolink_nodes 5023 5043 multinuclear Topic-Shift below 5043
+collapsed_nodes {5015 5022 5037 5043}
+create-a-node-here really 26.69 48 { \n\nNASA pronounced the space shuttle Atlantis ready for launch tomorrow }
+create-a-node-here really 26.121 49 {following a five-day postponement of the flight }
+autolink_nodes 48 49 satelite circumstance  5044
+create-a-node-here really 26.161 50 {because of a faulty engine computer.}
+nextSentence really
+autolink_nodes 49 50 satelite result  5045
+create-a-node-here really 27.24 51 {\nThe device was replaced.}
+nextSentence really
+autolink_nodes 5044 51 satelite cause  5046
+create-a-node-here really 28.110 52 {\nThe spacecraft's five astronauts are to dispatch the Galileo space probe on an exploration mission to Jupiter.}
+nextSentence really
+autolink_nodes 5046 52 satelite purpose  5047
+autolink_nodes 5023 5047 multinuclear Topic-Shift below 5047
+collapsed_nodes {5015 5022 5037 5043 5047}
+create-a-node-here really 30.70 53 { \n\nSouth Korea's President Roh traveled to the U.S. for a five-day visit }
+create-a-node-here really 30.137 54 {that is expected to focus on ties between Washington and Seoul.}
+nextSentence really
+autolink_nodes 53 54 satelite-embedded elaboration-object-attribute-e  5048
+create-a-node-here really 31.4 55 {\nRoh,}
+create-a-node-here really 31.87 56 { who is facing calls for the reduction of U.S. military forces in South Korea, }
+autolink_nodes 55 56 satelite-embedded elaboration-additional-e  5049
+create-a-node-here really 31.121 57 {is to meet with Bush tomorrow }
+create-a-node-here really 31.184 58 {and is to address a joint session of Congress on Wednesday.}
+nextSentence really
+autolink_nodes 5049 57 multinuclear Same-Unit  5050
+autolink_nodes 5050 58 multinuclear Sequence above 5051
+autolink_nodes 5048 5051 satelite elaboration-additional  5052
+autolink_nodes 5023 5052 multinuclear Topic-Shift below 5052
+collapsed_nodes {5015 5022 5037 5043 5047 5052}
+create-a-node-here really 33.123 59 { \n\nChina's Communist leadership voted to purge the party of "hostile and anti-party elements" and wealthy private businessmen,}
+create-a-node-here really 33.156 60 { whom they called exploiters.}
+nextSentence really
+autolink_nodes 59 60 satelite-embedded elaboration-additional-e  5053
+create-a-node-here really 34.14 61 {\nThe decision, }
+create-a-node-here really 34.63 62 {reported by the official Xinhua News Agency, }
+autolink_nodes 61 62 satelite-embedded elaboration-additional-e  5054
+create-a-node-here really 34.77 63 {indicated }
+autolink_nodes 5054 63 multinuclear Same-Unit  5055
+create-a-node-here really 34.100 64 {that the crackdown }
+create-a-node-here really 34.159 65 {prompted by student-led pro-democracy protests in June }
+autolink_nodes 64 65 satelite-embedded elaboration-object-attribute-e  5056
+autolink_nodes 64 65 satelite-embedded elaboration-object-attribute-e  5057
+create-a-node-here really 34.179 66 {is intensifying.}
+nextSentence really
+autolink_nodes 5056 66 multinuclear Same-Unit  5058
+autolink_nodes 5055 5058 nucleus attribution  5059
+autolink_nodes 5053 5059 satelite elaboration-additional  5060
+autolink_nodes 5023 5060 multinuclear Topic-Shift below 5060
+collapsed_nodes {5015 5022 5037 5043 5047 5052 5060}
+create-a-node-here really 36.62 67 { \n\nHundreds of East Germans flocked to Bonn's Embassy in Warsaw, }
+create-a-node-here really 36.116 68 {bringing to more than 1,200 the number of emigres }
+create-a-node-here really 36.149 69 {expected to flee to the West }
+create-a-node-here really 36.169 70 {beginning today.}
+nextSentence really
+autolink_nodes 67 68 satelite cause  5061
+autolink_nodes 68 69 satelite-embedded elaboration-object-attribute-e  5062
+autolink_nodes 5062 70 satelite circumstance  5063
+#create-a-node-here really 37.79 71 {\nMore than 2,100 others escaped to West Germany through Hungary over the Weekend}
+#autolink_nodes 5061 71 multinuclear List  5064
+#UNDID
+#UNDID
+create-a-node-here really 38.0 71 {\nMore than 2,100 others escaped to West Germany through Hungary over the Weekend.\n}
+autolink_nodes 5061 71 multinuclear List  5064
+create-a-node-here really 38.60 72 {In Leipzig, activists vowed to continue street protests }
+create-a-node-here really 38.90 73 {to demand internal change.}
+nextSentence really
+autolink_nodes 72 73 satelite purpose  5065
+autolink_nodes 5064 5065 satelite elaboration-additional  5066
+autolink_nodes 5023 5066 multinuclear Topic-Shift below 5066
+collapsed_nodes {5015 5022 5037 5043 5047 5052 5060 5066}
+create-a-node-here really 40.115 74 { \n\nZaire's President Mobutu met in southern France with Angolan rebel leader Savimbi and a senior U.S. envoy in a bid }
+create-a-node-here really 40.139 75 {to revive an accord }
+create-a-node-here really 40.169 76 {to end Angola's civil war.}
+nextSentence really
+autolink_nodes 75 76 satelite-embedded elaboration-object-attribute-e  5067
+autolink_nodes 74 5067 satelite-embedded elaboration-object-attribute-e  5068
+create-a-node-here really 41.31 77 {\nDetails of the talks, described}
+create-a-node-here really 41.78 78 { by a Zairean official as "very delicate," }
+autolink_nodes 77 78 satelite-embedded elaboration-additional-e  5069
+create-a-node-here really 41.100 79 {weren't disclosed.}
+nextSentence really
+autolink_nodes 5069 79 multinuclear Same-Unit  5070
+autolink_nodes 5068 5070 satelite elaboration-additional  5071
+autolink_nodes 5023 5071 multinuclear Topic-Shift below 5071
+collapsed_nodes {5015 5022 5037 5043 5047 5052 5060 5066 5071}
+create-a-node-here really 43.41 80 { \n\nPLO leader Arafat insisted on guarantees }
+create-a-node-here really 43.119 81 {that any elections in the Israeli-occupied territories would be impartial.}
+nextSentence really
+autolink_nodes 80 81 satelite-embedded elaboration-object-attribute-e  5072
+create-a-node-here really 44.50 82 {\nHe made his remarks to a PLO gathering in Baghdad.}
+nextSentence really
+autolink_nodes 5072 82 satelite elaboration-additional  5073
+create-a-node-here really 45.85 83 {\nIn the occupied lands, underground leaders of the Arab uprising rejected a U.S. plan }
+create-a-node-here really 45.126 84 {to arrange Israeli-Palestinian talks }
+autolink_nodes 83 84 satelite-embedded elaboration-object-attribute-e  5074
+create-a-node-here really 45.182 85 {as Shamir opposed holding such discussions in Cairo.}
+nextSentence really
+#autolink_nodes 5074 85 satelite consequence-s  5075
+#UNDID
+autolink_nodes 5074 85 satelite consequence-n  5075
+autolink_nodes 5073 5075 multinuclear Topic-Drift  5076
+autolink_nodes 5023 5076 multinuclear Topic-Shift below 5076
+collapsed_nodes {5015 5022 5037 5043 5047 5052 5060 5066 5071 5076}
+create-a-node-here really 48.0 86 { \n\nLebanese Christian lawmakers presented to Arab mediators at talks in Saudi Arabia proposals for a new timetable for the withdrawal of Syria's forces from Lebanon.\n}
+create-a-node-here really 48.91 87 {A plan currently under study gives Damascus two years to pull back to eastern Lebanon, }
+autolink_nodes 86 87 satelite background  5077
+create-a-node-here really 48.118 88 {starting from the time }
+autolink_nodes 87 88 satelite contingency  5078
+create-a-node-here really 48.181 89 {Beirut's legislature increases political power for Moslems.}
+nextSentence really
+autolink_nodes 88 89 satelite-embedded elaboration-object-attribute-e  5079
+autolink_nodes 5023 5077 multinuclear Topic-Shift below 5079
+collapsed_nodes {5015 5022 5037 5043 5047 5052 5060 5066 5071 5076 5077}
+create-a-node-here really 50.73 90 { \n\nHurricane Jerry threatened to combine with the highest tides of the year }
+create-a-node-here really 50.112 91 {to swamp the Texas-Louisiana coast.}
+nextSentence really
+autolink_nodes 90 91 satelite consequence-s  5080
+create-a-node-here really 51.67 92 {\nThousands of residents of low-lying areas were ordered to evacuate }
+create-a-node-here really 51.137 93 {as the storm headed north in the Gulf of Mexico with 80 mph winds.}
+nextSentence really
+autolink_nodes 92 93 satelite circumstance  5081
+autolink_nodes 5080 5081 satelite consequence-s  5082
+autolink_nodes 5023 5082 multinuclear Topic-Shift below 5082
+collapsed_nodes {5015 5022 5037 5043 5047 5052 5060 5066 5071 5076 5077}
+collapsed_nodes {5015 5022 5037 5043 5047 5052 5060 5066 5071 5076}
+collapsed_nodes {5015 5022 5037 5043 5047 5052 5060 5066 5071}
+collapsed_nodes {5015 5022 5037 5043 5047 5052 5060 5066}
+collapsed_nodes {5015 5022 5037 5043 5047 5052 5060}
+collapsed_nodes {5015 5022 5037 5043 5047 5052}
+collapsed_nodes {5015 5022 5037 5043 5047}
+collapsed_nodes {5015 5022 5037 5043}
+disconnect_node 51 modify
+autolink_nodes 5044 51 satelite result below 5083
+collapsed_nodes {5015 5022 5037}
+collapsed_nodes {5015 5022}
+collapsed_nodes {5015}
+disconnect_node 5020 disconnect
+autolink_nodes 21 5020 satelite consequence-n  5084
+disconnect_node 25 modify
+autolink_nodes 24 25 satelite problem-solution-s  5085
+collapsed_nodes {}
+#disconnect_node 5007 modify
+#autolink_nodes 5004 5007 satelite comment above 5085
+#UNDID
+#UNDID
+disconnect_node 5007 modify
+autolink_nodes 5004 5007 satelite comment below 5086

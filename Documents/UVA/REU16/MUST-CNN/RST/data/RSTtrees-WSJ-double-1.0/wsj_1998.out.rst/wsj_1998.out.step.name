@@ -1,0 +1,64 @@
+nextSentence really
+create-a-node-here really 2.16 1 {\nOlin Corp. said }
+create-a-node-here really 2.94 2 {third-quarter net income rose 26% on the strength of its chemical business.}
+nextSentence really
+autolink_nodes 1 2 nucleus attribution  5001
+create-a-node-here really 4.96 3 { \n\nNet was $24 million, or $1.15 a share, up from $19 million, or 90 cents a share, a year earlier.}
+nextSentence really
+autolink_nodes 5001 3 satelite evidence  5002
+create-a-node-here really 5.50 4 {\nSales rose 7.4% to $580 million from $540 million.}
+nextSentence really
+autolink_nodes 3 4 multinuclear List  5003
+create-a-node-here really 7.10 5 { \n\nOlin said }
+autolink_nodes 5002 5 satelite elaboration-additional  5004
+create-a-node-here really 7.93 6 {its chemical segment had profit of $22 million, up from $15 million a year ago, }
+#autolink_nodes 5 6 nucleus attribution  5005
+#UNDID
+autolink_nodes 5 6 nucleus attribution  5005
+create-a-node-here really 8.0 7 {largely because of gains in electrochemicals such as caustic soda.\n}
+autolink_nodes 5005 7 satelite example  5006
+create-a-node-here really 8.20 8 {The company said }
+autolink_nodes 5006 8 satelite reason  5007
+create-a-node-here really 8.81 9 {the gains were tied to volume increases and higher prices.}
+nextSentence really
+autolink_nodes 8 9 nucleus attribution  5008
+create-a-node-here really 9.93 10 {\nThe market for electrochemicals include the paper, water-purification and textile industries.}
+nextSentence really
+autolink_nodes 5008 10 satelite elaboration-set-member  5009
+create-a-node-here really 11.87 11 { \n\nThe chemical segment had a $6 million gain on the sale of ammonia and urea businesses, }
+autolink_nodes 5007 11 satelite elaboration-set-member  5010
+create-a-node-here really 11.169 12 {which was offset by a $6 million charge for future environmental expenditures.}
+nextSentence really
+autolink_nodes 11 12 satelite antithesis  5011
+create-a-node-here really 12.83 13 {\nProfit in Olin's defense and ammunition segment rose to $8 million from $7 million.}
+nextSentence really
+autolink_nodes 5011 13 multinuclear List  5012
+create-a-node-here really 13.20 14 {\nThe metals segment, }
+autolink_nodes 5012 14 multinuclear List below 5012
+create-a-node-here really 13.42 15 {hurt by a strike, }
+autolink_nodes 14 15 satelite-embedded elaboration-additional-e  5013
+create-a-node-here really 13.100 16 {had break-even results, against $3 million a year ago.}
+nextSentence really
+autolink_nodes 5013 16 multinuclear Same-Unit  5014
+create-a-node-here really 15.119 17 { \n\nIn the first nine months, net rose 21% to $93 million, or $4.52 a share, from $77 million, or $3.62 a share a year ago.}
+nextSentence really
+autolink_nodes 5004 17 satelite summary-s  5015
+create-a-node-here really 16.51 18 {\nSales rose 13% to $1.91 billion from $1.69 billion.}
+nextSentence really
+autolink_nodes 17 18 multinuclear List  5016
+nextSentence really
+nextSentence really
+create-a-node-here really 18.92 19 { \n\nIn New York Stock Exchange composite trading, Olin closed at $58.50 a share, down 25 cents. }
+autolink_nodes 5016 19 multinuclear List below 5016
+collapsed_nodes {5015}
+nextSentence really
+nextSentence really
+collapsed_nodes {}
+#disconnect_node 7 modify
+#UNDID
+disconnect_node 7 modify
+#autolink_nodes 6 7 satelite example below 5017
+#UNDID
+autolink_nodes 6 7 satelite example below 5017
+disconnect_node 10 modify
+autolink_nodes 5008 10 satelite elaboration-additional  5018

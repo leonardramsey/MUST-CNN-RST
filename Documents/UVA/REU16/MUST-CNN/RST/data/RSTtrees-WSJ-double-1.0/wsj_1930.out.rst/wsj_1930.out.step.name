@@ -1,0 +1,314 @@
+nextSentence really
+create-a-node-here really 2.83 1 {\nINSURERS ARE FACING billions of dollars in damage claims from the California quake.}
+nextSentence really
+create-a-node-here really 3.36 2 {\nBut most businesses in the Bay area,}
+autolink_nodes 1 2 nucleus antithesis  5001
+create-a-node-here really 3.65 3 { including Silicon Valley,}
+autolink_nodes 2 3 satelite-embedded elaboration-part-whole-e below 5002
+create-a-node-here really 3.94 4 { weren't greatly affected.}
+nextSentence really
+autolink_nodes 5002 4 multinuclear Same-Unit  5003
+create-a-node-here really 4.107 5 {\nComputer and software companies in the region are expecting virtually no long-term disruption in shipments.}
+nextSentence really
+#create-a-node-here really 5.42 6 {\nAlso, investors quickly singled out stocks}
+#UNDID
+autolink_nodes 5003 5 satelite elaboration-additional below 5004
+create-a-node-here really 5.56 6 {\nAlso, investors quickly singled out stocks of companies }
+autolink_nodes 5 6 multinuclear List  5005
+create-a-node-here really 5.107 7 {expected to profit or suffer from the disaster. }
+autolink_nodes 6 7 satelite-embedded elaboration-object-attribute-e  5006
+collapsed_nodes {5001}
+create-a-node-here really 7.83 8 {\n\nLeveraged buy-outs may be curbed by two rules in pending congressional legislation.}
+nextSentence really
+autolink_nodes 5001 8 multinuclear Topic-Shift  5007
+create-a-node-here really 8.43 9 {\nThe provisions, in deficit-reduction bills }
+autolink_nodes 8 9 satelite elaboration-additional  5008
+create-a-node-here really 8.87 10 {recently passed by the House and Senate, }
+autolink_nodes 9 10 satelite-embedded elaboration-additional-e  5009
+create-a-node-here really 8.145 11 {could raise the price tags of such deals by up to 10% }
+autolink_nodes 5009 11 multinuclear Same-Unit  5010
+create-a-node-here really 8.176 12 {and cool the takeover boom.}
+nextSentence really
+autolink_nodes 5010 12 multinuclear List above 5011
+collapsed_nodes {5004 5008}
+create-a-node-here really 10.7 13 { \n\nA bill }
+autolink_nodes 5007 13 multinuclear Topic-Shift below 5011
+create-a-node-here really 10.58 14 {giving the Transportation Department the power }
+autolink_nodes 13 14 satelite-embedded elaboration-object-attribute-e  5012
+create-a-node-here really 10.98 15 {to block airline leveraged buy-outs }
+autolink_nodes 14 15 satelite-embedded elaboration-object-attribute-e  5013
+create-a-node-here really 10.124 16 {cleared a House panel.}
+nextSentence really
+autolink_nodes 5012 16 multinuclear Same-Unit  5014
+create-a-node-here really 11.27 17 {\nBut Secretary Skinner said }
+autolink_nodes 5014 17 nucleus concession  5015
+create-a-node-here really 11.67 18 {he would urge Bush to veto the bill.}
+nextSentence really
+autolink_nodes 17 18 nucleus attribution  5016
+collapsed_nodes {5004 5008 5015}
+create-a-node-here really 13.58 19 { \n\nHousing starts sank 5.2% in September to a seven-year low.}
+nextSentence really
+autolink_nodes 5007 19 multinuclear Topic-Shift below 5016
+create-a-node-here really 14.10 20 {\nThe drop, }
+autolink_nodes 19 20 satelite elaboration-additional  5017
+create-a-node-here really 14.50 21 {following a 6.2% decline in August, }
+create-a-node-here really 14.64 22 {indicates }
+autolink_nodes 22 21 satelite circumstance  5018
+autolink_nodes 20 5018 multinuclear Same-Unit  5019
+disconnect_node 21 disconnect
+autolink_nodes 22 21 satelite-embedded circumstance-e  5020
+create-a-node-here really 14.136 23 {the industry is still being hurt by the Fed's anti-inflation battle.}
+nextSentence really
+#autolink_nodes 22 23 nucleus attribution  5021
+#UNDID
+autolink_nodes 5019 23 nucleus attribution  5021
+collapsed_nodes {5004 5008 5015 5017}
+create-a-node-here really 17.0 24 { \n\nIBM plans to buy back $1 billion of its common shares, a move likely to help the computer giant's battered stock.\n}
+autolink_nodes 5007 24 multinuclear Topic-Shift below 5021
+create-a-node-here really 17.18 25 {The buy-back, }
+autolink_nodes 24 25 satelite elaboration-additional  5022
+create-a-node-here really 17.55 26 {which wasn't a complete surprise,}
+autolink_nodes 25 26 satelite-embedded elaboration-additional-e  5023
+create-a-node-here really 17.74 27 { was announced }
+autolink_nodes 5023 27 multinuclear Same-Unit  5024
+create-a-node-here really 17.112 28 {after the stock market had closed.}
+nextSentence really
+autolink_nodes 5024 28 satelite temporal-after  5025
+collapsed_nodes {5004 5008 5015 5017 5022}
+create-a-node-here really 19.71 29 { \n\nA capital-gains tax cut plan has been worked out by Senate Republicans.}
+nextSentence really
+autolink_nodes 5007 29 multinuclear Topic-Shift below 5025
+create-a-node-here really 20.62 30 {\nA similar proposal may be introduced soon by Senate Democrats.}
+nextSentence really
+autolink_nodes 29 30 multinuclear Comparison  5026
+create-a-node-here really 22.21 31 { \n\nBritish Airways said }
+autolink_nodes 5007 31 multinuclear Topic-Shift below 5026
+collapsed_nodes {5004 5008 5015 5017 5022 5026}
+create-a-node-here really 22.123 32 {it is seeking improved terms and a sharply lower price in any revised bid for United Air's parent.}
+nextSentence really
+autolink_nodes 31 32 nucleus attribution  5027
+create-a-node-here really 23.35 33 {\nThe British carrier also confirmed }
+autolink_nodes 5027 33 satelite elaboration-additional  5028
+create-a-node-here really 23.92 34 {it isn't committed to going forward with any new bid.}
+nextSentence really
+autolink_nodes 33 34 nucleus attribution  5029
+nextSentence really
+create-a-node-here really 24.35 35 {\nUAL's stock fell $6.25, to $191.75.}
+nextSentence really
+autolink_nodes 5028 35 satelite elaboration-additional  5030
+collapsed_nodes {5004 5008 5015 5017 5022 5026 5030}
+create-a-node-here really 26.27 36 { \n\nStock prices rose slightly }
+autolink_nodes 5007 36 multinuclear Topic-Shift below 5030
+create-a-node-here really 26.49 37 {as trading slowed,}
+autolink_nodes 36 37 multinuclear Temporal-Same-Time  5031
+create-a-node-here really 26.72 38 { while bonds ended }
+autolink_nodes 5031 38 multinuclear Temporal-Same-Time above 5032
+create-a-node-here really 26.90 39 {little changed}
+autolink_nodes 38 39 satelite-embedded elaboration-object-attribute-e  5033
+create-a-node-here really 26.121 40 { despite a slumping dollar.}
+nextSentence really
+autolink_nodes 5033 40 satelite concession  5034
+nextSentence really
+create-a-node-here really 27.50 41 {\nThe Dow Jones industrials gained 4.92, to 2643.65.}
+nextSentence really
+autolink_nodes 5032 41 satelite elaboration-part-whole  5035
+create-a-node-here really 28.40 42 {\nBut investors remain wary about stocks, }
+autolink_nodes 41 42 nucleus concession  5036
+create-a-node-here really 28.94 43 {partly because of turmoil in the junk-bond market.}
+nextSentence really
+autolink_nodes 42 43 satelite circumstance below 5037
+collapsed_nodes {5004 5008 5015 5017 5022 5026 5030 5035}
+create-a-node-here really 30.69 44 { \n\nB.A.T Industries may delay part of its defensive restructuring plan, }
+autolink_nodes 5007 44 multinuclear Topic-Shift below 5037
+create-a-node-here really 30.142 45 {including the sale of its Saks Fifth Avenue and Marshall Field units.}
+nextSentence really
+autolink_nodes 44 45 satelite elaboration-part-whole  5038
+create-a-node-here really 31.71 46 {\nThe British conglomerate cited the recent turmoil in financial markets.}
+nextSentence really
+autolink_nodes 5038 46 satelite explanation-argumentative  5039
+collapsed_nodes {5004 5008 5015 5017 5022 5026 5030 5035 5039}
+create-a-node-here really 33.43 47 { \n\nWCRS Group announced a major restructuring }
+autolink_nodes 5007 47 multinuclear Topic-Shift below 5039
+create-a-node-here really 33.101 48 {that largely removes it from the advertising business.}
+nextSentence really
+autolink_nodes 47 48 satelite-embedded elaboration-object-attribute-e  5040
+create-a-node-here really 34.75 49 {\nThe London-based concern will sell most of its ad unit to France's Eurocom.}
+nextSentence really
+autolink_nodes 5040 49 satelite elaboration-general-specific  5041
+collapsed_nodes {5004 5008 5015 5017 5022 5026 5030 5035 5039 5041}
+create-a-node-here really 36.78 50 { \n\nCommodore International expects to post its second consecutive quarterly loss }
+autolink_nodes 5007 50 multinuclear Topic-Shift below 5041
+create-a-node-here really 36.138 51 {because of weak personal computer sales in some markets.}
+nextSentence really
+autolink_nodes 50 51 satelite consequence-n  5042
+collapsed_nodes {5004 5008 5015 5017 5022 5026 5030 5035 5039 5041 5042}
+create-a-node-here really 38.75 52 { \n\nJaguar hopes to reach a friendly accord with General Motors within a month }
+autolink_nodes 5007 52 multinuclear Topic-Shift below 5042
+create-a-node-here really 38.132 53 {that may involve producing a cheaper executive model.}
+nextSentence really
+autolink_nodes 52 53 satelite-embedded elaboration-object-attribute-e  5043
+collapsed_nodes {5004 5008 5015 5017 5022 5026 5030 5035 5039 5041 5042 5043}
+create-a-node-here really 40.77 54 { \n\nSears is negotiating to refinance its Sears Tower for close to $850 million, }
+autolink_nodes 5007 54 multinuclear Topic-Shift below 5043
+create-a-node-here really 40.94 55 {sources said.}
+nextSentence really
+autolink_nodes 54 55 satelite attribution  5044
+collapsed_nodes {5004 5008 5015 5017 5022 5026 5030 5035 5039 5041 5042 5043 5044}
+create-a-node-here really 41.57 56 {\nThe retailer was unable to find a buyer for the building.}
+nextSentence really
+collapsed_nodes {5004 5008 5015 5017 5022 5026 5030 5035 5039 5041 5042 5043}
+autolink_nodes 5044 56 satelite circumstance  5045
+collapsed_nodes {5004 5008 5015 5017 5022 5026 5030 5035 5039 5041 5042 5043 5045}
+create-a-node-here really 43.59 57 { \n\nWhitbread of Britain put its spirits division up for sale, }
+autolink_nodes 5007 57 multinuclear Topic-Shift below 5045
+create-a-node-here really 43.103 58 {setting off a scramble among distillers.}
+nextSentence really
+autolink_nodes 57 58 multinuclear Cause-Result  5046
+create-a-node-here really 44.36 59 {\nThe business includes Beefeater gin.}
+nextSentence really
+autolink_nodes 5046 59 satelite-embedded elaboration-part-whole-e  5047
+collapsed_nodes {5004 5008 5015 5017 5022 5026 5030 5035 5039 5041 5042 5043 5045 5047}
+create-a-node-here really 47.0 60 { \n\nMarkets -- \n}
+autolink_nodes 5007 60 multinuclear Topic-Shift below 5047
+create-a-node-here really 48.8 61 {\nStocks: }
+#autolink_nodes 60 61 schema Heading  5047
+#UNDID
+autolink_nodes 60 61 schema Heading  5047
+#autolink_nodes 60 61 schema SectionTitle  5047
+#UNDID
+#autolink_nodes 60 61 schema SectionTitle  5047
+#UNDID
+create-a-node-here really 49.0 62 {Volume 166,900,000 shares.\n}
+nextSentence really
+#create-a-node-here really 49.44 63 {Dow Jones industrials 2643.65, up 4.92; }
+#autolink_nodes 62 63 multinuclear List  5048
+#UNDID
+#nextSentence really
+#autolink_nodes 62 63 multinuclear List  5048
+#nextSentence really
+#create-a-node-here really 49.109 64 {transportation 1247.87, off 6.40; utilities 213.97, off 0.57.}
+#nextSentence really
+#autolink_nodes 5048 64 multinuclear List below 5048
+#create-a-node-here really 51.7 65 { \n\nBonds: }
+#nextSentence really
+#nextSentence really
+#create-a-node-here really 52.0 66 {Shearson Lehman Hutton Treasury index 3371.36, off \n}
+#autolink_nodes 65 66 multinuclear TextualOrganization  5049
+#autolink_nodes 60 61 multinuclear TextualOrganization  5050
+#autolink_nodes 61 5048 multinuclear TextualOrganization  5051
+#change_constit 5051 Text
+#change_constit 61 SectionTitle
+#change_constit 5048 SectionText
+#autolink_nodes 5050 5049 multinuclear TextualOrganization below 5051
+#create-a-node-here really 53.13 67 {\nCommodities: }
+#autolink_nodes 5050 67 multinuclear TextualOrganization below 5051
+#change_constit 65 SectionTitle
+#collapsed_nodes {5004 5008 5015 5017 5022 5026 5030 5035 5039 5041 5042 5043 5045 5047}
+#change_constit 65 SectionTitle
+#change_constit 66 SectionText
+#collapsed_nodes {5004 5008 5015 5017 5022 5026 5030 5035 5039 5041 5042 5043 5045 5047}
+#collapsed_nodes {5004 5008 5015 5017 5022 5026 5030 5035 5039 5041 5042 5043 5045 5047}
+#collapsed_nodes {}
+#change_constit 65 SectionTitle
+#change_constit 66 SectionText
+#change_constit 67 SectionTitle
+#create-a-node-here really 53.57 68 {Dow Jones futures index 129.90, up 0.18;}
+#autolink_nodes 67 68 multinuclear TextualOrganization  5052
+#change_constit 68 
+#create-a-node-here really 53.77 69 { spot index 130.}
+#nextSentence really
+#UNDID
+#UNDID
+#nextSentence really
+#create-a-node-here really 54.0 69 { spot index 130.36, up 0.39. \n}
+#autolink_nodes 68 69 multinuclear List  5053
+#UNDID
+#autolink_nodes 68 69 multinuclear List  5053
+#change_constit 5053 SectionText
+#create-a-node-here really 55.8 70 {\nDollar: }
+#autolink_nodes 5050 70 multinuclear TextualOrganization below 5053
+#nextSentence really
+#create-a-node-here really 55.33 71 {141.45 yen, off 1.30;}
+#autolink_nodes 70 71 multinuclear TextualOrganization  5054
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+autolink_nodes 61 62 multinuclear TextualOrganization  5048
+change_constit 60 
+#change_constit 60 
+#change_constit 60 
+#UNDID
+#UNDID
+nextSentence really
+nextSentence really
+create-a-node-here really 49.105 63 {Dow Jones industrials 2643.65, up 4.92; transportation 1247.87, off 6.40; utilities 213.97, off 0.57.}
+nextSentence really
+#autolink_nodes 62 63 multinuclear List  5049
+#UNDID
+#create-a-node-here really 51.7 64 { \n\nBonds: }
+#UNDID
+autolink_nodes 62 63 multinuclear List  5049
+create-a-node-here really 51.7 64 { \n\nBonds: }
+autolink_nodes 5048 64 multinuclear List above 5050
+create-a-node-here really 52.0 65 {Shearson Lehman Hutton Treasury index 3371.36, off \n}
+autolink_nodes 64 65 multinuclear TextualOrganization  5051
+create-a-node-here really 53.13 66 {\nCommodities: }
+autolink_nodes 5050 66 multinuclear List below 5051
+nextSentence really
+nextSentence really
+nextSentence really
+create-a-node-here really 53.86 67 {Dow Jones futures index 129.90, up 0.18; spot index 130.36, up 0.39. }
+autolink_nodes 66 67 multinuclear TextualOrganization  5052
+create-a-node-here really 55.8 68 {\n\nDollar: }
+autolink_nodes 5050 68 multinuclear List below 5052
+nextSentence really
+nextSentence really
+create-a-node-here really 56.0 69 {141.45 yen, off 1.30; 1.8485 marks, off 0.0182. \n}
+nextSentence really
+autolink_nodes 68 69 multinuclear TextualOrganization  5053
+collapsed_nodes {5004 5008 5015 5017 5022 5026 5030 5035 5039 5041 5042 5043 5045 5047 5007}
+collapsed_nodes {}
+autolink_nodes 60 5050 multinuclear TextualOrganization  5054
+change_constit 61 SectionTitle
+change_constit 5049 SectionText
+change_constit 64 SectionTitle
+change_constit 66 SectionTitle
+change_constit 68 SectionTitle
+change_constit 69 SectionText
+change_constit 67 SectionText
+change_constit 65 SectionText

@@ -1,0 +1,645 @@
+nextSentence really
+create-a-node-here really 2.43 1 {\nRalph Brown was 31,000 feet over Minnesota }
+create-a-node-here really 2.89 2 {when both jets on his Falcon 20 flamed out.}
+nextSentence really
+autolink_nodes 1 2 nucleus temporal-same-time  5001
+create-a-node-here really 3.16 3 {\nAt 18,000 feet, }
+autolink_nodes 5001 3 satelite elaboration-additional  5002
+create-a-node-here really 3.27 4 {he says,}
+autolink_nodes 3 4 satelite attribution  5003
+create-a-node-here really 3.98 5 { he and his co-pilot "were looking for an interstate or a cornfield"}
+autolink_nodes 5003 5 multinuclear Same-Unit  5004
+create-a-node-here really 3.110 6 { to land.}
+nextSentence really
+autolink_nodes 5004 6 satelite purpose  5005
+create-a-node-here really 5.38 7 { \n\nAt 13,000 feet, the engines restarted.}
+nextSentence really
+autolink_nodes 5005 7 satelite elaboration-additional  5006
+create-a-node-here really 6.12 8 {\nBut knowing }
+autolink_nodes 7 8 nucleus concession  5007
+create-a-node-here really 6.68 9 {that mechanics would probably ground him for repairs,}
+autolink_nodes 8 9 nucleus attribution  5008
+create-a-node-here really 6.117 10 { Mr. Brown skipped his stop in nearby Chicago }
+#autolink_nodes 5008 10 nucleus circumstance  5009
+#UNDID
+autolink_nodes 5008 10 nucleus reason  5009
+create-a-node-here really 6.152 11 {and set course to get his load }
+autolink_nodes 10 11 multinuclear List  5010
+create-a-node-here really 6.184 12 {-- a few hundred parcels -- }
+autolink_nodes 11 12 satelite-embedded elaboration-general-specific-e  5011
+create-a-node-here really 6.231 13 {to the Memphis package-sorting hub on time.}
+autolink_nodes 5011 13 multinuclear Same-Unit  5012
+create-a-node-here really 7.34 14 {\nHad he been a little less gung-ho,}
+autolink_nodes 5007 14 satelite elaboration-additional  5013
+create-a-node-here really 7.80 15 { "I'd have gotten the thing on the ground }
+autolink_nodes 14 15 nucleus condition  5014
+create-a-node-here really 7.117 16 {and headed for the nearest bar," }
+autolink_nodes 15 16 multinuclear Sequence  5015
+create-a-node-here really 7.136 17 {Mr. Brown says.}
+nextSentence really
+autolink_nodes 5014 17 satelite attribution  5016
+create-a-node-here really 9.107 18 { \n\nBut he flies for Federal Express Corp., perhaps the closest thing in corporate America to the Green Berets.}
+nextSentence really
+autolink_nodes 5016 18 satelite circumstance  5017
+create-a-node-here really 10.35 19 {\nFederal's employees work long hours}
+autolink_nodes 18 19 satelite explanation-argumentative  5018
+create-a-node-here really 10.72 20 { and seem to thrive on the stress}
+autolink_nodes 19 20 multinuclear List  5019
+create-a-node-here really 10.97 21 { of racing the clock.}
+nextSentence really
+autolink_nodes 20 21 satelite-embedded elaboration-object-attribute-e  5020
+create-a-node-here really 11.56 22 {\nLike Mr. Brown, they sometimes go to surprising lengths }
+autolink_nodes 5019 22 satelite elaboration-additional  5021
+create-a-node-here really 11.100 23 {to meet that overarching corporate goal:}
+autolink_nodes 22 23 satelite purpose  5022
+create-a-node-here really 11.134 24 { delivering the goods on time.}
+nextSentence really
+autolink_nodes 23 24 satelite-embedded elaboration-general-specific-e  5023
+#create-a-node-here really 12.49 25 {\nThey are a tribute to Federal's management which,}
+#UNDID
+create-a-node-here really 12.43 25 {\nThey are a tribute to Federal's management }
+autolink_nodes 5021 25 satelite elaboration-additional  5024
+create-a-node-here really 12.133 26 {which, since the company's founding 16 years ago, has had its way with its work force }
+autolink_nodes 25 26 satelite-embedded elaboration-additional-e  5025
+create-a-node-here really 12.200 27 {-- an unusual feat in the contentious transportation industry. }
+autolink_nodes 26 27 satelite elaboration-additional  5026
+create-a-node-here really 14.21 28 {\n\nThat may soon change.}
+nextSentence really
+collapsed_nodes {5025}
+collapsed_nodes {5025 5022}
+autolink_nodes 5024 28 nucleus antithesis  5027
+create-a-node-here really 15.35 29 {\nThis month, Federal's 2,048 pilots,}
+autolink_nodes 28 29 satelite explanation-argumentative below 5028
+#create-a-node-here really 15.116 30 { including some 961 acquired along with Tiger International Inc. in February,}
+#autolink_nodes 29 30 satelite-embedded example-e  5029
+#UNDID
+#UNDID
+create-a-node-here really 15.59 30 { including some 961 }
+autolink_nodes 29 30 satelite-embedded elaboration-set-member-e  5029
+create-a-node-here really 15.121 31 {acquired along with Tiger International Inc. in February, }
+autolink_nodes 30 31 satelite-embedded elaboration-object-attribute-e  5030
+create-a-node-here really 16.0 32 {will decide whether to elect the powerful Air Line Pilots Association as their bargaining agent.\n}
+autolink_nodes 5029 32 multinuclear Same-Unit  5031
+create-a-node-here really 16.17 33 {The election,}
+autolink_nodes 5031 33 satelite elaboration-additional  5032
+create-a-node-here really 16.92 34 { which would bring the first major union to Federal's U.S. operations, }
+autolink_nodes 33 34 satelite-embedded elaboration-additional-e  5033
+create-a-node-here really 16.160 35 {has pitted new hires against devoted veterans such as Mr. Brown.}
+nextSentence really
+autolink_nodes 5033 35 multinuclear Same-Unit  5034
+create-a-node-here really 17.149 36 {\nIt has also rattled Federal's strongly anti-union management, which is already contending with melding far-flung operations and with falling profits.}
+nextSentence really
+autolink_nodes 5034 36 satelite elaboration-additional  5035
+create-a-node-here really 19.53 37 { \n\n"A union, sooner or later, has to have an adversary, }
+autolink_nodes 36 37 satelite explanation-argumentative  5036
+create-a-node-here really 19.88 38 {and it has to have a victory," }
+autolink_nodes 37 38 multinuclear List  5037
+create-a-node-here really 19.170 39 {Frederick W. Smith, Federal's chairman and chief executive, says with disdain.}
+nextSentence really
+autolink_nodes 5037 39 satelite attribution  5038
+create-a-node-here really 19.241 40 { "In our formula, we don't have any losers except the competition."}
+nextSentence really
+#autolink_nodes 5038 40 satelite elaboration-additional  5039
+#UNDID
+autolink_nodes 39 40 nucleus attribution  5039
+create-a-node-here really 22.0 41 { \n\nWhat managers really fear is that the pro-union movement could spread beyond the pilots.\n}
+autolink_nodes 5036 41 satelite elaboration-additional  5040
+create-a-node-here really 22.145 42 {Under federal transportation law, a government mediator is attempting to reconcile the melding of Tiger's job classifications into Federal's.}
+nextSentence really
+autolink_nodes 41 42 satelite circumstance  5041
+create-a-node-here really 23.25 43 {\nDepending on the outcome,}
+autolink_nodes 42 43 satelite explanation-argumentative  5042
+create-a-node-here really 23.160 44 { the merged company may face union elections this fall among airplane mechanics, ramp workers, stock clerks and flight dispatchers.}
+nextSentence really
+autolink_nodes 43 44 nucleus circumstance  5043
+create-a-node-here really 24.52 45 {\nThese groups constitute up to 10% of its work force.}
+nextSentence really
+autolink_nodes 5043 45 satelite elaboration-set-member  5044
+create-a-node-here really 26.75 46 { \n\n"Unions would have a profound effect on the whole culture of the company," }
+autolink_nodes 5041 46 satelite explanation-argumentative  5045
+create-a-node-here really 26.176 47 {says Bernard La Londe, a professor at Ohio State University at Columbus and a Federal consultant.}
+nextSentence really
+autolink_nodes 46 47 satelite attribution  5046
+create-a-node-here really 28.13 48 { \n\nThat culture,}
+autolink_nodes 5046 48 satelite elaboration-additional  5047
+create-a-node-here really 28.50 49 { carefully crafted by Mr. Smith, }
+autolink_nodes 48 49 satelite-embedded elaboration-additional-e  5048
+create-a-node-here really 28.93 50 {leaves little, if any, room for unions.}
+nextSentence really
+autolink_nodes 5048 50 multinuclear Same-Unit  5049
+create-a-node-here really 29.27 51 {\nSince founding the company,}
+autolink_nodes 5047 51 satelite elaboration-additional  5050
+create-a-node-here really 29.60 52 { the charismatic Vietnam vet,}
+autolink_nodes 51 52 nucleus circumstance  5051
+create-a-node-here really 29.96 53 { who is still only 46 years old,}
+autolink_nodes 52 53 satelite-embedded elaboration-additional-e below 5052
+create-a-node-here really 29.133 54 { has fostered an ethos of combat.}
+nextSentence really
+autolink_nodes 5052 54 multinuclear Same-Unit  5053
+create-a-node-here really 30.23 55 {\nFlights are "missions."}
+nextSentence really
+autolink_nodes 5051 55 satelite explanation-argumentative  5054
+create-a-node-here really 30.104 56 { Mr. Smith's managers have, at times, been called "Ho Chi Minh's Guerrillas."}
+nextSentence really
+autolink_nodes 55 56 satelite elaboration-additional  5055
+create-a-node-here really 30.205 57 { The Bravo Zulu award, the Navy accolade for a "job well done," is bestowed on Federal's workers }
+autolink_nodes 5055 57 satelite elaboration-additional  5056
+create-a-node-here really 30.238 58 {who surpass the call of duty.}
+nextSentence really
+autolink_nodes 57 58 satelite-embedded elaboration-object-attribute-e  5057
+create-a-node-here really 31.37 59 {\nCompetitors are known as the "enemy."}
+nextSentence really
+autolink_nodes 5056 59 satelite elaboration-additional  5058
+create-a-node-here really 33.36 60 { \n\nTo reinforce employees' dedication, }
+autolink_nodes 5054 60 satelite elaboration-additional  5059
+create-a-node-here really 33.60 61 {Mr. Smith pays well.}
+nextSentence really
+autolink_nodes 60 61 nucleus purpose  5060
+create-a-node-here really 34.121 62 {\nHe also lets workers vent steam through an elaborate grievance procedure and, as a perk, fly free in empty cockpit seats.}
+nextSentence really
+autolink_nodes 5060 62 satelite elaboration-additional  5061
+create-a-node-here really 35.50 63 {\nHe gives pep talks in periodic "family briefings" }
+autolink_nodes 5061 63 satelite elaboration-additional  5062
+create-a-node-here really 35.125 64 {beamed internationally on "FXTV," the company's own television network.}
+nextSentence really
+autolink_nodes 63 64 satelite-embedded elaboration-additional-e  5063
+create-a-node-here really 37.92 65 { \n\nAnd, with many of his 70,000 workers, Mr. Smith's damn-the-torpedoes attitude has caught on.}
+nextSentence really
+autolink_nodes 5062 65 multinuclear Cause-Result  5064
+create-a-node-here really 38.27 66 {\nJames Cleveland, a courier }
+autolink_nodes 65 66 satelite explanation-argumentative  5065
+create-a-node-here really 38.55 67 {who earned a Bravo Zulu }
+autolink_nodes 66 67 satelite-embedded elaboration-additional-e  5066
+nextSentence really
+#create-a-node-here really 38.156 68 {for figuring out how to get a major customer's 1,100-parcel-a-week load to its doorstep by 8 a.m.}
+#nextSentence really
+#autolink_nodes 67 68 satelite means  5067
+#UNDID
+#UNDID
+#UNDID
+create-a-node-here really 38.157 68 {for figuring out how to get a major customer's 1,100-parcel-a-week load to its doorstep by 8 a.m.,}
+autolink_nodes 67 68 satelite means  5067
+create-a-node-here really 38.204 69 { considers himself far more than a courier.}
+nextSentence really
+autolink_nodes 5066 69 multinuclear Same-Unit  5068
+create-a-node-here really 38.254 70 { "We don't just hand the customer the package.}
+nextSentence really
+autolink_nodes 69 70 satelite explanation-argumentative  5069
+create-a-node-here really 39.28 71 {\nThat's just the beginning," }
+autolink_nodes 70 71 multinuclear List  5070
+create-a-node-here really 39.40 72 {he says.}
+nextSentence really
+autolink_nodes 5070 72 satelite attribution  5071
+create-a-node-here really 39.75 73 { "In essence, we run the show."}
+nextSentence really
+autolink_nodes 5071 73 satelite elaboration-additional  5072
+create-a-node-here really 41.65 74 { \n\nDavid Sanders, a longtime pilot, bristles at the mere suggestion }
+autolink_nodes 5068 74 multinuclear List above 5073
+create-a-node-here really 41.120 75 {that a union might tamper with his flight schedule.}
+nextSentence really
+autolink_nodes 74 75 satelite-embedded elaboration-object-attribute-e  5074
+create-a-node-here really 41.144 76 { "This is America," }
+autolink_nodes 5074 76 satelite explanation-argumentative  5075
+create-a-node-here really 41.156 77 {he says.}
+nextSentence really
+autolink_nodes 76 77 satelite attribution  5076
+create-a-node-here really 41.183 78 { "Nobody has the right }
+autolink_nodes 5076 78 satelite elaboration-additional  5077
+create-a-node-here really 41.198 79 {to tell me }
+autolink_nodes 78 79 satelite-embedded elaboration-object-attribute-e  5078
+create-a-node-here really 41.223 80 {how much I can work."}
+nextSentence really
+autolink_nodes 79 80 nucleus attribution  5079
+collapsed_nodes {5025 5022 5075}
+collapsed_nodes {5025 5022 5075 5069}
+create-a-node-here really 43.47 81 { \n\nSuch attitudes have given Federal flexibility, }
+autolink_nodes 5065 81 satelite elaboration-additional  5080
+create-a-node-here really 43.96 82 {not only to rapidly implement new technology }
+autolink_nodes 81 82 satelite-embedded elaboration-object-attribute-e  5081
+create-a-node-here really 43.148 83 {but to keep its work force extraordinarily lean.}
+nextSentence really
+autolink_nodes 82 83 multinuclear List  5082
+create-a-node-here really 44.37 84 {\nThe company deliberately understaffs,}
+autolink_nodes 5081 84 satelite elaboration-additional  5083
+collapsed_nodes {}
+create-a-node-here really 45.0 85 { stretching employees' schedules to the limit.\n}
+autolink_nodes 84 85 nucleus result  5084
+create-a-node-here really 45.8 86 {But }
+autolink_nodes 5084 86 multinuclear Contrast  5085
+create-a-node-here really 45.83 87 {though couriers work as many as 60 hours a week during the autumn rush,}
+create-a-node-here really 45.124 88 { they leave early during slack times }
+autolink_nodes 87 88 nucleus antithesis  5086
+autolink_nodes 86 5086 multinuclear Same-Unit  5087
+create-a-node-here really 45.176 89 {while still being assured of a minimum paycheck.}
+nextSentence really
+autolink_nodes 88 89 satelite circumstance below 5088
+create-a-node-here really 46.40 90 {\nPilots, as well, routinely fly overtime }
+autolink_nodes 5087 90 satelite elaboration-additional  5089
+create-a-node-here really 46.54 91 {to ensure }
+autolink_nodes 90 91 satelite purpose  5090
+create-a-node-here really 46.104 92 {that none are furloughed during seasonal lows.}
+nextSentence really
+autolink_nodes 91 92 nucleus attribution  5091
+create-a-node-here really 48.170 93 { \n\nThe operational freedom has also given Federal a leg up on archrival United Parcel Service Inc., the nation's largest employer of United Brotherhood of Teamsters members.}
+nextSentence really
+autolink_nodes 5085 93 satelite elaboration-additional  5092
+create-a-node-here really 49.39 94 {\nUPS won't discuss its labor practices, }
+autolink_nodes 93 94 satelite elaboration-additional  5093
+create-a-node-here really 49.48 95 {but, }
+autolink_nodes 94 95 nucleus antithesis  5094
+create-a-node-here really 49.115 96 {according to Mr. Cleveland, a former UPS employee, and others, }
+autolink_nodes 95 96 satelite attribution below 5095
+create-a-node-here really 49.173 97 {union work rules prohibit UPS drivers from doing more }
+autolink_nodes 5095 97 multinuclear Same-Unit  5096
+create-a-node-here really 49.233 98 {than carrying packages between customers and their vans.}
+nextSentence really
+autolink_nodes 97 98 multinuclear Comparison  5097
+create-a-node-here really 50.78 99 {\nBecause UPS drivers aren't permitted to load their own vehicles at the depot, }
+autolink_nodes 5094 99 satelite cause  5098
+create-a-node-here really 50.101 100 {say these couriers,}
+autolink_nodes 99 100 satelite attribution  5099
+create-a-node-here really 50.145 101 { packages often get buried in the load }
+autolink_nodes 5099 101 nucleus result  5100
+create-a-node-here really 50.173 102 {and are delivered late.}
+nextSentence really
+autolink_nodes 101 102 multinuclear List  5101
+create-a-node-here really 52.34 103 { \n\nLabor problems are the last thing }
+collapsed_nodes {5098}
+collapsed_nodes {5098 5093}
+collapsed_nodes {5098 5093 5090}
+collapsed_nodes {5098 5093 5090 5089}
+collapsed_nodes {5098 5093 5090 5089 5045}
+collapsed_nodes {5098 5093 5090 5089 5045 5040}
+collapsed_nodes {5098 5093 5090 5089 5045 5040 5032}
+collapsed_nodes {5098 5093 5090 5089 5045 5040 5032 5025}
+collapsed_nodes {5098 5093 5090 5089 5045 5040 5032 5025 5024}
+collapsed_nodes {5098 5093 5090 5089 5045 5040 5032 5025 5024 5013}
+collapsed_nodes {5098 5093 5090 5089 5045 5040 5032 5025 5024 5013 5001}
+autolink_nodes 5002 103 multinuclear Topic-Drift  5102
+create-a-node-here really 52.65 104 {Mr. Smith needs right now.}
+nextSentence really
+autolink_nodes 103 104 satelite-embedded elaboration-object-attribute-e  5103
+create-a-node-here really 53.96 105 {\nAlthough the Tiger acquisition has brought Federal a long way toward becoming the global player }
+autolink_nodes 5103 105 satelite explanation-argumentative  5104
+create-a-node-here really 53.116 106 {it wants to be,}
+autolink_nodes 105 106 satelite-embedded elaboration-object-attribute-e  5105
+create-a-node-here really 53.151 107 { it also has brought problems.}
+nextSentence really
+autolink_nodes 5105 107 nucleus antithesis  5106
+create-a-node-here really 54.62 108 {\nIt more than doubled Federal's long-term debt to $1.9 billion,}
+autolink_nodes 5106 108 satelite example  5107
+create-a-node-here really 54.110 109 { thrust the company into unknown territory }
+autolink_nodes 108 109 multinuclear List  5108
+create-a-node-here really 54.133 110 {-- heavy cargo -- }
+autolink_nodes 109 110 satelite elaboration-general-specific  5109
+create-a-node-here really 54.205 111 {and suddenly expanded its landing rights to 21 countries from four.}
+nextSentence really
+autolink_nodes 5108 111 multinuclear List below 5109
+create-a-node-here really 56.58 112 { \n\nFederal, on its own, hadn't been doing very well overseas.}
+nextSentence really
+collapsed_nodes {5098 5093 5090 5089 5045 5040 5032 5025 5024 5013 5001 5103}
+autolink_nodes 5104 112 satelite background  5110
+create-a-node-here really 57.34 113 {\nIt had hemorrhaged in its attempt }
+autolink_nodes 112 113 satelite explanation-argumentative  5111
+create-a-node-here really 57.57 114 {to get into Asia, }
+autolink_nodes 113 114 satelite-embedded elaboration-object-attribute-e  5112
+create-a-node-here really 57.146 115 {where treaty restrictions forced it to fly some planes half-empty on certain routes.}
+nextSentence really
+autolink_nodes 114 115 nucleus-embedded elaboration-additional-e  5113
+create-a-node-here really 58.59 116 {\nOn routes to South America, the company had no backup jets }
+autolink_nodes 5112 116 satelite elaboration-additional  5114
+create-a-node-here really 58.83 117 {to ensure delivery }
+autolink_nodes 116 117 satelite purpose  5115
+create-a-node-here really 58.114 118 {when planes were grounded.}
+nextSentence really
+autolink_nodes 117 118 satelite circumstance  5116
+create-a-node-here really 59.29 119 {\nIn Europe, business suffered }
+#autolink_nodes 5115 119 multinuclear List  5117
+#UNDID
+autolink_nodes 5115 119 multinuclear List  5117
+create-a-node-here really 59.77 120 {as Federal bought several local companies, }
+autolink_nodes 119 120 satelite circumstance  5118
+create-a-node-here really 59.114 121 {only to have the managers quit. }
+autolink_nodes 120 121 multinuclear Sequence  5119
+create-a-node-here really 61.141 122 {\n\nThese and other problems squeezed Federal's profit margins last year to 8%, down from more than 13% annually in the first half of the decade.}
+nextSentence really
+collapsed_nodes {5098 5093 5090 5089 5045 5040 5032 5025 5024 5013 5001 5103 5117}
+collapsed_nodes {5098 5093 5090 5089 5045 5040 5032 5025 5024 5013 5001 5103}
+#autolink_nodes 5111 122 satelite elaboration-additional  5120
+#UNDID
+collapsed_nodes {5098 5093 5090 5089 5045 5040 5032 5025 5024 5013 5001 5103 5117}
+#autolink_nodes 5114 122 nucleus cause  5120
+#UNDID
+autolink_nodes 5114 122 nucleus result  5120
+create-a-node-here really 63.0 123 {\nEarnings have plummeted, too, in each of the past three quarters.\n}
+autolink_nodes 122 123 satelite elaboration-additional below 5121
+create-a-node-here really 63.32 124 {In the fiscal first period }
+autolink_nodes 123 124 satelite elaboration-additional  5122
+create-a-node-here really 63.51 125 {ended Aug. 31,}
+autolink_nodes 124 125 satelite-embedded elaboration-object-attribute-e  5123
+nextSentence really
+create-a-node-here really 63.112 126 { profit fell 54% to $30.4 million, or 58 cents a share, }
+autolink_nodes 5123 126 multinuclear Same-Unit  5124
+create-a-node-here really 63.152 127 {mostly because of the Tiger merger,}
+autolink_nodes 5124 127 satelite result  5125
+create-a-node-here really 63.171 128 { Federal says.}
+nextSentence really
+autolink_nodes 5125 128 satelite attribution  5126
+create-a-node-here really 65.50 129 { \n\nFederal's stock price, however, has held up well, }
+autolink_nodes 5122 129 nucleus concession  5127
+create-a-node-here really 65.110 130 {driven in part by the general run-up of airline stocks,}
+autolink_nodes 129 130 satelite-embedded elaboration-additional-e below 5128
+create-a-node-here really 65.129 131 { analysts say.}
+nextSentence really
+autolink_nodes 130 131 satelite attribution  5129
+nextSentence really
+create-a-node-here really 66.47 132 {\nSince trading as low as $42.25 a share in May, }
+autolink_nodes 5128 132 satelite explanation-argumentative below 5130
+nextSentence really
+create-a-node-here really 66.145 133 {Federal's shares have rallied as high as $57.87 in New York Stock Exchange composite trading.}
+nextSentence really
+autolink_nodes 132 133 nucleus circumstance  5131
+nextSentence really
+create-a-node-here really 67.55 134 {\nThey closed Friday at $53.25, down 50 cents on the day.}
+nextSentence really
+autolink_nodes 5131 134 satelite elaboration-additional  5132
+collapsed_nodes {5098 5093 5090 5089 5045 5040 5032 5025 5024 5013 5001 5103 5117 5110}
+collapsed_nodes {5103 5117 5110}
+collapsed_nodes {5103 5117 5110 5002}
+create-a-node-here really 69.35 135 { \n\nThere's a certain irony in the fact}
+autolink_nodes 5102 135 satelite comment  5133
+create-a-node-here really 69.93 136 { that Federal Express faces its first union problems }
+autolink_nodes 135 136 satelite-embedded elaboration-object-attribute-e  5134
+create-a-node-here really 69.132 137 {as a result of its Tiger purchase.}
+nextSentence really
+autolink_nodes 136 137 satelite result  5135
+create-a-node-here really 70.52 138 {\nTiger itself was founded by a band of gungho airmen }
+autolink_nodes 5134 138 satelite explanation-argumentative  5136
+create-a-node-here really 70.140 139 {who had airlifted supplies "over the Hump" from India to China during World War II.}
+nextSentence really
+autolink_nodes 138 139 satelite-embedded elaboration-object-attribute-e  5137
+create-a-node-here really 71.134 140 {\nIn the early 1970s, Mr. Smith modeled his fledgling company on Tiger's innovation of hub-and-spoke and containerized-cargo operations.}
+nextSentence really
+autolink_nodes 5137 140 satelite background  5138
+create-a-node-here really 72.45 141 {\nBut from early on, Tiger's workers unionized,}
+autolink_nodes 5138 141 nucleus antithesis  5139
+create-a-node-here really 72.78 142 { while Federal's never have.}
+nextSentence really
+autolink_nodes 141 142 multinuclear Definition  5140
+change_rel 142 Contrast
+change_rel 142 Comparison
+create-a-node-here really 74.71 143 { \n\nFederal Express officials acknowledge mistakes in their drive overseas }
+autolink_nodes 5139 143 satelite elaboration-additional  5141
+create-a-node-here really 74.84 144 {but say }
+autolink_nodes 143 144 multinuclear Contrast  5142
+create-a-node-here really 74.116 145 {it will pay off eventually.}
+nextSentence really
+autolink_nodes 144 145 nucleus attribution  5143
+create-a-node-here really 75.79 146 {\nAnalysts expect Federal's earnings to improve again in its fiscal third quarter}
+autolink_nodes 5142 146 satelite elaboration-additional  5144
+create-a-node-here really 75.100 147 { ending Feb. 28,}
+autolink_nodes 146 147 satelite-embedded elaboration-object-attribute-e  5145
+create-a-node-here really 75.209 148 { when the company should begin benefiting from Tiger's extra flights, back-up planes and landing rights.}
+nextSentence really
+autolink_nodes 5145 148 satelite circumstance  5146
+create-a-node-here really 76.33 149 {\nUntil then, they expect the cost }
+autolink_nodes 5146 149 satelite circumstance  5147
+create-a-node-here really 76.70 150 {of integrating the two carriers }
+autolink_nodes 149 150 satelite-embedded elaboration-object-attribute-e  5148
+create-a-node-here really 76.104 151 {to continue crimping profits.}
+nextSentence really
+autolink_nodes 5148 151 multinuclear Same-Unit  5149
+create-a-node-here really 78.77 152 { \n\nFor now, the union issue is the most nettlesome of Federal's Tiger problems, }
+autolink_nodes 5149 152 multinuclear List above 5150
+create-a-node-here really 78.102 153 {management believes.}
+nextSentence really
+autolink_nodes 152 153 satelite attribution  5151
+create-a-node-here really 79.60 154 {\nAlthough encouraging dialogue between managers and workers, }
+autolink_nodes 5151 154 satelite elaboration-additional  5152
+create-a-node-here really 79.129 155 {Mr. Smith doesn't countenance what he considers insubordination.}
+nextSentence really
+#autolink_nodes 154 155 nucleus antithesis  5153
+#UNDID
+autolink_nodes 154 155 nucleus concession  5153
+create-a-node-here really 80.51 156 {\nWhen a large group of pilots once signed petitions }
+autolink_nodes 5153 156 satelite example  5154
+create-a-node-here really 80.101 157 {opposing work-rule and compensation changes, }
+autolink_nodes 156 157 satelite-embedded elaboration-object-attribute-e  5155
+create-a-node-here really 80.146 158 {he called a meeting in a company hangar }
+autolink_nodes 5155 158 nucleus circumstance  5156
+create-a-node-here really 80.173 159 {and dressed them down }
+autolink_nodes 158 159 multinuclear Sequence  5157
+create-a-node-here really 81.0 160 {for challenging his authority.\n}
+nextSentence really
+autolink_nodes 159 160 satelite reason  5158
+create-a-node-here really 81.38 161 {He then made most of the changes,}
+#autolink_nodes 5156 161 nucleus concession  5159
+#UNDID
+#create-a-node-here really 83.55 162 { pilots say. \n\nThat sort of approach, however, hasn't worked since the}
+#UNDID
+autolink_nodes 5156 161 nucleus concession  5159
+create-a-node-here really 81.56 162 { pilots say. }
+autolink_nodes 161 162 satelite attribution below 5160
+create-a-node-here really 83.74 163 {\n\nThat sort of approach, however, hasn't worked since the addition of Tiger.}
+autolink_nodes 5159 163 satelite elaboration-additional  5161
+create-a-node-here really 84.18 164 {\nIts 6,500 workers,}
+autolink_nodes 163 164 satelite explanation-argumentative  5162
+create-a-node-here really 84.84 165 { who had battled Tiger's management for years over givebacks,}
+autolink_nodes 164 165 satelite elaboration-additional  5163
+create-a-node-here really 84.138 166 { were union members until the day of the merger, }
+autolink_nodes 5163 166 multinuclear Same-Unit  5164
+create-a-node-here really 84.200 167 {when most of their unions were automatically decertified.}
+nextSentence really
+autolink_nodes 5164 167 satelite circumstance  5165
+create-a-node-here really 85.95 168 {\nSoon after the merger, moreover, Federal's management asked Tiger's pilots to sign an agreement}
+autolink_nodes 5165 168 satelite elaboration-additional  5166
+create-a-node-here really 85.143 169 { stating that they could be fired any time,}
+autolink_nodes 168 169 satelite-embedded elaboration-object-attribute-e  5167
+create-a-node-here really 85.173 170 { without cause or notice.}
+nextSentence really
+autolink_nodes 169 170 satelite circumstance  5168
+create-a-node-here really 86.25 171 {\nWhen the pilots refused, }
+autolink_nodes 5167 171 satelite elaboration-additional  5169
+create-a-node-here really 86.55 172 {the company retracted it.}
+nextSentence really
+autolink_nodes 171 172 nucleus circumstance  5170
+create-a-node-here really 88.40 173 { \n\nMr. Smith angered Federal's pilots, too.}
+nextSentence really
+collapsed_nodes {5103 5117 5110 5002 5167}
+collapsed_nodes {5103 5117 5110 5002 5167 5166}
+autolink_nodes 5162 173 satelite elaboration-additional  5171
+create-a-node-here really 89.13 174 {\nIn his haste }
+autolink_nodes 173 174 satelite explanation-argumentative  5172
+create-a-node-here really 89.83 175 {to seal the deal with Tiger Chairman Saul Steinberg last August, }
+autolink_nodes 174 175 satelite-embedded elaboration-object-attribute-e  5173
+create-a-node-here really 89.116 176 {Mr. Smith ignored a promise }
+autolink_nodes 5173 176 multinuclear Same-Unit  5174
+create-a-node-here really 89.173 177 {that he had made to his own pilots three years ago: }
+autolink_nodes 176 177 satelite-embedded elaboration-additional-e  5175
+create-a-node-here really 89.194 178 {that any fliers }
+autolink_nodes 5175 178 satelite-embedded elaboration-object-attribute-e  5176
+create-a-node-here really 89.226 179 {acquired in future mergers }
+autolink_nodes 178 179 satelite-embedded elaboration-object-attribute-e  5177
+create-a-node-here really 89.253 180 {would be "end-tailed" }
+autolink_nodes 5177 180 multinuclear Same-Unit  5178
+create-a-node-here really 89.307 181 {-- put at the bottom of the pilot seniority list }
+autolink_nodes 180 181 satelite definition  5179
+create-a-node-here really 89.367 182 {that determines work schedules, pay and career options.}
+nextSentence really
+autolink_nodes 181 182 satelite-embedded elaboration-object-attribute-e  5180
+create-a-node-here really 90.38 183 {\nThe Tiger merger agreement stipulated }
+autolink_nodes 5176 183 satelite elaboration-additional  5181
+create-a-node-here really 90.93 184 {that the lists be combined on the basis of tenure.}
+nextSentence really
+autolink_nodes 183 184 nucleus attribution  5182
+create-a-node-here really 92.44 185 { \n\nMr. Smith is trying hard to allay the anger.}
+nextSentence really
+collapsed_nodes {5103 5117 5110 5002 5167 5166 5178}
+collapsed_nodes {5103 5117 5110 5002 5167 5166 5178 5174}
+autolink_nodes 5172 185 multinuclear Problem-Solution  5183
+create-a-node-here really 93.35 186 {\nAnd even some pro-union pilots say }
+autolink_nodes 185 186 satelite elaboration-additional  5184
+create-a-node-here really 93.129 187 {his charisma and popularity among the many former military fliers could be tough to beat.}
+nextSentence really
+autolink_nodes 186 187 nucleus attribution  5185
+create-a-node-here really 93.224 188 { "A lot of people are identifying a vote for representation as a vote against Fred Smith,"}
+autolink_nodes 5185 188 satelite explanation-argumentative  5186
+create-a-node-here really 93.297 189 { says J.X. Gollich, a Tiger-turned-Federal pilot and union activist.}
+nextSentence really
+autolink_nodes 188 189 satelite attribution  5187
+create-a-node-here really 95.127 190 { \n\nMr. Smith and other top Federal executives have met with Tiger workers in Los Angeles, Ohio, New York, Alaska, Asia and Europe.}
+nextSentence really
+autolink_nodes 5184 190 satelite elaboration-additional  5188
+create-a-node-here really 96.102 191 {\nRecently, they have appeared every few weeks in talk-show type videos, countering pro-union arguments.}
+nextSentence really
+autolink_nodes 190 191 satelite elaboration-additional  5189
+create-a-node-here really 97.47 192 {\nIn one video, Mr. Smith defended his agreement }
+autolink_nodes 191 192 satelite elaboration-additional  5190
+create-a-node-here really 97.87 193 {to merge the pilot-seniority lists.}
+nextSentence really
+autolink_nodes 192 193 satelite-embedded elaboration-object-attribute-e  5191
+create-a-node-here really 98.7 194 {\nHe said}
+autolink_nodes 5191 194 satelite explanation-argumentative  5192
+create-a-node-here really 98.40 195 { Mr. Steinberg had insisted }
+autolink_nodes 194 195 nucleus attribution  5193
+create-a-node-here really 98.80 196 {that the merger talks move quickly.}
+nextSentence really
+autolink_nodes 195 196 nucleus attribution  5194
+create-a-node-here really 99.49 197 {\nRegulators, as well, might have quashed the deal }
+autolink_nodes 5193 197 satelite elaboration-additional  5195
+create-a-node-here really 99.94 198 {if Tiger's pilots hadn't been protected,}
+autolink_nodes 197 198 satelite condition  5196
+create-a-node-here really 99.108 199 { he said.}
+nextSentence really
+autolink_nodes 5196 199 satelite attribution  5197
+create-a-node-here really 100.13 200 {\nFurthermore, }
+autolink_nodes 5197 200 multinuclear List  5198
+create-a-node-here really 100.34 201 {Mr. Smith added,}
+autolink_nodes 200 201 satelite attribution  5199
+create-a-node-here really 100.75 202 { "our contract with our pilots says }
+autolink_nodes 5199 202 multinuclear Same-Unit  5200
+create-a-node-here really 100.139 203 {that we will manage our fleet operations with their advice.}
+nextSentence really
+#autolink_nodes 202 203 nucleus attribution  5201
+#UNDID
+autolink_nodes 5200 203 satelite attribution  5201
+create-a-node-here really 101.49 204 {\nIt doesn't give any particular group the ability }
+autolink_nodes 5201 204 satelite elaboration-additional  5202
+create-a-node-here really 101.71 205 {to veto change." }
+autolink_nodes 204 205 satelite-embedded elaboration-object-attribute-e  5203
+create-a-node-here really 103.35 206 {\n\nAlready, the fight has been costly.}
+nextSentence really
+collapsed_nodes {5103 5117 5110 5002 5178 5174}
+collapsed_nodes {5103 5117 5110 5002 5178 5174 5153}
+autolink_nodes 5152 206 satelite elaboration-additional  5204
+change_rel 206 cause
+create-a-node-here really 104.112 207 {\nThe seniority-list controversy, along with the job-classification dispute, has been turned over to the mediator.}
+nextSentence really
+autolink_nodes 206 207 satelite explanation-argumentative  5205
+create-a-node-here really 105.88 208 {\nMeanwhile, the company is operating with two separate pilot groups and seniority lists, }
+autolink_nodes 207 208 satelite elaboration-additional  5206
+create-a-node-here really 105.137 209 {and that is costing Federal "a big number," }
+autolink_nodes 208 209 multinuclear Cause-Result  5207
+create-a-node-here really 105.217 210 {says James Barksdale, executive vice president and chief operating officer.}
+nextSentence really
+autolink_nodes 5207 210 satelite attribution  5208
+create-a-node-here really 107.83 211 { \n\nThe issue has also cost Federal management a lot of good will among its old pilots.}
+nextSentence really
+autolink_nodes 5208 211 multinuclear List  5209
+create-a-node-here really 107.123 212 { "They were willing to mistreat us }
+autolink_nodes 211 212 satelite explanation-argumentative  5210
+create-a-node-here really 107.180 213 {because we hadn't shown any moxie, any resistance," }
+autolink_nodes 212 213 satelite reason  5211
+create-a-node-here really 107.249 214 {says William Queenan, a DC-10 pilot and 14-year Federal veteran.}
+nextSentence really
+autolink_nodes 5211 214 satelite attribution  5212
+create-a-node-here really 108.95 215 {\nAdds John Poag, a 727 captain and past chairman of the company-sponsored Flight Advisory Board:}
+#autolink_nodes 5212 215 satelite elaboration-additional  5213
+#UNDID
+autolink_nodes 5212 215 satelite elaboration-additional  5213
+create-a-node-here really 108.195 216 { "They've made all these magnanimous gestures to the Flying Tiger pilots, and for us, nothing."}
+autolink_nodes 215 216 nucleus attribution  5214
+create-a-node-here really 110.53 217 { \n\nSuch animosity could prove pivotal in the union vote.}
+nextSentence really
+autolink_nodes 5213 217 satelite elaboration-additional  5215
+create-a-node-here really 111.67 218 {\nA large majority of the 961 former Tiger fliers support the union, }
+autolink_nodes 217 218 satelite explanation-argumentative  5216
+create-a-node-here really 111.99 219 {according to a union study.}
+nextSentence really
+autolink_nodes 218 219 satelite attribution  5217
+create-a-node-here really 112.4 220 {\nBut }
+autolink_nodes 5217 220 nucleus antithesis  5218
+create-a-node-here really 112.70 221 {though most of the 1,087 Federal pilots are believed opposed,}
+create-a-node-here really 112.147 222 { it is unclear just how much their loyalty to Mr. Smith has been eroded.}
+nextSentence really
+autolink_nodes 221 222 nucleus concession  5219
+autolink_nodes 220 5219 multinuclear Same-Unit  5220
+create-a-node-here really 114.26 223 { \n\nThe fight has turned ugly }
+#autolink_nodes 5220 223 satelite consequence-n above 5220
+#UNDID
+autolink_nodes 5216 223 satelite evaluation-s  5221
+create-a-node-here really 114.93 224 {and, among pilots at least, has shattered the esprit de corps }
+autolink_nodes 223 224 nucleus result  5222
+create-a-node-here really 114.137 225 {that Mr. Smith worked so hard to build.}
+autolink_nodes 224 225 satelite-embedded elaboration-object-attribute-e below 5223
+create-a-node-here really 115.51 226 {\nAnti-union pilots have held ballot-burning parties.}
+nextSentence really
+autolink_nodes 5222 226 satelite explanation-argumentative  5224
+create-a-node-here really 116.23 227 {\nSome younger pilots say}
+autolink_nodes 226 227 multinuclear List  5225
+create-a-node-here really 116.90 228 { they have had to endure anti-union harangues by senior pilots}
+autolink_nodes 227 228 nucleus attribution  5226
+create-a-node-here really 116.128 229 { while flying across the country.}
+nextSentence really
+autolink_nodes 228 229 satelite circumstance below 5227
+create-a-node-here really 118.60 230 { \n\nAnd for now, at least, the competition isn't the only enemy.}
+nextSentence really
+autolink_nodes 5225 230 multinuclear List below 5227
+create-a-node-here really 119.73 231 {\nBarney Barnhardt, a 727 captain and leader of the pro-union forces, said }
+autolink_nodes 230 231 satelite explanation-argumentative  5228
+create-a-node-here really 119.122 232 {he has received two anonymous death threats }
+autolink_nodes 231 232 nucleus attribution  5229
+create-a-node-here really 119.189 233 {and been challenged to a fight with tire irons by a colleague.}
+nextSentence really
+autolink_nodes 232 233 multinuclear List  5230
+create-a-node-here really 119.250 234 { "The pilots are either for us or extremely against us,"}
+autolink_nodes 5229 234 satelite elaboration-additional  5231
+create-a-node-here really 119.276 235 { he says with a sigh.}
+nextSentence really
+autolink_nodes 234 235 satelite attribution  5232
+collapsed_nodes {5103 5117 5110 5002 5178 5174 5153 5133}
+collapsed_nodes {}
+disconnect_node 4 disconnect
+autolink_nodes 3 4 satelite-embedded attribution-e  5233
+disconnect_node 87 disconnect
+autolink_nodes 5088 87 satelite-embedded antithesis-e  5234
+disconnect_node 96 disconnect
+autolink_nodes 95 96 satelite-embedded attribution-e  5235
+disconnect_node 165 disconnect
+autolink_nodes 164 165 satelite-embedded elaboration-additional-e  5236
+disconnect_node 201 disconnect
+autolink_nodes 200 201 satelite-embedded attribution-e  5237
+disconnect_node 221 disconnect
+autolink_nodes 222 221 satelite-embedded concession-e  5238
+collapsed_nodes {5133}
+collapsed_nodes {}

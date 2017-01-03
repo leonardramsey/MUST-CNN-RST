@@ -1,0 +1,168 @@
+nextSentence really
+create-a-node-here really 2.11 1 {\nA new drug }
+create-a-node-here really 2.62 2 {to prevent the rejection of transplanted organs }
+autolink_nodes 1 2 satelite-embedded elaboration-object-attribute-e  5001
+create-a-node-here really 2.151 3 {has been successfully used on more than 100 patients at the University of Pittsburgh, }
+autolink_nodes 5001 3 multinuclear Same-Unit  5002
+create-a-node-here really 2.179 4 {according to researchers.}
+nextSentence really
+autolink_nodes 5002 4 satelite attribution  5003
+create-a-node-here really 4.9 5 { \n\nThe drug,}
+create-a-node-here really 4.55 6 { which is still in the experimental phase, }
+autolink_nodes 5 6 satelite-embedded elaboration-additional-e  5004
+create-a-node-here really 4.118 7 {hasn't been approved yet by the Food and Drug Admistration, }
+create-a-node-here really 4.159 8 {and its long-term effects are unknown.}
+nextSentence really
+autolink_nodes 5004 7 multinuclear Same-Unit  5005
+autolink_nodes 5005 8 multinuclear Consequence above 5006
+create-a-node-here really 5.19 9 {\nBut researchers say}
+create-a-node-here really 5.33 10 { the drug, }
+create-a-node-here really 5.52 11 {called FK-506, }
+autolink_nodes 10 11 satelite-embedded elaboration-additional-e  5007
+autolink_nodes 9 5007 nucleus attribution  5008
+create-a-node-here really 5.102 12 {could revolutionize the transplantation field }
+autolink_nodes 5007 12 multinuclear Same-Unit  5009
+create-a-node-here really 5.139 13 {by reducing harmful side effects }
+create-a-node-here really 5.175 14 {and by lowering rejection rates.}
+nextSentence really
+autolink_nodes 13 14 multinuclear List  5010
+autolink_nodes 5009 5010 satelite means below 5011
+create-a-node-here really 6.84 15 {\nRejection has been the major obstacle in the approximately 30,000 organ transplants }
+create-a-node-here really 6.119 16 {performed world-wide each year.}
+nextSentence really
+autolink_nodes 15 16 satelite-embedded elaboration-object-attribute-e  5012
+#autolink_nodes 5006 5008 multinuclear Contrast above 5013
+#UNDID
+autolink_nodes 5006 5008 nucleus concession  5013
+autolink_nodes 5008 5012 satelite explanation-argumentative below 5014
+create-a-node-here really 8.57 17 { \n\nResearchers began using the drug in February on patients }
+create-a-node-here really 9.0 18 {who had received kidney, liver, heart and pancreas transplants.\n}
+autolink_nodes 17 18 satelite-embedded elaboration-object-attribute-e  5015
+create-a-node-here really 9.51 19 {Only two of 111 transplants have been rejected.}
+nextSentence really
+autolink_nodes 5015 19 multinuclear Cause-Result  5016
+#autolink_nodes 5008 5016 satelite evidence below 5017
+#UNDID
+autolink_nodes 5014 5016 satelite evidence below 5017
+create-a-node-here really 11.10 20 { \n\nThe drug, }
+create-a-node-here really 11.34 21 {discovered in 1984, }
+#autolink_nodes 20 21 satelite-embedded background-e  5018
+#create-a-node-here really 11.85 22 {is metabolized from soil fungus found in Japan.}
+#disconnect_node 21 modify
+#autolink_nodes 20 21 satelite-embedded elaboration-additional-e  5019
+#autolink_nodes 5018 22 multinuclear Same-Unit  5020
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+autolink_nodes 20 21 satelite-embedded elaboration-additional-e  5018
+create-a-node-here really 11.70 22 {is metabolized from soil fungus }
+autolink_nodes 5018 22 multinuclear Same-Unit  5019
+create-a-node-here really 12.0 23 {found in Japan.\n}
+autolink_nodes 22 23 satelite-embedded elaboration-object-attribute-e  5020
+create-a-node-here really 12.70 24 {The Pittsburgh patients are the first humans to be given the drug,}
+create-a-node-here really 12.120 25 { which is made by Fujisawa Pharmaceutical Co. }
+autolink_nodes 24 25 satelite-embedded elaboration-additional-e  5021
+autolink_nodes 5013 5019 satelite background  5022
+autolink_nodes 5022 5021 satelite circumstance  5023
+autolink_nodes 5003 5023 satelite summary-n  5024
+disconnect_node 19 disconnect
+autolink_nodes 5015 19 multinuclear Evaluation  5025
+disconnect_node 5021 modify
+autolink_nodes 5022 5021 satelite comment  5026
+disconnect_node 5021 disconnect
+autolink_nodes 5019 5021 multinuclear List above 5027
+create-a-node-here really 14.22 26 {\n\n"We're shocked by it, }
+create-a-node-here really 14.56 27 {because it's worked so fast," }
+autolink_nodes 26 27 satelite reason  5028
+create-a-node-here really 14.189 28 {said Dr. Thomas E. Starzl, director of the University of Pittsburgh Transplantation Program, at a news conference here yesterday.}
+nextSentence really
+autolink_nodes 5028 28 satelite attribution  5029
+create-a-node-here really 14.250 29 { "We consider it a life-saving drug, like one for AIDS," }
+create-a-node-here really 14.322 30 {said Dr. John Fung, an immunologist at the University of Pittsburgh.}
+nextSentence really
+autolink_nodes 29 30 satelite attribution  5030
+autolink_nodes 5029 5030 multinuclear List  5031
+autolink_nodes 5024 5031 satelite comment  5032
+create-a-node-here really 16.16 31 { \n\nResearchers say }
+create-a-node-here really 16.33 32 {they believe }
+autolink_nodes 31 32 nucleus attribution  5033
+create-a-node-here really 16.127 33 {FK-506 is 100 times more effective than the traditional anti-rejection drug, cyclosporine,}
+create-a-node-here really 17.0 34 { made by Swiss pharmaceutical giant Sandoz Ltd.\n}
+autolink_nodes 33 34 satelite-embedded elaboration-additional-e  5034
+autolink_nodes 32 5034 nucleus attribution  5035
+create-a-node-here really 17.76 35 {They are also encouraged by the relatively mild side effects of FK-506, }
+create-a-node-here really 17.108 36 {compared with cyclosporine, }
+autolink_nodes 35 36 satelite-embedded comparison-e  5036
+create-a-node-here really 17.180 37 {which can cause renal failure, morbidity, nausea and other problems.}
+nextSentence really
+autolink_nodes 36 37 satelite-embedded elaboration-additional-e  5037
+create-a-node-here really 17.273 38 { "The side effects {of cyclosporine} have made the penalty for its success rather high," }
+create-a-node-here really 17.293 39 {Dr. Starzl said.}
+nextSentence really
+autolink_nodes 38 39 satelite attribution  5038
+#autolink_nodes 5037 5038 satelite interpretation-s  5039
+#UNDID
+#autolink_nodes 5037 5038 satelite evaluation-s  5039
+#UNDID
+autolink_nodes 5037 5038 satelite evaluation-s  5039
+autolink_nodes 5033 5036 multinuclear List  5040
+autolink_nodes 5032 5040 satelite interpretation-s  5041
+create-a-node-here really 19.14 40 { \n\nDr. Fung said }
+create-a-node-here really 19.88 41 {that FK-506 would not be available in the market for at least a year, }
+create-a-node-here really 20.0 42 {and that the FDA approval process usually takes three years to five years.\n}
+autolink_nodes 41 42 satelite elaboration-additional  5042
+autolink_nodes 40 5042 nucleus attribution  5043
+#create-a-node-here really 20.100 43 {There are no firm plans to expand the experimental program beyond the University of Pittsburgh, }
+#UNDID
+create-a-node-here really 20.28 43 {There are no firm plans }
+create-a-node-here really 20.104 44 {to expand the experimental program beyond the University of Pittsburgh, }
+#autolink_nodes 43 44 satelite-embedded elaboration-process-step-e  5044
+#UNDID
+autolink_nodes 43 44 satelite-embedded elaboration-object-attribute-e  5044
+create-a-node-here really 20.166 45 {whose hospital performs the most transplants in the world.}
+nextSentence really
+autolink_nodes 44 45 satelite-embedded elaboration-additional-e  5045
+autolink_nodes 5041 5043 satelite elaboration-additional  5046
+autolink_nodes 5046 5044 satelite elaboration-additional  5047
+create-a-node-here really 22.51 46 { \n\nResearchers couldn't estimate the cost of the drug }
+create-a-node-here really 22.82 47 {when it reaches the market,}
+autolink_nodes 46 47 satelite circumstance  5048
+create-a-node-here really 22.101 48 { but they said }
+create-a-node-here really 22.162 49 {FK-506 will enable patients to cut hospital stays by 50% }
+autolink_nodes 48 49 nucleus attribution  5049
+create-a-node-here really 22.203 50 {and reduce the number of blood tests }
+create-a-node-here really 22.212 51 {used }
+create-a-node-here really 22.298 52 {to monitor the dosage of cyclosporine and other drugs among transplant recipients.}
+nextSentence really
+autolink_nodes 51 52 satelite purpose  5050
+autolink_nodes 50 5050 satelite-embedded elaboration-object-attribute-e  5051
+autolink_nodes 5049 5051 multinuclear List  5052
+autolink_nodes 5048 5052 nucleus concession  5053
+#autolink_nodes 5047 5053 satelite consequence-s  5054
+#UNDID
+autolink_nodes 5047 5053 satelite evaluation-s  5054
+create-a-node-here really 24.16 53 { \n\nDr. Starzl said }
+create-a-node-here really 24.120 54 {the research has been largely financed by the National Institute of Health and by university funds, }
+autolink_nodes 53 54 nucleus attribution  5055
+create-a-node-here really 25.0 55 {and that Fujisawa didn't give the hospital any grants.\n}
+autolink_nodes 54 55 multinuclear Contrast  5056
+create-a-node-here really 25.12 56 {He said }
+create-a-node-here really 25.74 57 {that the research team had no financial stake in the drug.}
+nextSentence really
+autolink_nodes 56 57 nucleus attribution  5057
+autolink_nodes 5055 5057 multinuclear List  5058
+#autolink_nodes 5055 5057 satelite List  5059
+#UNDID
+create-a-node-here really 27.53 58 { \n\n"We've known for six months the effect of this drug, }
+create-a-node-here really 27.128 59 {and our advice to our people has been not to buy the company's stock," }
+autolink_nodes 58 59 multinuclear Contrast  5059
+create-a-node-here really 27.149 60 {Dr. Starzl said, }
+autolink_nodes 5059 60 satelite attribution  5060
+create-a-node-here really 27.160 61 {adding }
+create-a-node-here really 27.212 62 {that profiting from FK-506 wouldn't be ethical. }
+autolink_nodes 61 62 nucleus attribution  5061
+autolink_nodes 5060 5061 satelite explanation-argumentative  5062
+autolink_nodes 5057 5062 satelite evidence  5063
+autolink_nodes 5054 5058 satelite topic-drift  5064

@@ -1,0 +1,109 @@
+nextSentence really
+create-a-node-here really 2.63 1 {\nThe Justice Department has revised certain internal guidelines }
+create-a-node-here really 2.97 2 {and clarified others in a move }
+autolink_nodes 1 2 multinuclear List  5001
+create-a-node-here really 2.193 3 {that could restrict the use of criminal racketeering charges against white-collar defendants.}
+nextSentence really
+autolink_nodes 2 3 satelite-embedded elaboration-object-attribute-e  5002
+create-a-node-here really 4.71 4 { \n\nThe most significant changes in department policy are new requirements }
+autolink_nodes 5001 4 satelite elaboration-set-member  5003
+change_rel 4 elaboration-additional
+create-a-node-here really 4.161 5 {that federal prosecutors avoid disrupting "the normal business functions" of companies }
+autolink_nodes 4 5 satelite elaboration-set-member  5004
+create-a-node-here really 4.200 6 {charged under the racketeering law, }
+autolink_nodes 5 6 satelite-embedded elaboration-object-attribute-e  5005
+create-a-node-here really 4.237 7 {a senior department official said.}
+nextSentence really
+autolink_nodes 5004 7 satelite attribution  5006
+create-a-node-here really 6.67 8 { \n\nAnother important revision of department policy is a new guideline }
+autolink_nodes 5006 8 multinuclear List  5007
+create-a-node-here really 6.109 9 {warning prosecutors "not to take steps }
+autolink_nodes 8 9 satelite elaboration-additional  5008
+create-a-node-here really 6.162 10 {that would harm innocent third parties" in a case }
+autolink_nodes 9 10 satelite-embedded elaboration-object-attribute-e  5009
+create-a-node-here really 6.202 11 {brought under the racketeering law, }
+autolink_nodes 10 11 satelite-embedded elaboration-object-attribute-e  5010
+create-a-node-here really 6.239 12 {the official, David Runkel, said.}
+nextSentence really
+autolink_nodes 5008 12 satelite attribution  5011
+create-a-node-here really 8.138 13 { \n\nThe department distributed the revisions and clarifications to U.S. attorneys around the country this summer as part of a routine process }
+autolink_nodes 5003 13 satelite elaboration-additional  5012
+create-a-node-here really 8.180 14 {of updating prosecutorial guidelines, }
+autolink_nodes 13 14 satelite-embedded elaboration-object-attribute-e  5013
+create-a-node-here really 8.200 15 {Mr. Runkel said.}
+nextSentence really
+autolink_nodes 5013 15 satelite attribution  5014
+create-a-node-here really 9.34 16 {\nThe changes apply to prosecutions }
+autolink_nodes 5014 16 satelite elaboration-additional  5015
+create-a-node-here really 9.107 17 {brought under the Racketeer Influenced and Corrupt Organizations law.}
+nextSentence really
+autolink_nodes 16 17 satelite-embedded elaboration-object-attribute-e  5016
+create-a-node-here really 11.27 18 { \n\nUnder that law, defendants }
+create-a-node-here really 11.108 19 {who allegedly commit a pattern of crimes by means of a "criminal enterprise" }
+autolink_nodes 18 19 satelite elaboration-object-attribute  5017
+create-a-node-here really 11.145 20 {may be charged with racketeering }
+autolink_nodes 5017 20 multinuclear Same-Unit  5018
+create-a-node-here really 11.202 21 {and forced to forfeit the proceeds of the enterprise.}
+nextSentence really
+#autolink_nodes 5018 21 multinuclear List above 5019
+#collapsed_nodes {5003}
+#collapsed_nodes {}
+#collapsed_nodes {5015}
+#UNDID
+autolink_nodes 5015 5018 satelite elaboration-additional  5019
+autolink_nodes 5018 21 multinuclear List above 5020
+create-a-node-here really 14.0 22 { \n\nThe RICO law has come under criticism from some defendants and defense lawyers.\n}
+autolink_nodes 5019 22 satelite elaboration-additional  5021
+create-a-node-here really 14.15 23 {They argue }
+autolink_nodes 22 23 satelite explanation-argumentative  5022
+create-a-node-here really 14.72 24 {that the rights of RICO defendants and third parties }
+create-a-node-here really 14.106 25 {not named in RICO indictments }
+autolink_nodes 24 25 satelite-embedded elaboration-object-attribute-e  5023
+autolink_nodes 23 5023 nucleus attribution  5024
+create-a-node-here really 14.137 26 {have been unfairly damaged.}
+nextSentence really
+autolink_nodes 5023 26 multinuclear Same-Unit  5025
+create-a-node-here really 16.102 27 { \n\nThe department's most significant clarification of existing RICO policy is a directive to prosecutors }
+autolink_nodes 5022 27 satelite elaboration-additional  5026
+create-a-node-here really 16.214 28 {that they should seek to seize assets from defendants "in proportion" to the nature of the alleged offense, }
+autolink_nodes 27 28 satelite elaboration-object-attribute  5027
+create-a-node-here really 16.234 29 {Mr. Runkel said.}
+nextSentence really
+autolink_nodes 5027 29 satelite attribution  5028
+create-a-node-here really 16.256 30 { "That means that }
+autolink_nodes 28 30 satelite explanation-argumentative  5029
+create-a-node-here really 16.312 31 {if the offense deals with one part of the business, }
+#autolink_nodes 30 31 satelite contingency  5030
+#UNDID
+create-a-node-here really 16.363 32 {you don't attempt to seize the whole business; }
+create-a-node-here really 16.395 33 {you attempt to seize assets }
+autolink_nodes 32 33 multinuclear Contrast  5030
+autolink_nodes 31 5030 satelite condition  5031
+autolink_nodes 30 5031 satelite elaboration-additional  5032
+create-a-node-here really 16.422 34 {related to the crime," }
+autolink_nodes 33 34 satelite-embedded elaboration-object-attribute-e  5033
+create-a-node-here really 17.0 35 {he explained. \n}
+autolink_nodes 5032 35 satelite attribution  5034
+create-a-node-here really 18.114 36 {\nIn general, the thrust of the department's directive is to encourage prosecutors to limit pretrial asset seizures }
+autolink_nodes 5012 36 satelite restatement  5035
+create-a-node-here really 18.152 37 {if there are less intrusive means }
+create-a-node-here really 18.177 38 {of protecting assets }
+autolink_nodes 37 38 satelite elaboration-object-attribute  5036
+create-a-node-here really 18.250 39 {the government may subsequently be able to seize after a conviction, }
+#autolink_nodes 5036 39 nucleus condition  5037
+#UNDID
+#autolink_nodes 5036 39 satelite condition  5037
+#UNDID
+autolink_nodes 5036 39 nucleus condition  5037
+autolink_nodes 36 5037 satelite elaboration-additional  5038
+create-a-node-here really 18.270 40 {Mr. Runkel said.}
+nextSentence really
+autolink_nodes 5038 40 satelite attribution  5039
+nextSentence really
+collapsed_nodes {5035}
+nextSentence really
+collapsed_nodes {}
+disconnect_node 5039 disconnect
+autolink_nodes 5034 5039 satelite restatement  5040
+disconnect_node 5040 modify
+autolink_nodes 5028 5040 satelite explanation-argumentative  5041

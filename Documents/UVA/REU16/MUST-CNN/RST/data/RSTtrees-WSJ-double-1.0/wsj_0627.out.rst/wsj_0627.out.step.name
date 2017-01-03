@@ -1,0 +1,263 @@
+nextSentence really
+create-a-node-here really 2.24 1 {\nOctober employment data }
+create-a-node-here really 2.75 2 {-- also could turn out to be the most confusing.}
+nextSentence really
+autolink_nodes 1 2 satelite elaboration-additional  5001
+create-a-node-here really 4.101 3 { \n\nOn the surface, the overall unemployment rate is expected to be little changed from September's 5.3%.}
+nextSentence really
+create-a-node-here really 5.171 4 {\nBut the actual head count of non-farm employment payroll jobs is likely to be muddied by the impact of Hurricane Hugo, strikes, and less-than-perfect seasonal adjustments,}
+create-a-node-here really 5.191 5 { economists said.}
+nextSentence really
+autolink_nodes 4 5 satelite attribution  5002
+autolink_nodes 3 5002 satelite elaboration-additional  5003
+autolink_nodes 5001 5003 satelite elaboration-additional  5004
+create-a-node-here really 7.59 6 { \n\nThe consensus view calls for an overall job gain of 155,000}
+create-a-node-here really 7.106 7 { compared with September's 209,000 increase.}
+nextSentence really
+#autolink_nodes 6 7 satelite comparison  5005
+#UNDID
+autolink_nodes 6 7 satelite-embedded comparison-e  5005
+create-a-node-here really 8.39 8 {\nBut the important factory-jobs segment,}
+create-a-node-here really 8.88 9 { which last month plunged by 103,000 positions}
+create-a-node-here really 8.119 10 { and raised recession fears,}
+create-a-node-here really 8.182 11 { is most likely to be skewed by the month's unusual events.}
+autolink_nodes 9 10 multinuclear List  5006
+autolink_nodes 8 5006 satelite-embedded elaboration-object-attribute-e  5007
+autolink_nodes 11 5007 multinuclear Same-Unit  5008
+autolink_nodes 5005 5008 satelite elaboration-additional  5009
+disconnect_node 9 modify
+autolink_nodes 10 9 satelite consequence-n  5010
+autolink_nodes 5004 5009 satelite elaboration-additional  5011
+create-a-node-here really 10.53 12 { \n\nSeveral other reports come before Friday's jobs data,}
+#create-a-node-here really 10.68 13 { including:}
+#create-a-node-here really 10.343 14 { the September leading indicators index, new-home sales and October agricultural prices reports due out tomorrow; the October purchasing managers' index and September construction spending and manufacturers' orders on Wednesday; and October chain-store sales on Thursday.}
+#nextSentence really
+#autolink_nodes 12 13 satelite-embedded elaboration-object-attribute-e  5012
+#UNDID
+#autolink_nodes 13 14 satelite elaboration-additional  5012
+#UNDID
+#autolink_nodes 13 14 satelite example  5012
+#UNDID
+#autolink_nodes 13 14 satelite elaboration-additional  5012
+#autolink_nodes 12 5012 satelite example  5013
+#create-a-node-here really 11.52 15 {\nFriday brings the final count on October auto sales.}
+#create-a-node-here really 13.63 16 { \n\n"The employment report is going to be difficult to interpret," }
+#create-a-node-here really 13.160 17 {said Michael Englund, economist with MMS International, a unit of McGraw-Hill Inc., New York.}
+#nextSentence really
+#autolink_nodes 5013 15 satelite elaboration-additional  5014
+#autolink_nodes 16 17 satelite attribution  5015
+#collapsed_nodes {5009}
+#autolink_nodes 5011 5014 satelite elaboration-additional  5016
+#collapsed_nodes {5009 5014}
+#create-a-node-here really 15.18 18 { \n\nMr. Englund added }
+#create-a-node-here really 15.76 19 {that next month's data isn't likely to be much better,}
+#create-a-node-here really 15.140 20 { because it will be distorted by San Francisco's earthquake.}
+#nextSentence really
+#autolink_nodes 19 20 satelite explanation-argumentative  5017
+#autolink_nodes 18 5017 nucleus attribution  5018
+#autolink_nodes 5015 5018 satelite elaboration-additional  5019
+#create-a-node-here really 16.12 21 {\nWhat's more,}
+#create-a-node-here really 16.29 22 { he believes }
+#create-a-node-here really 16.129 23 {seasonal swings in the auto industry this year aren't occurring at the same time as in the past,}
+#create-a-node-here really 16.180 24 { because of production and pricing differences }
+#create-a-node-here really 16.238 25 {that are curbing the accuracy of seasonal adjustments }
+#create-a-node-here really 16.273 26 {built into the employment data.}
+#nextSentence really
+#autolink_nodes 25 26 satelite-embedded elaboration-object-attribute-e  5020
+#autolink_nodes 24 5020 satelite-embedded elaboration-object-attribute-e  5021
+#collapsed_nodes {5009}
+#disconnect_node 2 modify
+#UNDID
+#disconnect_node 2 modify
+#autolink_nodes 1 2 multinuclear Topic-Comment  5022
+#UNDID
+#UNDID
+#disconnect_node 2 disconnect
+#autolink_nodes 1 2 multinuclear Topic-Comment  5022
+#UNDID
+#UNDID
+#collapsed_nodes {}
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+create-a-node-here really 10.339 13 { including: the September leading indicators index, new-home sales and October agricultural prices reports due out tomorrow; the October purchasing managers' index and September construction spending and manufacturers' orders on Wednesday; and October chain-store sales on Thursday.}
+nextSentence really
+autolink_nodes 12 13 satelite example  5012
+create-a-node-here really 11.52 14 {\nFriday brings the final count on October auto sales.}
+nextSentence really
+autolink_nodes 5012 14 satelite elaboration-additional  5013
+collapsed_nodes {5009}
+autolink_nodes 5011 5013 satelite elaboration-additional  5014
+create-a-node-here really 13.63 15 { \n\n"The employment report is going to be difficult to interpret," }
+create-a-node-here really 13.160 16 {said Michael Englund, economist with MMS International, a unit of McGraw-Hill Inc., New York.}
+nextSentence really
+autolink_nodes 15 16 satelite attribution  5015
+create-a-node-here really 15.18 17 { \n\nMr. Englund added }
+create-a-node-here really 15.76 18 {that next month's data isn't likely to be much better,}
+create-a-node-here really 15.140 19 { because it will be distorted by San Francisco's earthquake.}
+nextSentence really
+autolink_nodes 18 19 satelite explanation-argumentative  5016
+autolink_nodes 17 5016 nucleus attribution  5017
+autolink_nodes 5015 5017 satelite elaboration-additional  5018
+create-a-node-here really 16.12 20 {\nWhat's more,}
+create-a-node-here really 16.29 21 { he believes }
+create-a-node-here really 16.129 22 {seasonal swings in the auto industry this year aren't occurring at the same time as in the past,}
+create-a-node-here really 16.179 23 { because of production and pricing differences}
+create-a-node-here really 16.238 24 { that are curbing the accuracy of seasonal adjustments }
+create-a-node-here really 16.273 25 {built into the employment data.}
+nextSentence really
+autolink_nodes 24 25 satelite-embedded elaboration-object-attribute-e  5019
+autolink_nodes 23 5019 satelite-embedded elaboration-object-attribute-e  5020
+autolink_nodes 22 5020 satelite explanation-argumentative  5021
+autolink_nodes 21 5021 nucleus attribution  5022
+autolink_nodes 20 5022 nucleus comment  5023
+autolink_nodes 5018 5023 satelite elaboration-additional  5024
+collapsed_nodes {5009 5013}
+autolink_nodes 5014 5024 satelite elaboration-additional  5025
+create-a-node-here really 18.62 26 { \n\nWednesday's report from the purchasing agents will be watched }
+#create-a-node-here really 18.73 27 {to see }
+#UNDID
+create-a-node-here really 18.114 27 {to see if the index maintains a level below 50%,}
+create-a-node-here really 18.159 28 { as it has for the past couple of months.}
+autolink_nodes 27 28 satelite comparison  5026
+autolink_nodes 26 5026 satelite purpose  5027
+create-a-node-here really 19.48 29 {\nA reading of less than 50% indicates an economy }
+create-a-node-here really 19.82 30 {that is generally contracting }
+create-a-node-here really 19.132 31 {while a reading above 50% indicates an economy}
+create-a-node-here really 19.154 32 { that's expanding.}
+nextSentence really
+autolink_nodes 31 32 satelite-embedded elaboration-object-attribute-e  5028
+autolink_nodes 29 30 satelite-embedded elaboration-object-attribute-e  5029
+autolink_nodes 5029 5028 multinuclear Comparison  5030
+autolink_nodes 5027 5030 satelite interpretation-s  5031
+create-a-node-here really 21.104 33 { \n\nSamuel D. Kahan, chief financial economist at Kleinwort Benson Government Securities Inc., Chicago, said}
+create-a-node-here really 21.149 34 { that the purchasers' report is valuable }
+create-a-node-here really 21.228 35 {because it often presents the first inkling of economic data for the month.}
+nextSentence really
+autolink_nodes 34 35 satelite explanation-argumentative  5032
+autolink_nodes 33 5032 nucleus attribution  5033
+create-a-node-here really 22.13 36 {\nBut he added:}
+create-a-node-here really 22.80 37 { "Some people use the purchasers' index as a leading indicator,}
+create-a-node-here really 22.123 38 { some use it as a coincident indicator.}
+nextSentence really
+#autolink_nodes 37 38 multinuclear List  5034
+#UNDID
+autolink_nodes 37 38 multinuclear Contrast  5034
+autolink_nodes 36 5034 nucleus attribution  5035
+create-a-node-here really 23.14 39 {\nBut the thing }
+create-a-node-here really 23.43 40 {it's supposed to measure }
+create-a-node-here really 23.75 41 {-- manufacturing strength --}
+create-a-node-here really 23.113 42 { it missed altogether last month."}
+autolink_nodes 39 40 satelite-embedded elaboration-object-attribute-e  5036
+autolink_nodes 5036 41 satelite-embedded elaboration-object-attribute-e  5037
+#autolink_nodes 42 5037 multinuclear Same-Unit  5038
+#UNDID
+autolink_nodes 42 5037 multinuclear Topic-Comment  5038
+autolink_nodes 5038 5035 satelite antithesis  5039
+autolink_nodes 5033 5039 satelite elaboration-additional  5040
+autolink_nodes 5031 5040 satelite interpretation-s  5041
+create-a-node-here really 25.74 43 { \n\nDavid Wyss, chief financial economist at Data Resources Inc., Boston, said}
+#create-a-node-here really 25.132 44 { that the purchasers' index "does miss occasionally," }
+#UNDID
+create-a-node-here really 25.131 44 { that the purchasers' index "does miss occasionally,"}
+create-a-node-here really 25.143 45 { adding:}
+create-a-node-here really 25.173 46 { "When it misses one month}
+create-a-node-here really 25.216 47 { it tends to miss the next month, too."}
+nextSentence really
+autolink_nodes 46 47 satelite contingency  5042
+autolink_nodes 45 5042 nucleus attribution  5043
+autolink_nodes 43 44 nucleus attribution  5044
+autolink_nodes 5044 5043 satelite elaboration-additional  5045
+autolink_nodes 5039 5045 satelite explanation-argumentative  5046
+create-a-node-here really 27.99 48 { \n\nThe consensus view on September leading indicators calls for a gain of 0.3%, the same as in August.}
+nextSentence really
+create-a-node-here really 28.16 49 {\nEconomists said }
+create-a-node-here really 28.125 50 {greatly increased consumer optimism, a larger money supply and higher stock prices helped lift the index.}
+nextSentence really
+autolink_nodes 49 50 nucleus attribution  5047
+create-a-node-here really 29.115 51 {\nAll orders-related components, such as consumer-goods orders and building permits, are thought to have been weaker.}
+nextSentence really
+autolink_nodes 5047 51 satelite elaboration-additional  5048
+autolink_nodes 48 5048 satelite explanation-argumentative  5049
+collapsed_nodes {5009 5013 5040}
+autolink_nodes 5041 5049 satelite elaboration-additional  5050
+create-a-node-here really 31.31 52 { \n\nData Resources' Mr. Wyss added }
+create-a-node-here really 31.113 53 {that he will be keeping a closer eye than ususal on October chain-store sales.}
+nextSentence really
+autolink_nodes 52 53 nucleus attribution  5051
+create-a-node-here really 32.69 54 {\nUsually, October "isn't a very interesting month {for retail figures}}
+create-a-node-here really 32.113 55 { because school clothes have been bought}
+create-a-node-here really 32.154 56 { and people are waiting for December }
+create-a-node-here really 32.185 57 {to buy Christmas presents,"}
+create-a-node-here really 32.198 58 { he said.}
+nextSentence really
+autolink_nodes 56 57 satelite purpose  5052
+autolink_nodes 55 5052 multinuclear List  5053
+autolink_nodes 54 5053 satelite explanation-argumentative  5054
+autolink_nodes 5054 58 satelite attribution  5055
+autolink_nodes 5051 5055 satelite concession  5056
+create-a-node-here really 33.18 59 {\nBut Mr. Wyss said }
+create-a-node-here really 33.47 60 {he will watch the numbers}
+create-a-node-here really 33.70 61 { to get an inkling }
+#create-a-node-here really 33.131 62 {of whether consumers' general buying habits may slack off}
+#UNDID
+create-a-node-here really 33.139 62 {of whether consumers' general buying habits may slack off as much}
+create-a-node-here really 33.180 63 { as their auto-buying apparently has.}
+autolink_nodes 62 63 satelite comparison  5057
+autolink_nodes 61 5057 satelite-embedded elaboration-object-attribute-e  5058
+autolink_nodes 60 5058 satelite purpose  5059
+autolink_nodes 59 5059 nucleus attribution  5060
+autolink_nodes 5056 5060 satelite elaboration-additional  5061
+create-a-node-here really 34.9 64 {\nHe noted }
+create-a-node-here really 34.75 65 {that higher gasoline prices will help buoy the October totals.}
+nextSentence really
+autolink_nodes 64 65 nucleus attribution  5062
+collapsed_nodes {5009 5013 5040 5060}
+autolink_nodes 5061 5062 satelite elaboration-additional  5063
+collapsed_nodes {5009 5013 5040 5060 5049}
+autolink_nodes 5050 5063 satelite elaboration-additional  5064
+create-a-node-here really 36.88 66 { \n\nSeasonal factors are also expected to have taken their toll on September new-home sales,}
+create-a-node-here really 36.163 67 { which are believed to have fallen sharply from August's 755,000 units.}
+nextSentence really
+autolink_nodes 66 67 satelite-embedded elaboration-additional-e  5065
+create-a-node-here really 37.80 68 {\nConstruction spending is believed to have slipped about 0.5% from August levels,}
+create-a-node-here really 37.111 69 { although economists noted }
+create-a-node-here really 37.213 70 {the rate probably will pick up in the months ahead in response to hurricane and earthquake damage.}
+nextSentence really
+autolink_nodes 69 70 nucleus attribution  5066
+autolink_nodes 68 5066 satelite antithesis  5067
+autolink_nodes 5065 5067 satelite elaboration-additional  5068
+autolink_nodes 5064 5068 satelite elaboration-additional  5069
+autolink_nodes 5025 5069 multinuclear Topic-Drift  5070
+collapsed_nodes {5013 5040 5060 5049}
+collapsed_nodes {5040 5060 5049}
+collapsed_nodes {5060 5049}
+collapsed_nodes {5060}
+collapsed_nodes {}
+#disconnect_node 13 modify
+#UNDID

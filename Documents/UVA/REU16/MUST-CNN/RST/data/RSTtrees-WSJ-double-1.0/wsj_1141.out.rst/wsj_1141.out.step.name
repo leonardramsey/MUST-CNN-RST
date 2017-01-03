@@ -1,0 +1,177 @@
+nextSentence really
+nextSentence really
+create-a-node-here really 2.48 1 {\nFrom the Sept. 30-Oct. 4 issue of The Economist:}
+create-a-node-here really 4.70 2 { \n\nWhat defeated General Aoun was not only the weight of the Syrian army.}
+nextSentence really
+create-a-node-here really 5.53 3 {\nThe weight of Lebanon's history was also against him;}
+create-a-node-here really 5.76 4 { and it is a history}
+create-a-node-here really 5.99 5 { Israel is in danger}
+create-a-node-here really 5.116 6 { of repeating.}
+nextSentence really
+autolink_nodes 5 6 satelite-embedded elaboration-object-attribute-e  5001
+autolink_nodes 4 5001 satelite-embedded elaboration-object-attribute-e  5002
+#autolink_nodes 2 3 satelite elaboration-additional  5003
+#UNDID
+autolink_nodes 3 5002 nucleus evaluation-n  5003
+autolink_nodes 3 2 satelite comparison  5004
+create-a-node-here really 7.98 7 { \n\nLike Lebanon, and however unfairly, Israel is regarded by the Arab world as a colonial aberration.}
+create-a-node-here really 8.98 8 {\nIts best hope of acceptance by its neighbours lies in reaching a settlement with the Palestinians.}
+nextSentence really
+autolink_nodes 7 8 nucleus consequence-n  5005
+create-a-node-here really 9.51 9 {\nLike Lebanon, Israel is being remade by demography.}
+nextSentence really
+create-a-node-here really 10.68 10 {\nIn Greater Israel more than half the children under six are Muslims.}
+nextSentence really
+create-a-node-here really 11.51 11 {\nWithin 25 years Jews will probably be the minority.}
+nextSentence really
+#autolink_nodes 10 11 nucleus consequence-n  5006
+#autolink_nodes 9 5006 satelite elaboration-additional  5007
+#UNDID
+#UNDID
+autolink_nodes 10 11 nucleus consequence-n  5006
+autolink_nodes 9 5006 satelite elaboration-additional  5007
+create-a-node-here really 12.57 12 {\nYet Israel will neither share power with all these Arabs }
+create-a-node-here really 12.65 13 {nor,}
+create-a-node-here really 12.103 14 { says its present prime minister, }
+create-a-node-here really 12.166 15 {redraw its borders closer to its pre-1967 Jewish heartland.}
+autolink_nodes 13 14 satelite-embedded attribution-e  5008
+autolink_nodes 15 5008 multinuclear Same-Unit  5009
+autolink_nodes 12 5009 multinuclear Disjunction  5010
+autolink_nodes 5007 5010 nucleus antithesis  5011
+create-a-node-here really 14.37 16 { \n\nBy not choosing one of these options,}
+create-a-node-here really 14.75 17 { Israelis will condemn themselves,}
+create-a-node-here really 14.101 18 { as the Maronites did,}
+create-a-node-here really 14.202 19 { to perpetual war with the Muslims in their midst, and so to the internal erosion of their state.}
+nextSentence really
+autolink_nodes 17 18 satelite-embedded comparison-e  5012
+autolink_nodes 5012 19 multinuclear Same-Unit  5013
+autolink_nodes 16 5013 nucleus consequence-n  5014
+disconnect_node 7 disconnect
+autolink_nodes 7 8 nucleus evaluation-n  5015
+disconnect_node 7 disconnect
+autolink_nodes 7 8 nucleus background  5016
+disconnect_node 5007 disconnect
+#autolink_nodes 8 5007 satelite elaboration-additional below 5017
+#UNDID
+autolink_nodes 8 5007 satelite elaboration-additional below 5017
+autolink_nodes 5016 5010 nucleus antithesis  5018
+autolink_nodes 5018 5014 satelite elaboration-additional  5019
+create-a-node-here really 15.115 20 {\nUnlike the Maronites, Israel's Jews will not let themselves become the weakest force in a system of private armies;}
+create-a-node-here really 15.149 21 { Jerusalem will become Belfast}
+#create-a-node-here really 15.179 22 { before it becomes Beirut.}
+#autolink_nodes 21 22 satelite antithesis  5020
+#UNDID
+#autolink_nodes 21 22 satelite preference  5020
+#autolink_nodes 20 5020 satelite elaboration-additional  5021
+#create-a-node-here really 16.79 23 {\nBut that is not much of a consolation to draw from the failure of General Aoun.}
+#nextSentence really
+#disconnect_node 5014 disconnect
+#autolink_nodes 5014 5021 satelite elaboration-additional  5022
+#autolink_nodes 5022 23 satelite conclusion  5023
+#UNDID
+#autolink_nodes 5022 23 nucleus evaluation-s  5023
+#UNDID
+#autolink_nodes 5022 23 satelite evaluation-s  5023
+#autolink_nodes 5018 5023 satelite elaboration-additional  5024
+#collapsed_nodes {5016}
+#autolink_nodes 5024 5003 satelite summary-s  5025
+#change_constit 1 Attribution
+#change_constit 5025 Text
+#autolink_nodes 1 5025 multinuclear TextualOrganization  5026
+#disconnect_node 5003 disconnect
+#disconnect_node 5023 disconnect
+#disconnect_node 5018 disconnect
+#UNDID
+#UNDID
+#UNDID
+#disconnect_node 1 disconnect
+#disconnect_node 5003 disconnect
+#disconnect_node 5023 disconnect
+#autolink_nodes 5025 5023 nucleus background  5027
+#UNDID
+#UNDID
+#disconnect_node 5023 disconnect
+#autolink_nodes 5023 5018 satelite background  5027
+#disconnect_node 23 disconnect
+#autolink_nodes 5027 23 satelite evaluation-s  5028
+#collapsed_nodes {5016 5018}
+#autolink_nodes 5028 5003 satelite summary-s  5029
+#collapsed_nodes {5016 5018 5003}
+#change_constit 5029 Text
+#autolink_nodes 1 5029 multinuclear TextualOrganization  5030
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+create-a-node-here really 15.179 22 { before it becomes Beirut.}
+autolink_nodes 21 22 satelite preference  5020
+autolink_nodes 20 5020 satelite elaboration-additional  5021
+autolink_nodes 5014 5021 satelite elaboration-additional  5022
+disconnect_node 5022 disconnect
+autolink_nodes 5022 5018 satelite background  5023
+create-a-node-here really 16.38 23 {\nBut that is not much of a consolation }
+create-a-node-here really 16.83 24 {to draw from the failure of General Aoun.}
+nextSentence really
+autolink_nodes 23 24 satelite-embedded elaboration-object-attribute-e  5024
+autolink_nodes 5023 5024 satelite evaluation-s  5025
+collapsed_nodes {5018}
+autolink_nodes 5025 5003 satelite summary-s  5026
+collapsed_nodes {5018 5003}
+change_constit 5026 Text
+change_constit 1 Attribution
+#autolink_nodes 1 5026 multinuclear TextualOrganization  5027
+#change_constit 1 Source
+#UNDID
+#disconnect_node 1 modify
+#UNDID
+#UNDID
+change_constit 1 Source
+change_constit 5026 Text
+#autolink_nodes 5026 1 multinuclear TextualOrganization  5027
+#collapsed_nodes {5018}
+#collapsed_nodes {}
+#disconnect_node 5026 disconnect
+#disconnect_node 5003 disconnect
+#UNDID
+#disconnect_node 5003 disconnect
+#UNDID
+#disconnect_node 5003 disconnect
+#UNDID
+#UNDID
+#UNDID
+disconnect_node 5003 disconnect
+#autolink_nodes 5003 5025 satelite summary-n  5027
+#UNDID
+autolink_nodes 5025 5003 nucleus summary-n  5027
+collapsed_nodes {}
+change_constit 5027 Text
+change_constit 1 Source
+autolink_nodes 5027 1 multinuclear TextualOrganization  5028
+disconnect_node 2 modify
+autolink_nodes 3 2 satelite circumstance  5029
+disconnect_node 5029 modify
+autolink_nodes 5002 5029 satelite analogy below 5030
+#disconnect_node 5009 modify
+#autolink_nodes 5009 5009 multinuclear List above 5031
+#UNDID
+#UNDID
+disconnect_node 12 disconnect
+autolink_nodes 5009 12 multinuclear List above 5031

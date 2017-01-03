@@ -1,0 +1,25 @@
+nextSentence really
+create-a-node-here really 2.85 1 {\nThe following issues were recently filed with the Securities and Exchange Commission:}
+create-a-node-here really 4.94 2 { \n\nAmerican Cyanamid Co., offering of 1,250,000 common shares, via Merrill Lynch Capital Markets.}
+nextSentence really
+create-a-node-here really 6.77 3 { \n\nLimited Inc., offering of up to $300 million of debt securities and warrants.}
+nextSentence really
+nextSentence really
+create-a-node-here really 9.107 4 { \n\nNuveen California Performance Plus Municipal Fund Inc., initial offering of five million common shares, via Alex.\nBrown & Sons Inc., John Nuveen & Co., Prudential-Bache Capital Funding, and Bateman Eichler, Hill Richards.}
+nextSentence really
+create-a-node-here really 11.79 5 { \n\nPacifiCare Health Systems Inc., proposed offering of 1.5 million common shares,}
+create-a-node-here really 11.181 6 { of which 700,000 shares will be offered by PacifiCare and 800,000 shares by UniHealth America Inc.}
+create-a-node-here really 11.203 7 {(PacifiCare's 71%),}
+create-a-node-here really 11.286 8 { via Dillon, Read & Co. Inc., Goldman, Sachs & Co. and Dean Witter Reynolds Inc.}
+autolink_nodes 6 7 satelite-embedded elaboration-additional-e  5001
+autolink_nodes 5 5001 satelite-embedded elaboration-object-attribute-e  5002
+autolink_nodes 8 5002 multinuclear Same-Unit  5003
+create-a-node-here really 13.150 9 { \n\nPricor Inc., offering of one million new shares of common stock and 300,000 shares by holders, via Drexel Burnham Lambert Inc. and J.C. Bradford & Co.}
+create-a-node-here really 15.85 10 { \n\nTrans World Airlines Inc., offering of $150 million senior notes, via Drexel Burnham.}
+nextSentence really
+autolink_nodes 9 10 multinuclear List  5004
+autolink_nodes 5004 5003 multinuclear List below 5004
+autolink_nodes 5004 4 multinuclear List below 5004
+autolink_nodes 5004 3 multinuclear List below 5004
+autolink_nodes 5004 2 multinuclear List below 5004
+autolink_nodes 1 5004 satelite elaboration-set-member  5005

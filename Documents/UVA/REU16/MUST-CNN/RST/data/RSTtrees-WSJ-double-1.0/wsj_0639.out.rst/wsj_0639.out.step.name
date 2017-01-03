@@ -1,0 +1,39 @@
+nextSentence really
+create-a-node-here really 2.33 1 {\nShearson Lehman Hutton Inc. said }
+create-a-node-here really 2.96 2 {it applied to Taiwanese securities officials for permission }
+autolink_nodes 1 2 nucleus attribution  5001
+create-a-node-here really 2.135 3 {to open brokerage offices in Taipei.}
+nextSentence really
+autolink_nodes 2 3 satelite-embedded elaboration-object-attribute-e below 5002
+create-a-node-here really 4.36 4 { \n\nShearson's application is the first }
+create-a-node-here really 4.109 5 {since the Taiwan Securities and Exchange Commission announced June 21 }
+autolink_nodes 4 5 satelite temporal-after  5003
+create-a-node-here really 4.187 6 {that it would allow foreign brokerage firms to do business in that country.}
+nextSentence really
+autolink_nodes 5 6 nucleus attribution  5004
+create-a-node-here really 5.81 7 {\nTaiwan officials are expected to review the Shearson application later this year.}
+nextSentence really
+autolink_nodes 5003 7 satelite elaboration-additional  5005
+autolink_nodes 5001 5005 satelite elaboration-additional  5006
+create-a-node-here really 7.107 8 { \n\nUnder current rules, investors in Taiwan can buy overseas stocks only through the purchase of mutual funds }
+create-a-node-here really 7.156 9 {issued by local and foreign investment trusts.}
+nextSentence really
+autolink_nodes 8 9 satelite-embedded elaboration-object-attribute-e  5007
+create-a-node-here really 8.66 10 {\nThe new rules will allow investors to buy foreign stocks directly.}
+nextSentence really
+autolink_nodes 5007 10 multinuclear Contrast  5008
+autolink_nodes 5005 5008 satelite elaboration-additional  5009
+disconnect_node 5009 modify
+autolink_nodes 5001 5009 satelite circumstance  5010
+create-a-node-here really 10.30 11 { \n\nA spokesman for Shearson said }
+create-a-node-here really 10.97 12 {the brokerage service will be directed at individual investors }
+autolink_nodes 11 12 nucleus attribution  5011
+create-a-node-here really 10.145 13 {who want to buy foreign and domestic stocks.}
+nextSentence really
+autolink_nodes 12 13 satelite-embedded elaboration-object-attribute-e below 5012
+create-a-node-here really 10.210 14 { "It's an attractive market with good growth opportunities," }
+create-a-node-here really 10.223 15 {he added.}
+nextSentence really
+autolink_nodes 14 15 satelite attribution  5013
+autolink_nodes 5011 5013 satelite evaluation-s  5014
+autolink_nodes 5010 5014 satelite interpretation-s  5015

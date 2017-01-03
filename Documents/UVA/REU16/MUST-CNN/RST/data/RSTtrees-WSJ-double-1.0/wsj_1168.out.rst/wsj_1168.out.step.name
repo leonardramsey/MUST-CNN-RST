@@ -1,0 +1,90 @@
+nextSentence really
+create-a-node-here really 2.54 1 {\nWang Laboratories Inc. has sold $25 million of assets }
+create-a-node-here really 2.93 2 {and reached agreements in principle }
+create-a-node-here really 2.140 3 {to sell an additional $187 million shortly, }
+create-a-node-here really 2.197 4 {Richard Miller, president, said at the annual meeting.}
+nextSentence really
+autolink_nodes 1 2 multinuclear List  5001
+autolink_nodes 2 3 satelite elaboration-additional  5002
+autolink_nodes 5001 4 satelite attribution  5003
+create-a-node-here really 4.8 5 { \n\nHe said }
+create-a-node-here really 4.71 6 {Wang had reached an agreement with a "major financial firm" }
+create-a-node-here really 4.183 7 {to sell for $150 million its domestic equipment lease portfolio and that of its Wang Credit Corp. subsidiary.}
+nextSentence really
+create-a-node-here really 5.8 8 {\nHe said }
+create-a-node-here really 5.93 9 {it also agreed to sell a portion of its European real estate unit for $37 million.}
+nextSentence really
+autolink_nodes 5 6 nucleus attribution  5004
+#autolink_nodes 6 7 satelite elaboration-additional below 5005
+#UNDID
+autolink_nodes 6 7 satelite elaboration-additional below 5005
+autolink_nodes 5003 5004 satelite elaboration-additional  5006
+autolink_nodes 8 9 nucleus attribution  5007
+create-a-node-here really 7.16 10 { \n\nMr. Miller said }
+create-a-node-here really 7.88 11 {that Wang has already sold some $12 million of miscellaneous assets }
+create-a-node-here really 7.106 12 {and disclosed }
+create-a-node-here really 7.246 13 {that it had received $13 million from Compaq Computer Corp., Houston, in the previously announced sale of its Stirling, Scotland, plant.}
+create-a-node-here really 9.20 14 { \n\nMr. Miller repeated }
+create-a-node-here really 9.116 15 {that in the next six months he plans to sell another $200 million to $300 million of assets }
+create-a-node-here really 9.133 16 {to repay debt}
+create-a-node-here really 9.211 17 { and reduce interest costs at Wang, a minincomputer maker in Lowell, Mass.}
+nextSentence really
+create-a-node-here really 11.67 18 { \n\nIn response to questions after the annual meeting, Mr. Miller said }
+create-a-node-here really 11.127 19 {the company is no longer looking for an equity investor.}
+nextSentence really
+create-a-node-here really 12.44 20 {\nDuring the summer, Wang executives had said }
+create-a-node-here really 12.83 21 {they might seek outside investment.}
+nextSentence really
+autolink_nodes 5006 5007 satelite elaboration-additional  5008
+autolink_nodes 10 11 nucleus attribution  5009
+#autolink_nodes 5009 12 satelite-embedded elaboration-additional-e  5010
+#UNDID
+#autolink_nodes 5009 12 satelite elaboration-additional  5010
+#UNDID
+#autolink_nodes 12 13 nucleus-embedded attribution-e  5010
+#UNDID
+autolink_nodes 12 13 nucleus-embedded attribution-e  5010
+autolink_nodes 5009 5010 satelite elaboration-additional  5011
+autolink_nodes 14 15 nucleus attribution  5012
+autolink_nodes 15 16 satelite-embedded purpose-e below 5013
+autolink_nodes 16 17 multinuclear List  5014
+autolink_nodes 18 19 multinuclear Question-Answer  5015
+autolink_nodes 20 21 nucleus attribution  5016
+autolink_nodes 5015 5016 satelite elaboration-additional  5017
+autolink_nodes 5012 5017 multinuclear Topic-Drift  5018
+#autolink_nodes 5012 5011 nucleus elaboration-additional  5019
+#UNDID
+#autolink_nodes 5012 5011 nucleus elaboration-additional  5019
+#UNDID
+collapsed_nodes {5006}
+autolink_nodes 5008 5011 satelite elaboration-additional  5019
+disconnect_node 5012 disconnect
+#autolink_nodes 17 5017 multinuclear Topic-Drift  5020
+#UNDID
+autolink_nodes 5012 5017 satelite elaboration-additional  5020
+autolink_nodes 5019 5020 satelite elaboration-additional  5021
+collapsed_nodes {5006 5021}
+collapsed_nodes {}
+disconnect_node 7 disconnect
+autolink_nodes 6 7 satelite-embedded elaboration-object-attribute-e below 5022
+collapsed_nodes {5017}
+collapsed_nodes {5017 5021}
+collapsed_nodes {}
+collapsed_nodes {5017}
+collapsed_nodes {}
+disconnect_node 5017 disconnect
+autolink_nodes 5012 5017 satelite elaboration-additional  5023
+collapsed_nodes {5017}
+collapsed_nodes {}
+collapsed_nodes {5017}
+collapsed_nodes {}
+collapsed_nodes {5017}
+collapsed_nodes {}
+collapsed_nodes {5012}
+collapsed_nodes {}
+collapsed_nodes {}
+collapsed_nodes {}
+disconnect_node 5017 disconnect
+collapsed_nodes {5019}
+autolink_nodes 5021 5017 satelite elaboration-additional  5024
+collapsed_nodes {}

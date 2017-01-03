@@ -1,0 +1,235 @@
+nextSentence really
+create-a-node-here really 2.56 1 {\nCosta Rica reached an agreement with its creditor banks }
+create-a-node-here really 2.145 2 {that is expected to cut that government's $1.8 billion in bank debt by as much as 60%.}
+nextSentence really
+create-a-node-here really 4.73 3 { \n\nThe agreement was announced by Costa Rican President Oscar Arias Friday, }
+create-a-node-here really 4.211 4 {as President Bush and other leaders from the Western Hemisphere gathered in the Central American nation for a celebration of democracy.}
+nextSentence really
+create-a-node-here really 5.78 5 {\nCosta Rica had been negotiating with the U.S. and other banks for three years,}
+create-a-node-here really 5.125 6 { but the debt plan was rushed to completion }
+create-a-node-here really 5.168 7 {in order to be announced at the meeting.}
+nextSentence really
+create-a-node-here really 6.67 8 {\nThe government had fallen $300 million behind in interest payments.}
+nextSentence really
+autolink_nodes 1 2 multinuclear Enablement  5001
+autolink_nodes 5001 3 satelite elaboration-additional  5002
+autolink_nodes 3 4 multinuclear Temporal-Same-Time  5003
+autolink_nodes 5 6 multinuclear Contrast  5004
+autolink_nodes 6 7 satelite purpose  5005
+#create-a-node-here really 8.55 9 { \n\nTreasury Secretary Nicholas Brady called the agreement }
+#create-a-node-here really 8.121 10 {"an important step forward in the strengthened debt strategy," }
+#create-a-node-here really 8.132 11 {noting }
+#create-a-node-here really 8.149 12 {that it will }
+#create-a-node-here really 8.172 13 {"when implemented, }
+#create-a-node-here really 8.264 14 {provide significant reduction in the level of debt and debt service owed by Costa Rica."}
+#nextSentence really
+#autolink_nodes 5004 8 satelite circumstance  5006
+#autolink_nodes 9 10 satelite elaboration-object-attribute  5007
+#autolink_nodes 11 12 nucleus attribution  5008
+#autolink_nodes 12 13 satelite-embedded elaboration-additional-e below 5009
+#autolink_nodes 5008 14 multinuclear Same-Unit  5010
+#create-a-node-here really 10.111 15 { \n\nUnder the plan, Costa Rica will buy back roughly 60% of its bank debt outstanding at a deeply discounted price,}
+#create-a-node-here really 10.165 16 { according to officials involved in the agreement.}
+#nextSentence really
+#UNDID
+#UNDID
+#create-a-node-here really 10.139 16 { according to officials }
+#create-a-node-here really 11.0 17 {involved in the agreement.\n}
+#create-a-node-here really 11.102 18 {The remainder of the debt will be exchanged for new Costa Rican bonds with a 6 1/4% interest rate.}
+#nextSentence really
+#create-a-node-here really 13.102 19 { \n\nThe International Monetary Fund and the World Bank are expected to provide approximately $180 million }
+#create-a-node-here really 13.132 20 {to help support the deal, }
+#create-a-node-here really 13.181 21 {and additional funds are expected from Japan.}
+#nextSentence really
+#create-a-node-here really 15.62 22 { \n\nTreasury officials say the Costa Rican agreement demonstrates }
+#create-a-node-here really 15.165 23 {that the Brady debt plan can benefit small debtor countries as well as big debtors, such as Mexico.}
+#nextSentence really
+#autolink_nodes 5002 5006 satelite elaboration-additional  5011
+#autolink_nodes 16 17 satelite-embedded elaboration-object-attribute-e  5012
+#autolink_nodes 15 5012 satelite attribution  5013
+#autolink_nodes 5013 18 multinuclear List  5014
+#autolink_nodes 5014 19 multinuclear List below 5014
+#autolink_nodes 19 20 satelite purpose  5015
+#autolink_nodes 5015 21 multinuclear List  5016
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#create-a-node-here really 15.23 22 { \n\nTreasury officials say }
+#create-a-node-here really 15.66 23 {the Costa Rican agreement demonstrates }
+#create-a-node-here really 15.170 24 {that the Brady debt plan can benefit small debtor countries as well as big debtors, such as Mexico. }
+#autolink_nodes 15 16 satelite attribution  5011
+#autolink_nodes 16 17 satelite elaboration-additional  5012
+#autolink_nodes 5011 18 multinuclear List  5013
+#autolink_nodes 5013 19 multinuclear List below 5013
+#UNDID
+#autolink_nodes 5013 19 multinuclear List below 5013
+#autolink_nodes 19 20 satelite purpose  5014
+#autolink_nodes 5014 21 multinuclear List  5015
+#autolink_nodes 22 23 nucleus attribution  5016
+#autolink_nodes 5016 24 satelite explanation-argumentative  5017
+#autolink_nodes 5002 5006 satelite elaboration-additional  5018
+#autolink_nodes 5007 5010 satelite elaboration-additional  5019
+#autolink_nodes 5013 5017 multinuclear Topic-Drift above 5020
+#UNDID
+#autolink_nodes 21 5017 multinuclear Topic-Drift  5020
+#collapsed_nodes {5010}
+#collapsed_nodes {5010 5013}
+#collapsed_nodes {5010 5013 5006}
+#autolink_nodes 5018 5013 satelite elaboration-additional  5021
+#collapsed_nodes {5013 5006}
+#collapsed_nodes {5006}
+#collapsed_nodes {}
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+create-a-node-here really 8.117 9 { \n\nTreasury Secretary Nicholas Brady called the agreement "an important step forward in the strengthened debt strategy,"}
+create-a-node-here really 8.128 10 { noting }
+#create-a-node-here really 8.164 11 {that it will "when implemented, }
+#create-a-node-here really 8.236 12 {provide significant reduction in the level of debt and debt service }
+#create-a-node-here really 8.261 13 {owed by Costa Rica." }
+#create-a-node-here really 10.112 14 {\n\nUnder the plan, Costa Rica will buy back roughly 60% of its bank debt outstanding at a deeply discounted price, }
+#create-a-node-here really 10.165 15 {according to officials involved in the agreement.}
+#nextSentence really
+#create-a-node-here really 11.98 16 {\nThe remainder of the debt will be exchanged for new Costa Rican bonds with a 6 1/4% interest rate.}
+#nextSentence really
+#create-a-node-here really 13.102 17 { \n\nThe International Monetary Fund and the World Bank are expected to provide approximately $180 million }
+#create-a-node-here really 13.131 18 {to help support the deal,}
+#create-a-node-here really 13.181 19 { and additional funds are expected from Japan.}
+#nextSentence really
+#create-a-node-here really 15.23 20 { \n\nTreasury officials say }
+#create-a-node-here really 15.66 21 {the Costa Rican agreement demonstrates }
+#create-a-node-here really 15.169 22 {that the Brady debt plan can benefit small debtor countries as well as big debtors, such as Mexico.}
+#nextSentence really
+#autolink_nodes 5002 5004 satelite elaboration-additional  5006
+#autolink_nodes 5006 8 satelite circumstance  5007
+#autolink_nodes 10 11 nucleus attribution  5008
+#autolink_nodes 9 5008 nucleus attribution  5009
+#autolink_nodes 11 12 satelite enablement below 5010
+#autolink_nodes 12 13 satelite elaboration-object-attribute  5011
+#autolink_nodes 14 15 satelite attribution  5012
+#autolink_nodes 5012 16 multinuclear List  5013
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#create-a-node-here really 10.139 15 {according to officials }
+#create-a-node-here really 10.169 16 {involved in the agreement.}
+#nextSentence really
+#autolink_nodes 5004 8 satelite circumstance  5006
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+create-a-node-here really 8.145 11 {that it will }
+create-a-node-here really 8.168 12 {"when implemented, }
+create-a-node-here really 8.240 13 {provide significant reduction in the level of debt and debt service }
+create-a-node-here really 8.265 14 {owed by Costa Rica." }
+autolink_nodes 5004 8 satelite circumstance  5006
+autolink_nodes 10 11 nucleus attribution  5007
+autolink_nodes 9 5007 nucleus attribution  5008
+autolink_nodes 11 12 satelite condition below 5009
+autolink_nodes 5009 13 multinuclear Same-Unit  5010
+autolink_nodes 13 14 satelite elaboration-object-attribute  5011
+create-a-node-here really 10.111 15 {\n\nUnder the plan, Costa Rica will buy back roughly 60% of its bank debt outstanding at a deeply discounted price,}
+create-a-node-here really 10.139 16 { according to officials }
+create-a-node-here really 10.169 17 {involved in the agreement.}
+nextSentence really
+create-a-node-here really 11.98 18 {\nThe remainder of the debt will be exchanged for new Costa Rican bonds with a 6 1/4% interest rate.}
+nextSentence really
+create-a-node-here really 13.102 19 { \n\nThe International Monetary Fund and the World Bank are expected to provide approximately $180 million }
+create-a-node-here really 13.132 20 {to help support the deal, }
+create-a-node-here really 13.181 21 {and additional funds are expected from Japan.}
+nextSentence really
+create-a-node-here really 15.23 22 { \n\nTreasury officials say }
+create-a-node-here really 15.66 23 {the Costa Rican agreement demonstrates }
+create-a-node-here really 15.169 24 {that the Brady debt plan can benefit small debtor countries as well as big debtors, such as Mexico.}
+nextSentence really
+autolink_nodes 15 16 satelite attribution  5012
+autolink_nodes 16 17 satelite elaboration-object-attribute  5013
+autolink_nodes 5012 18 multinuclear List  5014
+autolink_nodes 5002 5006 satelite circumstance  5015
+collapsed_nodes {5002}
+autolink_nodes 5015 5008 satelite elaboration-additional  5016
+collapsed_nodes {5002 5008}
+autolink_nodes 19 20 satelite purpose  5017
+autolink_nodes 5017 21 multinuclear List  5018
+autolink_nodes 22 23 nucleus attribution  5019
+autolink_nodes 23 24 satelite interpretation-s below 5020
+autolink_nodes 5014 5018 multinuclear List above 5021
+autolink_nodes 5008 5021 satelite elaboration-additional  5022
+autolink_nodes 5021 5019 satelite elaboration-additional  5023
+collapsed_nodes {}
+#change_rel 1 OTHER-multinuc
+#UNDID
+change_rel 1 
+change_rel 2 
+#change_rel 1 elaboration-object-attribute
+#UNDID
+disconnect_node 2 modify
+#autolink_nodes 1 2 satelite-embedded elaboration-object-attribute-e below 5024
+#UNDID
+#autolink_nodes 1 2 satelite elaboration-object-attribute below 5024
+#UNDID
+autolink_nodes 1 2 satelite-embedded elaboration-object-attribute-e below 5024
+collapsed_nodes {5016}
+collapsed_nodes {}

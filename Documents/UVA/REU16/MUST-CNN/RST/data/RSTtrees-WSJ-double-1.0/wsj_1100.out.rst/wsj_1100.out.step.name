@@ -1,0 +1,34 @@
+nextSentence really
+create-a-node-here really 2.33 1 {\nWestinghouse Electric Corp. said }
+create-a-node-here really 2.64 2 {it will buy Shaw-Walker Co. }
+#autolink_nodes 1 2 satelite attribution  5001
+#UNDID
+autolink_nodes 1 2 nucleus attribution-n  5001
+create-a-node-here really 2.91 3 {Terms weren't disclosed.}
+nextSentence really
+autolink_nodes 5001 3 satelite elaboration-additional  5002
+create-a-node-here really 4.12 4 { \n\nShaw-Walker,}
+#create-a-node-here really 4.35 5 { based in Muskegon, }
+#autolink_nodes 4 5 satelite-embedded elaboration-additional-e  5003
+#UNDID
+#UNDID
+create-a-node-here really 4.42 5 { based in Muskegon, Mich., }
+#autolink_nodes 4 5 satelite elaboration-additional  5003
+#UNDID
+autolink_nodes 4 5 satelite-embedded elaboration-additional-e  5003
+create-a-node-here really 4.115 6 {makes metal files and desks, and seating and office systems furniture.}
+nextSentence really
+autolink_nodes 5003 6 multinuclear Same-Unit  5004
+autolink_nodes 5002 5004 satelite elaboration-additional  5005
+nextSentence really
+nextSentence really
+nextSentence really
+showText really
+nextSentence really
+collapsed_nodes {5005}
+nextSentence really
+collapsed_nodes {}
+disconnect_node 1 modify
+autolink_nodes 2 1 satelite attribution above 5005
+disconnect_node 3 modify
+autolink_nodes 5002 3 satelite elaboration-additional below 5006

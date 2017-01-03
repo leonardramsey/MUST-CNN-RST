@@ -1,0 +1,434 @@
+nextSentence really
+create-a-node-here really 2.41 1 {\nInvestors dumped stocks of big companies }
+create-a-node-here really 2.86 2 {whose earnings fluctuate with the economy.}
+nextSentence really
+nextSentence really
+nextSentence really
+nextSentence really
+autolink_nodes 1 2 satelite-embedded elaboration-object-attribute-e  5001
+create-a-node-here really 4.73 3 { \n\nMany of those "cyclical" issues are in the Dow Jones Industrial Average, }
+create-a-node-here really 5.0 4 {which fell 26.23 to 2662.91.\n}
+autolink_nodes 3 4 satelite-embedded elaboration-additional-e  5002
+nextSentence really
+create-a-node-here really 5.85 5 {Declining issues on the New York Stock Exchange outpaced advancers, 1,012 to 501. }
+autolink_nodes 5001 5002 satelite elaboration-additional  5003
+autolink_nodes 5003 5 satelite evidence  5004
+create-a-node-here really 7.55 6 {\n\nRecession fears are springing up again among investors.}
+nextSentence really
+autolink_nodes 5004 6 satelite consequence-n  5005
+create-a-node-here really 8.13 7 {\nAnalysts say }
+nextSentence really
+create-a-node-here really 9.0 8 {that the selling of cyclical stocks yesterday will be followed by a sell-off in shares of companies with big debt loads on their balance sheets.\n}
+autolink_nodes 7 8 nucleus attribution  5006
+autolink_nodes 5005 5006 satelite interpretation-s  5007
+create-a-node-here really 9.81 9 {In an economic slowdown, heavy debt loads reduce the flexibility of companies }
+create-a-node-here really 9.97 10 {because cash }
+create-a-node-here really 9.129 11 {that would normally be used }
+create-a-node-here really 9.161 12 {to keep the company buoyant }
+autolink_nodes 11 12 satelite purpose  5008
+autolink_nodes 10 5008 satelite-embedded elaboration-object-attribute-e  5009
+create-a-node-here really 9.203 13 {must be diverted to interest payments.}
+nextSentence really
+autolink_nodes 5009 13 multinuclear Same-Unit  5010
+autolink_nodes 9 5010 satelite explanation-argumentative  5011
+autolink_nodes 5007 5011 satelite comment  5012
+create-a-node-here really 11.113 14 { \n\nOn the other hand, investors beat a clear path yesterday to blue-chip issues with proven earnings growth records.}
+nextSentence really
+autolink_nodes 5012 14 multinuclear Contrast  5013
+create-a-node-here really 12.89 15 {\nAmong the 30 Dow industrials, they bought McDonald's, Coca-Cola Co. and Procter & Gamble }
+create-a-node-here really 12.126 16 {and sold Aluminum Co. of America.}
+nextSentence really
+autolink_nodes 15 16 multinuclear Contrast  5014
+autolink_nodes 14 5014 satelite evidence  5015
+create-a-node-here really 13.70 17 {\nIn another sign of slowdown fears, investors dumped technology shares.}
+nextSentence really
+autolink_nodes 5013 17 satelite elaboration-additional  5016
+create-a-node-here really 15.113 18 { \n\nMany money managers are bracing for a decline in stocks of companies with big debt loads on their balance sheets.}
+nextSentence really
+create-a-node-here really 15.162 19 { "The junk bond market is being taken apart" }
+create-a-node-here really 15.194 20 {because of recession fears, }
+autolink_nodes 19 20 satelite consequence-n  5017
+create-a-node-here really 15.268 21 {said J. David Mills, senior vice president at Boston Company Advisers.}
+nextSentence really
+autolink_nodes 5017 21 satelite attribution  5018
+autolink_nodes 18 5018 satelite elaboration-additional  5019
+create-a-node-here really 15.311 22 { "Under this scrutiny, the first thing }
+create-a-node-here really 15.322 23 {you do }
+autolink_nodes 22 23 satelite-embedded elaboration-object-attribute-e  5020
+create-a-node-here really 15.355 24 {is sell your cyclical stocks }
+autolink_nodes 5020 24 multinuclear Same-Unit  5021
+create-a-node-here really 15.380 25 {and the second thing }
+create-a-node-here really 15.391 26 {you do }
+autolink_nodes 25 26 satelite-embedded elaboration-object-attribute-e  5022
+create-a-node-here really 15.434 27 {is sell your over-leveraged companies."}
+nextSentence really
+autolink_nodes 5022 27 multinuclear Same-Unit  5023
+autolink_nodes 5021 5023 multinuclear Sequence above 5024
+autolink_nodes 5019 5024 satelite elaboration-process-step  5025
+create-a-node-here really 18.0 28 { \n\nIn fact, much of the buying in blue chips yesterday was a pursuit of companies with lower debt levels.\n}
+autolink_nodes 5025 28 satelite evidence  5026
+create-a-node-here really 18.34 29 {In a recent investment letter }
+create-a-node-here really 18.83 30 {entitled "Winners of the `Leverage Wars, ' " }
+autolink_nodes 29 30 satelite-embedded elaboration-object-attribute-e  5027
+create-a-node-here really 18.170 31 {Edward Kerschner, chairman of PaineWebber's investment policy committee, suggested }
+autolink_nodes 5027 31 multinuclear Same-Unit  5028
+create-a-node-here really 18.213 32 {that investors buy stocks of companies }
+autolink_nodes 5028 32 nucleus attribution  5029
+create-a-node-here really 18.254 33 {that have avoided loading up on debt.}
+nextSentence really
+autolink_nodes 32 33 satelite-embedded elaboration-object-attribute-e below 5030
+create-a-node-here really 20.14 34 { \n\n"We're saying }
+create-a-node-here really 20.81 35 {companies have to pay increasing attention to balance sheets," }
+autolink_nodes 34 35 nucleus attribution  5031
+create-a-node-here really 20.104 36 {said Mr. Kerschner.}
+nextSentence really
+autolink_nodes 5031 36 satelite attribution  5032
+create-a-node-here really 21.13 37 {\nHe suggested }
+create-a-node-here really 21.129 38 {that investors buy the shares of Great Atlantic & Pacific Tea, J. Baker, McDonald's, Philip Morris and Sara Lee.}
+nextSentence really
+autolink_nodes 37 38 nucleus attribution  5033
+create-a-node-here really 22.8 39 {\nHe said }
+create-a-node-here really 22.97 40 {that all of these companies will be able to compete fiercely in an economic downturn.}
+nextSentence really
+autolink_nodes 39 40 nucleus attribution  5034
+autolink_nodes 5016 5026 satelite interpretation-s  5035
+autolink_nodes 5029 5032 satelite interpretation-s  5036
+disconnect_node 5032 modify
+autolink_nodes 5029 5032 satelite restatement  5037
+autolink_nodes 5033 5034 satelite explanation-argumentative  5038
+autolink_nodes 5037 5038 satelite elaboration-general-specific  5039
+#create-a-node-here really 23.75 41 {\nMcDonald's has long-term debt equaling 91% of shareholder equity currently,}
+#create-a-node-here really 23.103 42 { but Mr. Kerschner said }
+#autolink_nodes 41 42 satelite antithesis  5040
+#create-a-node-here really 23.195 43 {the company is carrying real estate assets at about $2.6 billion below their real value.}
+#nextSentence really
+#autolink_nodes 42 43 nucleus attribution  5041
+#create-a-node-here really 25.35 44 { \n\nCoca-Cola climbed 1 3/8 to 72 1/8; }
+#disconnect_node 5041 disconnect
+#autolink_nodes 41 5041 nucleus antithesis  5042
+#UNDID
+#autolink_nodes 41 5041 nucleus antithesis  5042
+#autolink_nodes 5038 5042 satelite explanation-argumentative  5043
+#create-a-node-here really 25.68 45 {McDonald's added 1 to 31 3/8,}
+#create-a-node-here really 26.0 46 { and Procter & Gamble gained 3/4 to 130 5/8.\n}
+#autolink_nodes 44 45 multinuclear List  5044
+#autolink_nodes 5044 46 multinuclear List below 5044
+#create-a-node-here really 26.30 47 {A&P fell 1 1/4 to 57 5/8, }
+#disconnect_node 5042 disconnect
+#autolink_nodes 5034 5042 satelite example  5045
+#autolink_nodes 5044 47 multinuclear List below 5045
+#create-a-node-here really 26.68 48 {and J. Baker gained 3/8 to 21 1/4.}
+#nextSentence really
+#autolink_nodes 5044 48 multinuclear List below 5045
+#create-a-node-here really 27.37 49 {\nPhilip Morris slipped 1/2 to 43 7/8, }
+#create-a-node-here really 27.83 50 {while Sara Lee closed unchanged at 60 1/8.}
+#nextSentence really
+#autolink_nodes 5044 49 multinuclear List below 5045
+#autolink_nodes 5044 50 multinuclear List below 5045
+#autolink_nodes 5039 5044 satelite elaboration-set-member  5046
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+#UNDID
+create-a-node-here really 23.30 41 {\nMcDonald's has long-term debt }
+create-a-node-here really 23.80 42 {equaling 91% of shareholder equity currently, }
+autolink_nodes 41 42 satelite-embedded elaboration-object-attribute-e  5040
+create-a-node-here really 23.107 43 {but Mr. Kerschner said }
+create-a-node-here really 23.200 44 {the company is carrying real estate assets at about $2.6 billion below their real value. }
+autolink_nodes 43 44 nucleus attribution  5041
+autolink_nodes 5040 5041 nucleus antithesis  5042
+autolink_nodes 5034 5042 satelite explanation-argumentative  5043
+create-a-node-here really 25.35 45 {\n\nCoca-Cola climbed 1 3/8 to 72 1/8; }
+create-a-node-here really 25.69 46 {McDonald's added 1 to 31 3/8, }
+autolink_nodes 45 46 multinuclear List  5044
+create-a-node-here really 25.116 47 {and Procter & Gamble gained 3/4 to 130 5/8.}
+nextSentence really
+autolink_nodes 5044 47 multinuclear List below 5044
+create-a-node-here really 26.26 48 {\nA&P fell 1 1/4 to 57 5/8, }
+autolink_nodes 5044 48 multinuclear List below 5044
+create-a-node-here really 26.64 49 {and J. Baker gained 3/8 to 21 1/4.}
+nextSentence really
+autolink_nodes 5044 49 multinuclear List below 5044
+create-a-node-here really 27.37 50 {\nPhilip Morris slipped 1/2 to 43 7/8, }
+autolink_nodes 5044 50 multinuclear List below 5044
+create-a-node-here really 27.83 51 {while Sara Lee closed unchanged at 60 1/8.}
+nextSentence really
+autolink_nodes 5044 51 multinuclear List below 5044
+#autolink_nodes 5039 5044 satelite elaboration-set-member  5045
+#UNDID
+autolink_nodes 5039 5044 satelite elaboration-set-member  5045
+disconnect_node 28 disconnect
+disconnect_node 5024 disconnect
+disconnect_node 5018 disconnect
+#autolink_nodes 5018 5024 satelite elaboration-process-step  5046
+#UNDID
+autolink_nodes 5018 5024 satelite elaboration-process-step  5046
+autolink_nodes 5046 28 satelite evidence  5047
+autolink_nodes 5047 5045 multinuclear List  5048
+create-a-node-here really 29.66 52 { \n\nAccording to Salomon Brothers' "stub" stock index of 20 companies }
+create-a-node-here really 29.90 53 {whose debt is giant }
+autolink_nodes 52 53 satelite-embedded elaboration-object-attribute-e  5049
+create-a-node-here really 29.128 54 {compared with shareholder equity, }
+autolink_nodes 53 54 satelite comparison  5050
+create-a-node-here really 30.0 55 {investors are already beginning to retreat from shares of debt-laden companies.\n}
+autolink_nodes 5049 55 nucleus attribution  5051
+create-a-node-here really 30.62 56 {From January to early September, the index of stub stocks }
+create-a-node-here really 30.96 57 {-- the tiny portion of equity }
+autolink_nodes 56 57 satelite-embedded definition-e  5052
+create-a-node-here really 30.123 58 {that's publicly traded }
+autolink_nodes 57 58 satelite-embedded elaboration-object-attribute-e  5053
+create-a-node-here really 30.159 59 {following a recapitalization -- }
+autolink_nodes 58 59 satelite circumstance  5054
+create-a-node-here really 30.223 60 {outperformed Standard & Poor's 500-stock index by about 20%.}
+nextSentence really
+autolink_nodes 5052 60 multinuclear Same-Unit  5055
+#autolink_nodes 5051 5055 satelite evidence  5056
+#UNDID
+create-a-node-here really 31.4 61 {\nBut }
+create-a-node-here really 31.37 62 {starting in early September, }
+create-a-node-here really 31.68 63 {the index started to slide }
+autolink_nodes 62 63 nucleus temporal-after  5056
+autolink_nodes 61 5056 multinuclear Same-Unit  5057
+create-a-node-here really 31.116 64 {and now stands about even with the S&P 500. }
+autolink_nodes 5057 64 nucleus result  5058
+autolink_nodes 5055 5058 multinuclear Comparison above 5059
+autolink_nodes 5051 5059 satelite evidence  5060
+create-a-node-here really 33.8 65 {\n\n"Stocks }
+create-a-node-here really 33.42 66 {that have a high default risk }
+autolink_nodes 65 66 satelite-embedded elaboration-object-attribute-e  5061
+create-a-node-here really 33.88 67 {have started to underperform those stocks }
+create-a-node-here really 33.125 68 {that have a lower default risk," }
+autolink_nodes 67 68 satelite-embedded elaboration-object-attribute-e  5062
+autolink_nodes 5061 5062 multinuclear Same-Unit  5063
+create-a-node-here really 33.203 69 {said Eric Sorenson, director of quantitative analysis at Salomon Brothers.}
+nextSentence really
+autolink_nodes 5063 69 satelite attribution  5064
+create-a-node-here really 33.219 70 { "Companies }
+create-a-node-here really 33.273 71 {that have the most exposure to the business cycle }
+autolink_nodes 70 71 satelite-embedded elaboration-object-attribute-e  5065
+create-a-node-here really 33.321 72 {have underperformed since late last summer."}
+nextSentence really
+autolink_nodes 5065 72 multinuclear Same-Unit  5066
+#autolink_nodes 5064 5066 satelite elaboration-additional  5067
+#UNDID
+autolink_nodes 5064 5066 satelite elaboration-additional  5067
+autolink_nodes 5060 5067 satelite elaboration-additional  5068
+autolink_nodes 5048 5068 multinuclear List below 5068
+autolink_nodes 18 5048 satelite example  5069
+create-a-node-here really 35.15 73 { \n\nUnion Carbide, }
+create-a-node-here really 35.86 74 {whose third-quarter earnings dropped about 35% from a year earlier }
+create-a-node-here really 35.132 75 {and fell short of analysts' expectations, }
+autolink_nodes 74 75 multinuclear List  5070
+disconnect_node 75 modify
+autolink_nodes 74 75 multinuclear Consequence  5071
+autolink_nodes 73 5071 satelite-embedded elaboration-additional-e  5072
+create-a-node-here really 36.0 76 {declined 1/2 to 24 1/2.\n}
+autolink_nodes 5072 76 multinuclear Same-Unit  5073
+create-a-node-here really 36.40 77 {Also, Exxon went down 3/8 to 45 3/4 }
+create-a-node-here really 36.81 78 {and Allied-Signal lost 7/8 to 35 1/8 }
+autolink_nodes 77 78 multinuclear List  5074
+create-a-node-here really 36.164 79 {even though the companies' results for the quarter were in line with forecasts.}
+nextSentence really
+autolink_nodes 5074 79 satelite concession  5075
+autolink_nodes 5073 5075 multinuclear List above 5076
+#create-a-node-here really 38.46 80 { \n\nOther weak blue-chip issues included Chevron, }
+#UNDID
+create-a-node-here really 38.46 80 { \n\nOther weak blue-chip issues included Chevron, }
+create-a-node-here really 38.132 81 {which went down 2 to 64 7/8 in Big Board composite trading of 1.3 million shares; }
+autolink_nodes 80 81 satelite-embedded elaboration-additional-e  5077
+create-a-node-here really 39.0 82 {Goodyear Tire & Rubber, off 1 1/2 to 46 3/4, and American Express, down 3/4 to 37 1/4.\n}
+autolink_nodes 5077 82 multinuclear List  5078
+autolink_nodes 5076 5078 multinuclear List below 5078
+create-a-node-here really 39.23 83 {Texas Instruments, }
+create-a-node-here really 39.53 84 {which had reported Friday }
+autolink_nodes 83 84 satelite-embedded elaboration-additional-e  5079
+create-a-node-here really 39.129 85 {that third-quarter earnings fell more than 30% from the year-ago level, }
+autolink_nodes 84 85 nucleus attribution  5080
+create-a-node-here really 39.177 86 {went down 2 1/8 to 33 on 1.1 million shares.}
+nextSentence really
+autolink_nodes 5079 86 multinuclear Same-Unit  5081
+autolink_nodes 5076 5081 multinuclear List below 5081
+create-a-node-here really 41.72 87 { \n\nMotorola, another major semiconductor producer, dropped 1 1/8 to 57 1/2.}
+nextSentence really
+autolink_nodes 5076 87 multinuclear List below 5081
+create-a-node-here really 43.23 88 { \n\nPinnacle West Capital, }
+create-a-node-here really 43.101 89 {whose earnings have been hurt by continued problems at its MeraBank unit, }
+autolink_nodes 88 89 satelite-embedded elaboration-additional-e  5082
+create-a-node-here really 43.147 90 {fell 1 5/8 to 9 1/8 on 2.1 million shares }
+autolink_nodes 5082 90 multinuclear Same-Unit  5083
+create-a-node-here really 43.202 91 {to lead the Big Board's list of most active issues.}
+nextSentence really
+autolink_nodes 5083 91 satelite evaluation-s  5084
+autolink_nodes 5076 5084 multinuclear List below 5084
+create-a-node-here really 44.78 92 {\nGrowing pressures on the Arizona real-estate market are affecting the thrift; }
+create-a-node-here really 44.140 93 {Pinnacle West told Dow Jones Professional Investor Report }
+autolink_nodes 92 93 nucleus circumstance  5085
+create-a-node-here really 44.204 94 {it may consider filing for Chapter 11 bankruptcy protection }
+autolink_nodes 93 94 nucleus attribution  5086
+create-a-node-here really 44.263 95 {if it can't reach an agreement with federal regulators }
+autolink_nodes 94 95 satelite condition below 5087
+create-a-node-here really 44.309 96 {to provide additional capital to MeraBank.}
+nextSentence really
+autolink_nodes 95 96 satelite-embedded elaboration-object-attribute-e  5088
+autolink_nodes 5084 5085 satelite hypothetical  5089
+create-a-node-here really 46.55 97 { \n\nHercules dropped 2 5/8 to 41 3/4 on one million shares }
+create-a-node-here really 46.114 98 {-- about six times its average daily trading volume -- }
+autolink_nodes 97 98 satelite-embedded restatement-e  5090
+create-a-node-here really 46.170 99 {after a disappointing third-quarter earnings report.}
+nextSentence really
+autolink_nodes 5090 99 multinuclear Same-Unit  5091
+create-a-node-here really 47.89 100 {\nMerrill Lynch and Prudential-Bache Securities both lowered the stock's investment rating }
+autolink_nodes 5091 100 satelite consequence-s  5092
+create-a-node-here really 47.143 101 {immediately after the results were issued Friday,}
+autolink_nodes 100 101 satelite temporal-after  5093
+create-a-node-here really 47.166 102 { according to PIR.}
+nextSentence really
+autolink_nodes 5093 102 satelite attribution  5094
+autolink_nodes 5076 5092 multinuclear List below 5094
+create-a-node-here really 49.70 103 { \n\nElsewhere in the chemicals sector, Dow Chemical fell 1 1/4 to 97 1/2, }
+create-a-node-here really 49.102 104 {Monsanto lost 1 7/8 to 118,}
+autolink_nodes 103 104 multinuclear List  5095
+create-a-node-here really 49.145 105 { B.F. Goodrich slipped 2 1/4 to 44 3/4}
+autolink_nodes 5095 105 multinuclear List below 5095
+create-a-node-here really 49.177 106 { and Olin slid 1 to 57 3/4.}
+nextSentence really
+autolink_nodes 5095 106 multinuclear List below 5095
+autolink_nodes 5076 5095 multinuclear List below 5095
+create-a-node-here really 50.13 107 {\nOther stocks }
+create-a-node-here really 50.51 108 {hurt by earnings-related selling }
+autolink_nodes 107 108 satelite-embedded elaboration-object-attribute-e  5096
+create-a-node-here really 50.72 109 {included Tandy, }
+create-a-node-here really 50.104 110 {which dropped 1 3/8 to 44, }
+autolink_nodes 109 110 satelite-embedded elaboration-additional-e  5097
+create-a-node-here really 50.120 111 {and Eaton, }
+create-a-node-here really 50.157 112 {which retreated 2 1/2 to 57 1/2.}
+nextSentence really
+autolink_nodes 111 112 satelite-embedded elaboration-additional-e  5098
+autolink_nodes 5097 5098 multinuclear List  5099
+autolink_nodes 5096 5099 multinuclear Same-Unit  5100
+autolink_nodes 5076 5100 multinuclear List below 5100
+create-a-node-here really 51.72 113 {\nThird-quarter earnings at both companies were below analysts' forecasts.}
+nextSentence really
+autolink_nodes 5100 113 satelite evaluation-s  5101
+create-a-node-here really 53.37 114 { \n\nAfter declining about 41% last week, }
+create-a-node-here really 53.210 115 {UAL advanced 9 7/8 to 178 3/8 on 1.1 million shares on anticipation of a revised takeover offer from a labor-management group for the parent company of United Airlines.}
+nextSentence really
+autolink_nodes 114 115 nucleus circumstance  5102
+disconnect_node 114 modify
+#autolink_nodes 115 114 satelite temporal-after  5103
+#UNDID
+autolink_nodes 115 114 satelite temporal-after  5103
+create-a-node-here really 54.46 116 {\nHowever, Delta Air Lines fell 1 1/2 to 67 1/2 }
+create-a-node-here really 54.90 117 {and USAir Group dropped 3/4 to 42 1/2. }
+autolink_nodes 116 117 multinuclear List  5104
+autolink_nodes 5103 5104 multinuclear Contrast  5105
+autolink_nodes 5076 5105 multinuclear List below 5105
+create-a-node-here really 56.28 118 {\n\nRamada gained 7/8 to 11 1/4 }
+create-a-node-here really 56.86 119 {after revamping the terms of its restructuring plan, }
+autolink_nodes 118 119 satelite circumstance  5106
+create-a-node-here really 56.214 120 {which calls for the company to sell its hotel operations for $540 million and spin off its casino business to shareholders.}
+nextSentence really
+autolink_nodes 119 120 satelite-embedded elaboration-additional-e  5107
+#create-a-node-here really 59.24 121 {\nThe revision follows last month's withdrawal of a $400 million junk-bond offering for the new casino company, Aztar Corp. \n\nMead gained 1 to 37 7/8.}
+#nextSentence really
+#autolink_nodes 5106 121 multinuclear List  5108
+#UNDID
+#UNDID
+#UNDID
+create-a-node-here really 57.121 121 {\nThe revision follows last month's withdrawal of a $400 million junk-bond offering for the new casino company, Aztar Corp.}
+autolink_nodes 5107 121 multinuclear Inverted-Sequence  5108
+create-a-node-here really 60.0 122 { \n\nMead gained 1 to 37 7/8.\n}
+autolink_nodes 5106 122 multinuclear List  5109
+create-a-node-here really 60.24 123 {USA Today reported }
+create-a-node-here really 60.87 124 {that the Rales brothers, Washington, D.C.-based investors }
+autolink_nodes 123 124 nucleus attribution  5110
+create-a-node-here really 60.123 125 {who made an unsuccessful offer }
+autolink_nodes 124 125 satelite-embedded elaboration-object-attribute-e below 5111
+create-a-node-here really 60.158 126 {to acquire Interco last year, }
+autolink_nodes 125 126 satelite-embedded elaboration-object-attribute-e  5112
+create-a-node-here really 60.209 127 {have bought nearly 3% of Mead's common shares.}
+nextSentence really
+autolink_nodes 5111 127 multinuclear Same-Unit  5113
+autolink_nodes 122 5110 satelite elaboration-additional  5114
+create-a-node-here really 62.76 128 { \n\nEntertainment and media stocks generally escaped the market's slide as well.}
+nextSentence really
+create-a-node-here really 63.45 129 {\nParamount Communications rose 5/8 to 58 3/4, }
+create-a-node-here really 63.87 130 {Time Warner climbed 1 7/8 to 138 5/8,}
+autolink_nodes 129 130 multinuclear List  5115
+create-a-node-here really 63.132 131 { Walt Disney advanced 3 1/8 to 127 1/2, }
+autolink_nodes 5115 131 multinuclear List below 5115
+create-a-node-here really 63.162 132 {MCA rose 1 1/8 to 65 5/8 }
+autolink_nodes 5115 132 multinuclear List below 5115
+create-a-node-here really 63.203 133 {and McGraw-Hill added 1/2 to 67 1/8.}
+nextSentence really
+autolink_nodes 5115 133 multinuclear List below 5115
+nextSentence really
+autolink_nodes 128 5115 satelite elaboration-general-specific  5116
+autolink_nodes 5109 5116 multinuclear List below 5116
+autolink_nodes 5076 5109 multinuclear Contrast above 5117
+create-a-node-here really 65.67 134 { \n\nThe American Stock Exchange Market Value Index lost 3.11 to 379.46.}
+nextSentence really
+create-a-node-here really 66.33 135 {\nVolume totaled 10,450,000 shares.}
+nextSentence really
+autolink_nodes 134 135 satelite elaboration-additional  5118
+create-a-node-here really 68.51 136 { \n\nCarnival Cruise Lines Class A fell 1 3/4 to 20 3/4.}
+nextSentence really
+create-a-node-here really 69.17 137 {\nThe company said }
+create-a-node-here really 69.110 138 {it had been notified unofficially that Waertsilae Marine Industries, a Finnish shipyard }
+autolink_nodes 137 138 nucleus attribution  5119
+create-a-node-here really 69.159 139 {building three cruise ships for the company,}
+autolink_nodes 138 139 satelite-embedded elaboration-object-attribute-e below 5120
+create-a-node-here really 69.193 140 { is having financial trouble }
+autolink_nodes 5120 140 multinuclear Same-Unit  5121
+create-a-node-here really 69.240 141 {and may already have filed for bankruptcy.}
+nextSentence really
+autolink_nodes 5121 141 satelite hypothetical below 5122
+autolink_nodes 136 5119 satelite elaboration-additional  5123
+autolink_nodes 5118 5123 satelite elaboration-set-member  5124
+autolink_nodes 5035 5117 satelite elaboration-additional  5125
+autolink_nodes 5125 5124 satelite elaboration-additional  5126
+disconnect_node 5 disconnect
+autolink_nodes 5002 5 satelite elaboration-additional  5127
+disconnect_node 5010 modify
+autolink_nodes 9 5010 satelite consequence-n  5128
+disconnect_node 5128 disconnect
+autolink_nodes 5006 5128 satelite explanation-argumentative  5129
+disconnect_node 17 disconnect
+#autolink_nodes 5015 17 multinuclear Contrast  5130
+#UNDID
+autolink_nodes 5013 17 multinuclear Contrast below 5129
+disconnect_node 5042 modify
+autolink_nodes 5034 5042 satelite elaboration-general-specific  5130
+disconnect_node 62 modify
+autolink_nodes 63 62 satelite circumstance  5131
+disconnect_node 5058 modify
+autolink_nodes 5055 5058 multinuclear Contrast above 5132
+disconnect_node 75 modify
+autolink_nodes 74 75 multinuclear List  5133
+disconnect_node 82 modify
+autolink_nodes 5077 82 multinuclear Same-Unit  5134
+disconnect_node 5098 modify
+autolink_nodes 5097 5098 multinuclear Same-Unit  5135
